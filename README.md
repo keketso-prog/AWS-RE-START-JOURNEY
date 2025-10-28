@@ -11,4 +11,4 @@
  
 -  Project Gallery – Hands-on projects that show the practical application of the AWS concept. 
  
--  Labs & Assessments – Practice and Assessment exercises that demonstrate technical knowledge and problem solving skills.
+-  Labs Assessments – Practice and Assessment exercises that demonstrate technical knowledge and problem solving skills.
