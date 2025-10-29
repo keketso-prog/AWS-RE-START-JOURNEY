@@ -17,8 +17,9 @@ Launch a web server with termination protection enabled
   I had to start the lab
   Launch the instance on the EC2
 
-  TASK 1
+  TASK 1 :
   LAUNCH EC2 INSTANCE
+  
   Under task one i had to follow this steps below to get te required outcome
 
 -  Name the instance
@@ -30,25 +31,27 @@ Launch a web server with termination protection enabled
 -  Configure advanced network settings
 -  Then finally launch the instance
 
-  TASK 2
+  TASK 2 :
   MONITOR THE INSTANCE
+  
   under task two, i had to do the following
   - Monitor and troubleshoot to get the this outcome
     THIS IS THE OUTCOME
 
-    TASK 3
+    TASK 3 :
     UPDATE SECURITY RULES AND ACCESS THE WEB SERVER
+    
     Under task three i had to do the following
     - Go to network & security
     - The select security groups
     - select inbound rules
-    - Edit the rules with the following : - Type: HTTP
-    - Source: Anywhere-IPv4
+    - Edit the rules with the following : - Type: HTTP      Source: Anywhere-IPv4
     - Save the rules and reload web server to see the desired outcome.
       THIS IS THE OUTCOME
    
-    TASK 4
+    TASK 4 :
     RESIZE YOUR INSTANCE
+    
     Under task four i had to do the following
     - Navigate to instance and select the web server you created
     - Select instance state > Stop instance
@@ -58,8 +61,9 @@ Launch a web server with termination protection enabled
     The desired outcome must display the new changes i just did
      THIS IS THE OUTCOME
 
-TASK 5
+TASK 5:
 TEST TERMINATION PROCESS
+
 Under task five i had to do the following
 - Navigate to instance, and then select the web server you just created
 - Under instance menu select the termination delete tab
