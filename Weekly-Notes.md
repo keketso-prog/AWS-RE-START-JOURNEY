@@ -40,13 +40,14 @@ BELOW IS A TABLE AND EXPLANATION OF SOME OF THE SERVICES THEY OFFER
 WHAT IS CLOUD COMPUTING?
 
 Cloud computing is the delivery of computing services over the internet rather than using local servers or personal devices. Instead of owning and maintaining physical hardware, you rent computing resources from a provider on an as-needed basis.
+
 THIS ARE THE CHARACTERISTICS OF CLOUD COMPUTING
 - Resources accessed via the internet
 - Pay-as-you-go pricing model
 - Scalable (increase or decrease resources as needed)
 - No physical hardware maintenance required
-- 
-  THIS ARE SOME EXAMPLES OF AWS CLOUD COMPUTING SERVICES THEY OFFER
+
+    THIS ARE SOME EXAMPLES OF AWS CLOUD COMPUTING SERVICES THEY OFFER
   
 - EC2 (Elastic Compute Cloud) - Virtual servers in the cloud. You can launch different sized virtual machines with various operating systems to run your applications. 
 - S3 (Simple Storage Service) - Object storage for files and data. You can store and retrieve any amount of data at any time.
