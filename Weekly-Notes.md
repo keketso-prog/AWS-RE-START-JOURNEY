@@ -56,3 +56,32 @@ THIS ARE THE CHARACTERISTICS OF CLOUD COMPUTING
 - CloudFront - Content delivery network (CDN) that distributes your content globally. 
 - VPC (Virtual Private Cloud) - Lets you create isolated virtual networks within AWS where you control IP addresses, subnets, and security settings.
 
+  AWS SHARED RESPONSIBILITY MODEL
+  
+This defines who's responsible for what between AWS and you (the customer). A simple day-to-day example is like renting an apartment:
+
+AWS is responsible for "Security OF the Cloud":
+
+Physical security of data centers (guards, cameras, locks)
+Hardware and infrastructure (servers, storage, networking equipment)
+Virtualization layer that separates customers
+Maintaining the underlying services
+
+You are responsible for "Security IN the Cloud":
+
+Your data and content
+User access management (who can access what)
+Operating system patches and updates (for EC2 instances)
+Application security
+Firewall configurations
+Encryption settings
+
+Simple analogy: AWS builds and maintains the building, elevators, and utilities. You're responsible for locking your apartment door, managing who has keys, and securing your belongings inside.
+
+AWS PRICING MODEL IS AS FOLLOWS
+
+AWS uses a pay-as-you-go model. You only pay for what you use, with no upfront costs or long-term contracts (though you can get discounts with commitments).
+Compute (EC2): Charged per second/hour the instance runs. Larger, more powerful instances cost more.
+Storage (S3): Pay per GB stored per month, plus charges for data retrieval and transfers.
+Data Transfer: Moving data OUT of AWS to the internet costs money. Data transferred IN is usually free. Data between AWS services in the same region is often free or cheap
+
