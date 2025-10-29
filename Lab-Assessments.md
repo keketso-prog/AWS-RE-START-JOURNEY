@@ -20,7 +20,11 @@ Launch a web server with termination protection enabled
   TASK 1 :
   LAUNCH EC2 INSTANCE
   
-  Under task one i had to follow this steps below to get te required outcome
+  Under task one i had to follow this steps below to get tHe required outcome
+  THIS IS THE OUTCOME
+  <img width="1600" height="900" alt="Screenshot (1289)" src="https://github.com/user-attachments/assets/ee7a4d40-d86f-4b4f-b547-aec3bead5cda" />
+
+
 
 -  Name the instance
 -  Choose an Amazon machine image
@@ -30,6 +34,9 @@ Launch a web server with termination protection enabled
 -  Add storage
 -  Configure advanced network settings
 -  Then finally launch the instance
+  <img width="1600" height="900" alt="Screenshot (1296)" src="https://github.com/user-attachments/assets/0d33d8d5-73b5-44bb-b691-9ea7cdfdccf2" />
+
+   
 
   TASK 2 :
   MONITOR THE INSTANCE
@@ -37,6 +44,8 @@ Launch a web server with termination protection enabled
   under task two, i had to do the following
   - Monitor and troubleshoot to get the this outcome
     THIS IS THE OUTCOME
+    <img width="1600" height="900" alt="Screenshot (1290)" src="https://github.com/user-attachments/assets/869d8dd6-32c1-4142-91b3-e084294f481a" />
+
 
     TASK 3 :
     UPDATE SECURITY RULES AND ACCESS THE WEB SERVER
@@ -48,6 +57,10 @@ Launch a web server with termination protection enabled
     - Edit the rules with the following : - Type: HTTP      Source: Anywhere-IPv4
     - Save the rules and reload web server to see the desired outcome.
       THIS IS THE OUTCOME
+      <img width="1600" height="900" alt="Screenshot (1291)" src="https://github.com/user-attachments/assets/be1cbd61-ffbd-471c-b49c-f251c5d534fa" />
+      <img width="1600" height="900" alt="Screenshot (1292)" src="https://github.com/user-attachments/assets/aafe013c-5816-45d1-af45-6270afcd694a" />
+
+      
    
     TASK 4 :
     RESIZE YOUR INSTANCE
@@ -60,6 +73,9 @@ Launch a web server with termination protection enabled
     - Resize volume under actions to 10
     The desired outcome must display the new changes i just did
      THIS IS THE OUTCOME
+<img width="1600" height="900" alt="Screenshot (1293)" src="https://github.com/user-attachments/assets/03ce1736-f693-44da-91b6-9242d756dfd4" />
+
+
 
 TASK 5:
 TEST TERMINATION PROCESS
@@ -70,6 +86,12 @@ Under task five i had to do the following
 - Bescause he it did not work, go to actions > select instance setting > change protection then uncheck ENABLE
 - Go to actions again instance state > terminate instance
   THIS IS THE OUTCOME
+  <img width="1600" height="900" alt="Screenshot (1294)" src="https://github.com/user-attachments/assets/429b93a7-4133-45b8-b5ec-a05ce8ecb84d" />
+
+  <img width="1600" height="900" alt="Screenshot (1295)" src="https://github.com/user-attachments/assets/7c524d9c-3e11-4367-b1a0-5da26498799b" />
+
+
+  LAB HAS ENDED
 
   
   
