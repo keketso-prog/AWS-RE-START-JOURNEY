@@ -1,1 +1,25 @@
+WEEK 1
+What is AWS?
+🌩️ What is AWS?
 
+AWS stands for Amazon Web Services.
+It is a cloud computing platform made by Amazon.
+
+That means instead of buying and managing your own computers (servers),
+you can rent computing power, storage, and tools from Amazon over the internet.
+
+🕰️ Here is a Short History of AWS
+
+2002: Amazon started experimenting with web services.
+
+2006: AWS officially launched with a few basic services:
+
+S3 (for file storage)
+
+EC2 (for virtual computers/servers)
+
+SQS (for message queuing)
+
+2010s: AWS grew fast — many startups and big companies started using it.
+
+Today: AWS is one of the largest cloud providers in the world, along with Google Cloud and Microsoft Azure.
