@@ -38,6 +38,7 @@ BELOW IS A TABLE AND EXPLANATION OF SOME OF THE SERVICES THEY OFFER
 | 📊 **Analytics**             | Athena, Redshift          | Helps you understand and study your data.                                   |
 
 WHAT IS CLOUD COMPUTING?
+
 Cloud computing is the delivery of computing services over the internet rather than using local servers or personal devices. Instead of owning and maintaining physical hardware, you rent computing resources from a provider on an as-needed basis.
 THIS ARE THE CHARACTERISTICS OF CLOUD COMPUTING
 - Resources accessed via the internet
