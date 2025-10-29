@@ -21,10 +21,6 @@ Launch a web server with termination protection enabled
   LAUNCH EC2 INSTANCE
   
   Under task one i had to follow this steps below to get tHe required outcome
-  THIS IS THE OUTCOME
-  <img width="1600" height="900" alt="Screenshot (1289)" src="https://github.com/user-attachments/assets/ee7a4d40-d86f-4b4f-b547-aec3bead5cda" />
-
-
 
 -  Name the instance
 -  Choose an Amazon machine image
@@ -34,6 +30,7 @@ Launch a web server with termination protection enabled
 -  Add storage
 -  Configure advanced network settings
 -  Then finally launch the instance
+  <img width="1600" height="900" alt="Screenshot (1289)" src="https://github.com/user-attachments/assets/ee7a4d40-d86f-4b4f-b547-aec3bead5cda" />
   <img width="1600" height="900" alt="Screenshot (1296)" src="https://github.com/user-attachments/assets/0d33d8d5-73b5-44bb-b691-9ea7cdfdccf2" />
 
    
