@@ -1,7 +1,6 @@
 
 WEEK 1
 
-What is AWS?
 🌩️ What is AWS?
 
 AWS stands for Amazon Web Services.
