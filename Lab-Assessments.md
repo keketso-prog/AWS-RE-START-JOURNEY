@@ -16,6 +16,7 @@ Launch a web server with termination protection enabled
 
   I had to start the lab
   Launch the instance on the EC2
+   <img width="1600" height="900" alt="Screenshot (1296)" src="https://github.com/user-attachments/assets/0d33d8d5-73b5-44bb-b691-9ea7cdfdccf2" />
 
   TASK 1 :
   LAUNCH EC2 INSTANCE
@@ -31,8 +32,6 @@ Launch a web server with termination protection enabled
 -  Configure advanced network settings
 -  Then finally launch the instance
   <img width="1600" height="900" alt="Screenshot (1289)" src="https://github.com/user-attachments/assets/ee7a4d40-d86f-4b4f-b547-aec3bead5cda" />
-  <img width="1600" height="900" alt="Screenshot (1296)" src="https://github.com/user-attachments/assets/0d33d8d5-73b5-44bb-b691-9ea7cdfdccf2" />
-
    
 
   TASK 2 :
