@@ -45,7 +45,9 @@ THIS ARE THE CHARACTERISTICS OF CLOUD COMPUTING
 - Pay-as-you-go pricing model
 - Scalable (increase or decrease resources as needed)
 - No physical hardware maintenance required
+- 
   THIS ARE SOME EXAMPLES OF AWS CLOUD COMPUTING SERVICES THEY OFFER
+  
 - EC2 (Elastic Compute Cloud) - Virtual servers in the cloud. You can launch different sized virtual machines with various operating systems to run your applications. 
 - S3 (Simple Storage Service) - Object storage for files and data. You can store and retrieve any amount of data at any time.
 - RDS (Relational Database Service) - Managed database service that handles setup, patching, and backups automatically.
