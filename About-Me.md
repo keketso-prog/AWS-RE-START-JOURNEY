@@ -1,4 +1,4 @@
-About Me
+About Me 👋📝✨
 
 I am an eager and driven learner participating in the AWS re/Start 12-week program, a comprehensive, instructor-led course aimed at equipping individuals for careers in cloud computing and IT.
 
