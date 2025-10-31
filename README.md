@@ -12,3 +12,7 @@
 -  Project Gallery – Hands-on projects that show the practical application of the AWS concept. 🚀
  
 -  Labs Assessments – Practice and Assessment exercises that demonstrate technical knowledge and problem solving skills. 🥼
+  
+-  AWS Cloud Quest is an interactive role-playing game where I complete hands-on cloud computing challenges by solving real-world scenarios and building actual AWS solutions to level up my cloud skills.
+  
+- AWS Projects are practical, guided exercises where I build real applications and infrastructure on AWS to apply what I've learned and gain hands-on experience with cloud services.
