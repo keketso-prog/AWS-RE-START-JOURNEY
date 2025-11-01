@@ -1,4 +1,7 @@
 <img width="601" height="601" alt="aws-cloud-quest-cloud-practitioner-training-badge" src="https://github.com/user-attachments/assets/99498097-643b-4627-ba00-8f5f56a139cb" />
+
+
+
 <img width="1374" height="773" alt="screenshot_20251101010400" src="https://github.com/user-attachments/assets/267d6030-9aae-4b61-9c59-012ae5f73570" />
 <img width="1374" height="773" alt="screenshot_20251031225152" src="https://github.com/user-attachments/assets/8b5c19c5-d982-45f0-833e-727f76f4bb07" />
 <img width="1374" height="773" alt="screenshot_20251031215121" src="https://github.com/user-attachments/assets/b3501010-f740-4b3e-afdb-b3cf109da606" />
@@ -11,4 +14,3 @@
 <img width="1374" height="773" alt="screenshot_20251030142327" src="https://github.com/user-attachments/assets/90e7acf8-99d7-4c87-9afd-8c4e5bd6ec5a" />
 <img width="1374" height="773" alt="screenshot_20251030135338" src="https://github.com/user-attachments/assets/d7aca3ba-38d9-46be-99ca-4632b992f08a" />
 <img width="1374" height="773" alt="screenshot_20251030130708" src="https://github.com/user-attachments/assets/e2c5a22e-2f79-4d5d-a55b-0f4d726c7995" />
-
