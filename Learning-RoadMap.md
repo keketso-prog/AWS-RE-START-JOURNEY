@@ -1,6 +1,8 @@
 🚀 My AWS 3-Month Re/Start Program: A Journey of Cloud Success Welcome to my AWS learning journey! In these next 12 weeks, I'll transform from being cloud-curious to being cloud-ready. Let's make this journey exciting and achievable! ☁️
 
-📚   Month 1: Building My Foundation Week 1: Introduction to Cloud Foundations ☁️ This week, I'll learn about exactly what cloud computing is and why companies all around the world are shifting onto AWS. I'll gain the basic ideas that underpin the power of cloud, take a closer look at various service models, and understand how cloud technology helps businesses. At the end of this week, I should be able to explain cloud computing to anyone and also understand why it is, in fact, revolutionizing how we work with technology. What I will learn:
+📚   Month 1: Building My Foundation 
+
+Week 1: Introduction to Cloud Foundations ☁️ This week, I'll learn about exactly what cloud computing is and why companies all around the world are shifting onto AWS. I'll gain the basic ideas that underpin the power of cloud, take a closer look at various service models, and understand how cloud technology helps businesses. At the end of this week, I should be able to explain cloud computing to anyone and also understand why it is, in fact, revolutionizing how we work with technology. What I will learn:
 
 What is cloud computing, and why should I care? AWS Global Infrastructure Overview Cloud Services and Deployment Models Creating my First AWS Account and exploring the console Basic AWS terminology to sound like a pro
 
@@ -16,7 +18,9 @@ Week 4: Networking & Security Essentials 🔒 Security isn't just important, it'
 
 Security principles that protect everything in the cloud Firewalls, encryption, and secure communications Understanding common security threats and how to prevent them Network security best practices Introduction to the principle of least privilege
 
-💻 Month 2: Programming, Databases & AWS Deep Dive Week 5: Security & Python Programming Foundations 🐍 Python is the most popular programming language in cloud and automation; thus, I will be starting my learning of it this week. This week, I will jump right into security concepts in practice followed by writing my very first Python programs. Again, having never coded, I understand that Python has been designed to be very easy for beginners, so I will take this one step at a time. What I'll explore:
+💻 Month 2: Programming, Databases & AWS Deep Dive 
+
+Week 5: Security & Python Programming Foundations 🐍 Python is the most popular programming language in cloud and automation; thus, I will be starting my learning of it this week. This week, I will jump right into security concepts in practice followed by writing my very first Python programs. Again, having never coded, I understand that Python has been designed to be very easy for beginners, so I will take this one step at a time. What I'll explore:
 
 Practical security implementation My first Python programs-yes, I'll write real code! Variables, data types, and how programs think Making decisions with if statements Loops that make my code powerful and efficient
 
@@ -32,7 +36,9 @@ Week 8: AWS Architecture, System Operations & Automation ⚙️ This is a power-
 
 Deep dive into EC2: AWS's virtual servers Infrastructure as Code with CloudFormation AWS CLI for command line superpowers Automation tools that save hours of manual work Monitoring and logging my infrastructure
 
-🎯  Month 3: Advanced Services & Career Preparation Week 9: Servers, Scaling, Serverless & Containers 📦 Modern cloud architecture isn't just about servers - it's about choosing the right tool for the job. This week, I'll explore serverless computing where I don't manage servers at all, containers that package applications perfectly, and how to make my systems automatically scale up and down based on demand. What I'll explore:
+🎯  Month 3: Advanced Services & Career Preparation 
+
+Week 9: Servers, Scaling, Serverless & Containers 📦 Modern cloud architecture isn't just about servers - it's about choosing the right tool for the job. This week, I'll explore serverless computing where I don't manage servers at all, containers that package applications perfectly, and how to make my systems automatically scale up and down based on demand. What I'll explore:
 
 Auto Scaling - scaling my applications up/down automatically Route 53 for DNS and traffic management AWS Lambda - running code without managing servers Containers with ECS and understanding Docker Database services deep dive: RDS, DynamoDB, Aurora
 
