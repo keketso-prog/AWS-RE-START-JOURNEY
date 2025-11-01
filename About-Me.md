@@ -92,7 +92,7 @@ Name: Keketso Bakaqane
 Email: 📧 keketsomakhoali93@gmail.com
 Phone: 📱 078 470 6327
 Alternative: 📞 079 014 4866
-GitHub: 🐙  
+GitHub: 🐙  https://github.com/keketso-prog/AWS-RE-START-JOURNEY/tree/main
 Linkedin: 🐙 https://www.linkedin.com/in/keketso-bakaqane-674066219/
 
 🚀 Why I'm Learning Cloud/Technology
