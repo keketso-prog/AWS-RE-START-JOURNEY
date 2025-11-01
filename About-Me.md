@@ -7,6 +7,7 @@ Hello! My name is Keketso Bakaqane, but I am rather shy. I am, however, hardwork
 My professional background is in administrative work where I have developed organizational skills, attention to detail, and the ability to work in an efficient manner under pressure. My experience was non-technical, but curiosity has always been there with regard to technology and how everything happens behind the scenes. That curiosity made me take the step into the tech industry; more specifically, cloud computing! ☁️
 
 💻 Skills and Technologies I Know
+
 I'm actively building my technical skill set and am now trained as an AWS Cloud Practitioner; here's what I have learned:
 
 Cloud Computing-AWS ☁️
@@ -124,4 +125,9 @@ Administrative experience has taught me the importance of organization, time man
 🌟What I'm Looking For I am looking to: 
 
 💼Start my career in cloud computing.
-🤝Collaborate with supportive teams that believe in learning. 🚀 Apply my AWS knowledge in real-world scenarios ???? Keep building my technical skills star Contributing meaningfully to projects Looking for a hardworking, honest, eager-to-learn professional committed to excellence, I'd love to connect with you! Though shy, I am now ready to take on new challenges and show what I can do. Thanks for taking the time to learn about me! Let's connect and discover how we can work together! ????????
+🤝Collaborate with supportive teams that believe in learning. 
+🚀 Apply my AWS knowledge in real-world scenarios 
+📈  Keep building my technical skills 
+🎯 start Contributing meaningfully to projects.
+
+If you are looking for a hardworking, honest, eager-to-learn professional committed to excellence, I'd love to connect with you! Though shy, I am now ready to take on new challenges and show what I can do. Thanks for taking the time to learn about me! Let's connect and discover how we can work together! 😊🚀
