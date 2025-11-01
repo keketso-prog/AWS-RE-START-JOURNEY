@@ -132,7 +132,9 @@ I bring: Dedication: I don't give up easily when things get tough. Reliability -
 
 Administrative experience has taught me the importance of organization, time management, and attention to detail-skills that translate perfectly into the tech world. Now, I am combining those strengths with my new technical knowledge to become a well-rounded cloud professional. 
 
-🌟What I'm Looking For I am looking to: 
+🌟What I'm Looking Forward to:
+
+I am looking to: 
 
 💼Start my career in cloud computing.
 
