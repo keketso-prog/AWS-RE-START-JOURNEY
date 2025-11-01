@@ -220,14 +220,7 @@ Bookmark the README → Your central hub
 ---
 ## 🎨 ** Visual Guide to Files**
 
-```
-My Repository
-
-
-│
-
-
-
+MY REPOSITORY
 
 ├── 📄 README.md. Start here! (Overview & navigation)
 
@@ -250,7 +243,6 @@ My Repository
 ├──  💼  Projects.md. Project details (Technical info)
 │
 └── 📚 Weekly-Notes.md. Study notes (Week-by-week learning)
-
 
 
 📊  Understanding My Content Structure Each markdown file typically contains: Header → Title and short description Table of Contents → Quick navigation Main Content → More information Code Examples → When applicable Resources/Links → Additional reading Summary
