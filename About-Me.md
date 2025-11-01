@@ -89,10 +89,15 @@ Current Learning:
 📧 Contact Information
 I'd love to hear from you! You may connect with me at:
 Name: Keketso Bakaqane
+
 Email: 📧 keketsomakhoali93@gmail.com
+
 Phone: 📱 078 470 6327
+
 Alternative: 📞 079 014 4866
+
 GitHub: 🐙  https://github.com/keketso-prog/AWS-RE-START-JOURNEY/tree/main
+
 Linkedin: 🐙 https://www.linkedin.com/in/keketso-bakaqane-674066219/
 
 🚀 Why I'm Learning Cloud/Technology
@@ -125,9 +130,13 @@ Administrative experience has taught me the importance of organization, time man
 🌟What I'm Looking For I am looking to: 
 
 💼Start my career in cloud computing.
+
 🤝Collaborate with supportive teams that believe in learning. 
-🚀 Apply my AWS knowledge in real-world scenarios 
-📈  Keep building my technical skills 
+
+🚀 Apply my AWS knowledge in real-world scenarios. 
+
+📈  Keep building my technical skills.
+
 🎯 start Contributing meaningfully to projects.
 
 If you are looking for a hardworking, honest, eager-to-learn professional committed to excellence, I'd love to connect with you! Though shy, I am now ready to take on new challenges and show what I can do. Thanks for taking the time to learn about me! Let's connect and discover how we can work together! 😊🚀
