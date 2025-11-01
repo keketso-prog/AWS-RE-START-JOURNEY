@@ -84,11 +84,15 @@ AWS Cloud Quest completed (12 quests)
 Lab assessments and practical exercises
 Current Learning:
 🎯 Preparing for AWS Certified Cloud Practitioner exam
+
 📚  Knowledge expansion in Linux and networking
+
 💼 Building portfolio projects to demonstrate skills
 
 📧 Contact Information
+
 I'd love to hear from you! You may connect with me at:
+
 Name: Keketso Bakaqane
 
 Email: 📧 keketsomakhoali93@gmail.com
