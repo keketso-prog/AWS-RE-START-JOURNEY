@@ -1,6 +1,7 @@
 <img width="601" height="601" alt="aws-cloud-quest-cloud-practitioner-training-badge" src="https://github.com/user-attachments/assets/99498097-643b-4627-ba00-8f5f56a139cb" />
 
 🎮 AWS Cloud Quest - Cloud Practitioner Journey
+
 What I Did in Cloud Quest:
 
 1. Cloud Computing Essentials ☁️💡
