@@ -216,7 +216,7 @@ Bookmark the README → Your central hub
 ✅ **Read file names carefully** → They describe content
 
 ✅ **Use anchor links** → Jump to specific sections
-✅ **Star the repository ⭐ → Save for later reference
+✅ **Start the repository ⭐ → Save for later reference
 ---
 ## 🎨 ** Visual Guide to Files**
 
