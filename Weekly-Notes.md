@@ -623,9 +623,10 @@ Conditionals (if statements):
 bash  if [ $AGE -gt 18 ]; then
     echo "Adult"
 
-    📝 WEEK 3
 
-    LINUX,NETWORKING
+  📝 WEEK 3
+
+  LINUX,NETWORKING
 
 Computers connected together to share information
 Like a highway system for data 🚗
