@@ -1,6 +1,10 @@
-WEEK 1 LAB ASSESSMENTS
+INSTRUCTIONS on how to follow labs by week
 
-Had to make a lab that introduced me to Amazon EC2.
+👉❗ = New week
+
+👉❗ WEEK 1 LAB ASSESSMENTS
+
+Had to make a lab that introduced me to Amazon EC2. 💻
 After doing the lab, the outcome was to learn the following
 Launch a web server with termination protection enabled
 
@@ -89,11 +93,11 @@ Under task five i had to do the following
 
   Lab Complete 🎓
 
-  WEEK 2 LAB ASSESSEMENT
+ 👉❗ WEEK 2 LAB ASSESSEMENT
 
-   Week was focused on linux. We did many labs under this topic, i will share two from this topic that i found interesting. The first is the Bash Shell Scripting and the second is the Challenge we were given to yield a certain outcome.
+   Week 2 was focused on linux. We did many labs under this topic, i will share two from this topic that i found interesting. The first is the Bash Shell Scripting and the second is the Challenge we were given to yield a certain outcome.
 
-  BASH SHELL SCRIPTING
+  BASH SHELL SCRIPTING 💻
 
   Objectives
 In this lab, you will:
