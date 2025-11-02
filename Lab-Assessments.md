@@ -102,7 +102,7 @@ Create a bash script that will automate the backup of a folder.
 
 TASK 1
 
-Firstly i had to follow this instructions to connect using SSH:
+Firstly i have to follow this instructions to connect using SSH:
 
 Select the Details drop-down menu above these instructions you are currently reading, and then select Show. A Credentials window will be presented.
 
@@ -148,6 +148,69 @@ saved my script and exit from the editor
  verify that the archive is created in the backups folder
 
  Lab Complete 🎓
+
+ CHALLENGE LAB : BASH SHELL SCRIPTING EXERCISE
+
+ Objectives
+In this challenge, you will:
+
+Create a directory
+
+TASK 1
+
+Firstly i have to follow this instructions to connect using SSH:
+
+Select the Details drop-down menu above these instructions you are currently reading, and then select Show. A Credentials window will be presented.
+
+Select the Download PPK button and save the labsuser.ppk file.
+Typically your browser will save it to the Downloads directory.
+
+Make a note of the PublicIP address.
+
+Then exit the Details panel by selecting the X.
+
+Download  PuTTY to SSH into the Amazon EC2 instance. If you do not have PuTTY installed on your computer, download it here.
+
+Open putty.exe
+
+TASK 2
+
+MY CHALLENGE INSTRUCTIONS :
+
+Write a Bash script based on the following requirements:
+
+Creates 25 empty (0 KB) files. (Hint: Use the touch command.)
+The file names should be <yourName><number>, <yourName><number+1>, <yourName><number+2>, and so on.
+Design the script so that each time you run it, it creates the next batch of 25 files with increasing numbers starting with the last or maximum number that already exists.
+Do not hard code these numbers. You need to generate them by using automation.
+Test the script. Display a long list of the directory and its contents to validate that the script created the expected files.
+
+HERE is steps i took to achieve this
+
+Step 1: I Create the script file
+
+Step 2: I wrote the script
+
+Step 3:  I replace "yourName"
+
+Step 4: I saved and exited
+
+Step 5: I made sure it is executable
+
+Step 6: I ran the script
+
+Step 7: I Verified the files
+
+Step 8: I tested it again (run the script multiple times)
+
+Each time i ran it, it created the next 25 files with increasing numbers!
+
+
+
+
+ 
+
+  Lab Complete 🎓
             
 
 
