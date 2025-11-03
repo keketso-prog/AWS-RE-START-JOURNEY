@@ -226,6 +226,7 @@ MY REPOSITORY
 
 │
 ├── 👤 About-Me.md. Who I am (Background & skills)
+
 │
 ├── 🎮 Cloud-Quest-Game.md. Gaming journey (AWS hands-on)
 │
@@ -241,6 +242,7 @@ MY REPOSITORY
 
 │
 ├──  💼  Projects.md. Project details (Technical info)
+
 │
 └── 📚 Weekly-Notes.md. Study notes (Week-by-week learning)
 
