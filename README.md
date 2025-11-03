@@ -19,7 +19,7 @@
 
   📖 HOW TO NAVIGATE MY GITHUB REPOSITORY
   
-Welcome to my GitHub repository! Here's your all-inclusive guide to exploring all my files and what each section comprises.🚀
+Here's your all-inclusive guide to exploring all my files and what each section comprises.🚀
 
 🏠 Start Here: README.md
 📍  Location: Root of repository -first thing you see
