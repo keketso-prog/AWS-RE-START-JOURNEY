@@ -1,8 +1,8 @@
 INSTRUCTIONS on how to follow labs by week
 
-👉❗ = New week
+👉❗ = New Lab
 
-👉❗ WEEK 1 LAB ASSESSMENTS
+👉❗  LAB ASSESSMENTS : EC2
 
 Had to make a lab that introduced me to Amazon EC2. 💻
 After doing the lab, the outcome was to learn the following
@@ -93,7 +93,7 @@ Under task five i had to do the following
 
   Lab Complete 🎓
 
- 👉❗ WEEK 2 LAB ASSESSEMENT
+ 👉❗  LAB ASSESSEMENT : LINUX
 
    Week 2 was focused on linux. We did many labs under this topic, i will share two from this topic that i found interesting. The first is the Bash Shell Scripting and the second is the Challenge we were given to yield a certain outcome.
 
@@ -153,7 +153,7 @@ saved my script and exit from the editor
 
  Lab Complete 🎓
 
- CHALLENGE LAB : BASH SHELL SCRIPTING EXERCISE
+👉❗ CHALLENGE LAB : BASH SHELL SCRIPTING EXERCISE
 
  Objectives
 In this challenge, you will:
@@ -215,7 +215,55 @@ Each time i ran it, it created the next 25 files with increasing numbers!
  
 
   Lab Complete 🎓
+
+  👉❗ Lab Assessment : DATABASES
+
+  Launch an Amazon RDS DB instance with high availability.
+
+Configure the DB instance to permit connections from your web server.
+
+Open a web application and interact with your database.
+
+TASK 1
+
+create a security group to allow your web server to access your RDS DB instance. The security group will be used when you launch the database instance
+
+TASK 2
+
+create a DB subnet group that is used to tell RDS which subnets can be used for the database. Each DB subnet group requires subnets in at least two Availability Zones.
+
+TASK 3
+
+configure and launch a Multi-AZ Amazon RDS for MySQL database instance.
+
+TASK 4
+
+open a web application running on my web server and configure it to use the database
+
+Lab Complete 🎓
+
+👉❗ Chalenge Lab : Build And Access an RDS server
+
+Create an RDS instance
+Use the Amazon RDS Query Editor to query data
+
+To finish the Challenge do the following:
+
+Launch an Amazon RDS DB instance using either Amazon Aurora Provisioned DB or MySQL database engines. Make a note of the DB credentials, as it will be needed in next steps. Please note the following lab restrictions:
+
+DatabaseEngine: Supported engines are Amazon Aurora or MySQL. Amazon Aurora serverless is not available.
+Template: Choose Dev/Test or Free tier.
+Availability and durability: Avoid creating a standby instance.
+DB instance size: Choose Burstable classes - db.t3 instances of type db. t*.micro to db.t*.medium.
+Storage: Choose General Purpose SSD (gp2) of a size up to 100 GB. Provisioned IOPS access is restricted.
+Amazon VPC: Use the Lab VPC
+Security Group: Include a security group that will allow the LinuxServer to connect to the RDS instance.
+For MySQL, under Additional configuration - Enable Enhanced monitoring - Disable the option
+Purchasing Options: On-Demand instances are allowed. Other purchasing options are disabled
+  
             
+Lab Complete 🎓
+
 
 
 
