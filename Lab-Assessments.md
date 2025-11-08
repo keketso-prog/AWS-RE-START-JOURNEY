@@ -152,6 +152,9 @@ To activate insert mode
 
 create a variable for the current date
 
+<img width="494" height="441" alt="Screenshot (1360)" src="https://github.com/user-attachments/assets/1ce87ab2-b5ce-4945-b901-fff3e3af2bc6" />
+
+
 create a variable for the backup file for the day
 
 saved my script and exit from the editor
