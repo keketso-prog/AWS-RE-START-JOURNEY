@@ -133,9 +133,18 @@ STEPS TAKEN
 
 outcome is a s follows  :  
 
+<img width="667" height="424" alt="Screenshot (1358)" src="https://github.com/user-attachments/assets/ebded883-5bc5-4f0a-9120-9f227eed0ac1" />
+
+
 create a generic shell script called backup.sh
 
+<img width="673" height="422" alt="Screenshot (1359)" src="https://github.com/user-attachments/assets/6f2d6385-9e17-421a-a941-f07a472e523e" />
+
+
 change the file privileges to make backup.sh
+
+<img width="494" height="441" alt="Screenshot (1360)" src="https://github.com/user-attachments/assets/3558291e-ce78-48c0-a106-af69af7e78b9" />
+
 
 use my preferred text editor to open the backup.sh file for editing
 
@@ -147,9 +156,18 @@ create a variable for the backup file for the day
 
 saved my script and exit from the editor
 
+<img width="490" height="415" alt="Screenshot (1361)" src="https://github.com/user-attachments/assets/df4f8a17-9bae-4628-8a29-5d9f5c10d606" />
+
+
  run backup.sh
 
+<img width="570" height="421" alt="Screenshot (1362)" src="https://github.com/user-attachments/assets/8c8667e9-dca6-4d7a-a17b-7531533765c0" />
+
+
  verify that the archive is created in the backups folder
+
+ <img width="570" height="409" alt="Screenshot (1363)" src="https://github.com/user-attachments/assets/eae43c71-bc04-44f6-8d14-c6d64b9ce5a2" />
+
 
  Lab Complete 🎓
 
