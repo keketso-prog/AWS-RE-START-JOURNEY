@@ -343,6 +343,12 @@ Amazon VPC: Use the Lab VPC
 Security Group: Include a security group that will allow the LinuxServer to connect to the RDS instance.
 For MySQL, under Additional configuration - Enable Enhanced monitoring - Disable the option
 Purchasing Options: On-Demand instances are allowed. Other purchasing options are disabled
+
+
+
+
+
+
   
             
 Lab Complete 🎓
