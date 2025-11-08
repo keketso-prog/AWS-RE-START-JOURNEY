@@ -193,19 +193,45 @@ HERE is steps i took to achieve this
 
 Step 1: I Create the script file
 
+<img width="656" height="418" alt="Screenshot (1342)" src="https://github.com/user-attachments/assets/3583b920-2f9f-4671-85bb-a58a35c9a622" />
+
+<img width="1033" height="425" alt="Screenshot (1343)" src="https://github.com/user-attachments/assets/c27bbd65-8a94-4243-9dc3-a10514918980" />
+
+
 Step 2: I wrote the script
+
+<img width="1044" height="427" alt="Screenshot (1347)" src="https://github.com/user-attachments/assets/c1196432-7b2c-4765-b44a-f32fa98576ef" />
+
+<img width="1052" height="440" alt="Screenshot (1348)" src="https://github.com/user-attachments/assets/c65db1c5-c38a-4ad2-a84a-1e4c5f8ae859" />
+
 
 Step 3:  I replace "yourName"
 
+<img width="1049" height="436" alt="Screenshot (1351)" src="https://github.com/user-attachments/assets/786985c6-f0ac-4178-9469-0cd777e1c6cc" />
+
 Step 4: I saved and exited
+
+<img width="1069" height="425" alt="Screenshot (1352)" src="https://github.com/user-attachments/assets/21da6311-601a-4d9e-a08b-8e9ec5cf9cf0" />
 
 Step 5: I made sure it is executable
 
+<img width="1046" height="447" alt="Screenshot (1353)" src="https://github.com/user-attachments/assets/a5f8775a-d9d3-4e98-ab3b-1c8f1556c9c5" />
+
+
 Step 6: I ran the script
+
+<img width="1070" height="457" alt="Screenshot (1354)" src="https://github.com/user-attachments/assets/5e2f6910-1f7a-446f-8a13-6a55dea68936" />
 
 Step 7: I Verified the files
 
+<img width="1600" height="900" alt="Screenshot (1355)" src="https://github.com/user-attachments/assets/09a7079d-34d0-4fca-b681-cba546136524" />
+
 Step 8: I tested it again (run the script multiple times)
+
+<img width="1600" height="900" alt="Screenshot (1356)" src="https://github.com/user-attachments/assets/3dff70ff-bd06-4695-b17e-67fff30d63c9" />
+
+<img width="1600" height="900" alt="Screenshot (1357)" src="https://github.com/user-attachments/assets/042eeca0-c2e9-4256-9e8e-430d96baf18e" />
+
 
 Each time i ran it, it created the next 25 files with increasing numbers!
 
