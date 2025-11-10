@@ -1,7 +1,10 @@
-AWS and Cloud Computing - Simple Guide
+AWS and Cloud Computing 
+
 What is Cloud Computing?
+
 Think of cloud computing like renting instead of buying. Instead of buying your own computer servers and keeping them in your office, you rent computing power from someone else over the internet.
 Real-life example: It's like using Netflix instead of buying DVDs. You don't own the movies, but you can watch whatever you want, whenever you want, and only pay for what you use.
+
 Why people use it:
 
 No need to buy expensive equipment
