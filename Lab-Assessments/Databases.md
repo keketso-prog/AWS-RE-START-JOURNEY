@@ -2,7 +2,7 @@
 
 We did many labs under this topic. I will share two labs i found interesting
 
-FIRST ONE
+FIRST LAB
 
 Launch an Amazon RDS DB instance with high availability.
 
@@ -64,7 +64,7 @@ open a web application running on my web server and configure it to use the data
 
 Lab Complete 🎓
 
-SECOND ONE
+SECOND LAB
 
 👉❗ Chalenge Lab : Build And Access an RDS server
 
