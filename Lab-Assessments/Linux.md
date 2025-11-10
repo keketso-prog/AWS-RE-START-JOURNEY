@@ -79,6 +79,8 @@ saved my script and exit from the editor
 
  Lab Complete 🎓
 
+ SECOND LAB
+
 👉❗ CHALLENGE LAB : BASH SHELL SCRIPTING EXERCISE
 
  Objectives
