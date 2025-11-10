@@ -285,3 +285,9 @@ Collects logs from EC2 instances automatically
 Searchable and filterable
 Set up alerts for specific errors
 No manual log file management
+
+LINKS FOR INFORMATION
+
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html
+https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/WhatIsCloudWatchLogs.html
+https://aws.amazon.com/cli
