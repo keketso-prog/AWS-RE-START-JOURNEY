@@ -10,4 +10,9 @@ Deploy the stabilization system across two ec2 instances in seperate availabilit
 
 <img width="1200" height="680" alt="CloudFirstSteps" src="https://github.com/user-attachments/assets/cf003735-1463-42d6-80ac-5c946f7242e2" />
 
+IAM Certitification
+
+[da10f1d6-e651-430a-8f69-c060eb3f439f.pdf](https://github.com/user-attachments/files/23485216/da10f1d6-e651-430a-8f69-c060eb3f439f.pdf)
+
+
 
