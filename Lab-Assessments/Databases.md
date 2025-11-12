@@ -73,17 +73,60 @@ Use the Amazon RDS Query Editor to query data
 
 To finish the Challenge do the following:
 
-Launch an Amazon RDS DB instance using either Amazon Aurora Provisioned DB or MySQL database engines. Make a note of the DB credentials, as it will be needed in next steps. Please note the following lab restrictions:
+How I Did This Lab
+What I Did with RDS
+I created an Amazon RDS database using either Aurora or MySQL. I had to follow these rules:
 
-DatabaseEngine: Supported engines are Amazon Aurora or MySQL. Amazon Aurora serverless is not available.
-Template: Choose Dev/Test or Free tier.
-Availability and durability: Avoid creating a standby instance.
-DB instance size: Choose Burstable classes - db.t3 instances of type db. t*.micro to db.t*.medium.
-Storage: Choose General Purpose SSD (gp2) of a size up to 100 GB. Provisioned IOPS access is restricted.
-Amazon VPC: Use the Lab VPC
-Security Group: Include a security group that will allow the LinuxServer to connect to the RDS instance.
-For MySQL, under Additional configuration - Enable Enhanced monitoring - Disable the option
-Purchasing Options: On-Demand instances are allowed. Other purchasing options are disabled
+Picked Dev/Test or Free tier
+Used a small db.t3 instance (micro to medium size)
+Set up 100GB storage or less (gp2 type)
+Used the Lab VPC that was given
+Made sure the security group lets the LinuxServer connect to my database
+Did not create a standby instance
+
+<img width="1600" height="900" alt="Screenshot (1422)" src="https://github.com/user-attachments/assets/d0e73d9f-bae0-4fd1-b963-afe587621e67" />
+
+<img width="653" height="410" alt="Screenshot (1427)" src="https://github.com/user-attachments/assets/f054c6bb-b94d-4778-82ac-8bf67a753611" />
+
+
+Connecting to the Server
+I downloaded the PPK file (for Windows) from the lab. Then I wrote down the LinuxServer address and used SSH to connect to it. After connecting, I installed MySQL client on the server so I could connect to my RDS database.
+Creating Tables and Adding Data
+I made two tables in my database:
+First table - RESTART:
+
+<img width="662" height="444" alt="Screenshot (1430)" src="https://github.com/user-attachments/assets/765e7cb0-b794-4ff1-a7aa-1fe7cb78fbcb" />
+<img width="665" height="428" alt="Screenshot (1429)" src="https://github.com/user-attachments/assets/ddf9a79a-6594-454c-bab6-dba8c8d3f7fa" />
+
+
+Has 4 columns: Student ID, Student Name, Restart City, and Graduation Date
+I added 10 rows of sample data
+I ran SELECT to show all the data
+
+<img width="661" height="434" alt="Screenshot (1431)" src="https://github.com/user-attachments/assets/c9fc0288-8d03-4843-9318-71be3183bd31" />
+<img width="661" height="436" alt="Screenshot (1432)" src="https://github.com/user-attachments/assets/17505c00-ee5b-4b0c-9fe3-33f724b373dc" />
+<img width="660" height="440" alt="Screenshot (1433)" src="https://github.com/user-attachments/assets/c5133a30-5300-469c-81b1-0529bb6e2992" />
+
+
+Second table - CLOUD_PRACTITIONER:
+
+Has 2 columns: Student ID and Certification Date
+I added 5 rows of sample data
+I ran SELECT to show all the data
+
+<img width="656" height="428" alt="Screenshot (1434)" src="https://github.com/user-attachments/assets/a37a2a07-194c-414e-8ac3-a67ffda87b2c" />
+<img width="666" height="442" alt="Screenshot (1435)" src="https://github.com/user-attachments/assets/e75b8650-73a7-4301-9298-057df586d394" />
+<img width="665" height="425" alt="Screenshot (1436)" src="https://github.com/user-attachments/assets/5b4b96e9-53c9-40e2-9906-189911d22167" />
+
+
+
+Joining the Tables
+Finally, I did an INNER JOIN between my two tables to show Student ID, Student Name, and Certification Date together.
+I took screenshots of each step to submit for the assignment
+
+<img width="673" height="437" alt="Screenshot (1439)" src="https://github.com/user-attachments/assets/48edddac-0b9d-4190-8926-10f179c8d0fb" />
+
+
 
 
 
