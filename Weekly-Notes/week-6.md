@@ -5,9 +5,9 @@
 Selecting data means choosing which information you want to see from a database. You use the SELECT statement to do this.
 
 **Basic syntax:**
-```
+
 SELECT column_name FROM table_name;
-```
+
 
 **Examples:**
 - Get all customer names: SELECT name FROM customers;
@@ -15,9 +15,8 @@ SELECT column_name FROM table_name;
 - Get everything: SELECT * FROM customers;
 
 You can also filter results using WHERE:
-```
+
 SELECT name FROM customers WHERE age > 18;
-```
 
 ---
 
@@ -26,20 +25,20 @@ SELECT name FROM customers WHERE age > 18;
 Inserting means adding new information to your database. You use the INSERT INTO statement.
 
 **Basic syntax:**
-```
+
 INSERT INTO table_name (column1, column2) VALUES (value1, value2);
-```
+
 
 **Examples:**
 - Add one customer: 
-  ```
+  
   INSERT INTO customers (name, email) VALUES ('John', 'john@email.com');
-  ```
+  
 - Add multiple rows at once:
-  ```
+  
   INSERT INTO customers (name, email) 
   VALUES ('Sarah', 'sarah@email.com'), ('Mike', 'mike@email.com');
-  ```
+  
 
 ---
 
@@ -72,59 +71,59 @@ Retrieving data means getting information back from the database in useful ways.
 **Common techniques:**
 
 **Using WHERE to filter:**
-```
+
 SELECT * FROM products WHERE price < 50;
-```
+
 
 **Using LIKE for pattern matching:**
-```
+
 SELECT * FROM customers WHERE name LIKE 'A%';
-```
+
 (This finds names starting with 'A')
 
 **Using LIMIT to control how many results:**
-```
+
 SELECT * FROM products LIMIT 10;
-```
+
 
 **Joining tables together:**
-```
+
 SELECT customers.name, orders.total 
 FROM customers 
 JOIN orders ON customers.id = orders.customer_id;
-```
 
----
+
+
 
 ## 5. Organizing Data
 
 Organizing helps you present data in a clear, useful order.
 
 **Sorting with ORDER BY:**
-```
+
 SELECT * FROM products ORDER BY price ASC;
-```
+
 - ASC = ascending (low to high)
 - DESC = descending (high to low)
 
 **Grouping with GROUP BY:**
 Groups similar data together, often used with aggregate functions.
-```
+
 SELECT category, COUNT(*) FROM products GROUP BY category;
-```
+
 
 **Removing duplicates with DISTINCT:**
-```
+
 SELECT DISTINCT city FROM customers;
-```
+
 
 **Filtering groups with HAVING:**
 Used with GROUP BY to filter grouped results.
-```
+
 SELECT category, COUNT(*) FROM products 
 GROUP BY category 
 HAVING COUNT(*) > 5;
-```
+
 
 ---
 
