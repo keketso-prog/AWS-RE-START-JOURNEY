@@ -39,6 +39,4 @@ Here is your guide to navigating the contents of this repository:
 3.  **What can I do?** `Projects.md` & `Lab-Assessments.md`
 4.  **Visual Proof:** `Project-Gallery.md`
 
-## 💡 Tips
-*   Use **Ctrl+F** in `Weekly-Notes.md` to search for specific topics (e.g., "Docker", "S3").
-*   Check the `Learning-RoadMap.md` to see my current status.
+
