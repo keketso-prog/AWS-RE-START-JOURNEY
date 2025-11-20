@@ -1,147 +1,168 @@
-Linux Basics
+# Week 2: Linux Basics
 
-What is Linux?
+## What is Linux?
 
-Linux is an operating system, just like Windows or macOS, but it's free and open-source.
-Think of it like this: If Windows is like buying a pre-built house, Linux is like getting the blueprint to build your own house exactly how you want it.
-Why it matters for AWS:
+Linux is an operating system, just like Windows or macOS, but it's **free and open-source**. Think of it like this: If Windows is like buying a pre-built house, Linux is like getting the blueprint to build your own house exactly how you want it.
 
-Most cloud servers run Linux
-It's lightweight and fast
-Free to use (no licensing costs)
-Very stable and secure
+### Why it matters for AWS:
+- Most cloud servers run Linux
+- It's lightweight and fast  
+- Free to use (no licensing costs)
+- Very stable and secure
 
-Common Linux distributions:
+### Common Distributions:
+- **Ubuntu** - Most beginner-friendly
+- **Amazon Linux** - AWS's own version (optimized for EC2)
+- **Red Hat/CentOS** - Enterprise focused  
+- **Debian** - Very stable
 
-Ubuntu (most beginner-friendly)
+## Command Line Basics
 
-Amazon Linux (AWS's own version, optimized for EC2)
+**Terminal/Shell:** The black screen where you type commands
 
-Red Hat / CentOS
+### Essential Commands:
+bash
+pwd          # Print Working Directory (where am I?)
+ls           # List files and folders
+cd           # Change directory  
+clear        # Clean your screen
+exit         # Close terminal
+### Shortcuts:
+- **↑** → Previous command
+- **Tab** → Auto-complete  
+- **Ctrl+C** → Stop running command
+- **Ctrl+L** → Clear screen
 
-Debian
+## Working with Files & Folders
 
-WEEK 2
+### File Operations:
+bash
+touch filename.txt           # Create file
+cp source.txt dest.txt      # Copy file  
+mv old.txt new.txt          # Move/Rename
+rm filename.txt             # Delete file ⚠️
+cat filename.txt            # View file content
 
-📝 Week 2 - Linux Notes 🐧 Introduction to Linux
+### Folder Operations:
 
-💻 Linux Command Lines
+bash
+mkdir foldername            # Create folder
+rmdir foldername           # Delete empty folder
+rm -r foldername           # Delete folder & contents  
+ls -la                     # List all files with details
 
-Terminal/Shell → The black screen where you type commands Basic commands:
+⚠️ **Be careful with rm:** There's no undo in Linux! Always double-check before deleting.
+
+## Editing Files
 
-pwd → Print Working Directory (where am I?) ls → List files and folders cd → Change directory (move to different folder) clear → Clean your screen exit → Close terminal
-
-✏️ Editing Files
-
-Text editors:
-
-nano → Easy for beginners (Ctrl+X to exit) vim → Powerful but harder (press i to insert, :wq to save & quit) gedit → GUI editor (if you have desktop)
-
-Example: nano myfile.txt opens the file to edit
-
-📁 Working with Files
-
-Create file: touch filename.txt 
-
-Copy file: cp source.txt destination.txt 
-
-Move/Rename: mv oldname.txt newname.txt 
-
-Delete file: rm filename.txt ⚠️ (careful! no undo) 
-
-View file: cat filename.txt (shows content) 
-
-Create folder: mkdir foldername 
-
-Delete folder: rmdir foldername (only empty folders) or rm -r foldername (deletes everything inside)
-
-🔐 Managing File Permissions
-
-Permission types:
-
-r → Read (can view) w → Write (can edit) x → Execute (can run as program)
-
-Who gets permissions:
-
-Owner → The person who created it Group → Team members Others → Everyone else
-
-View permissions: ls -l (shows like: -rwxr-xr--) Change permissions: chmod 755 filename or chmod +x script.sh Change owner: chown username filename
-
-⚙️ Working with Commands
-
-Get help: man command (manual) or command --help Command structure: command -options arguments Examples:
-
-ls -la → List all files with details rm -rf folder → Force delete folder
-
-History: history shows all previous commands Shortcuts:
-
-↑ → Previous command Tab → Auto-complete Ctrl+C → Stop running command
-
-🔄 Managing Processes
-
-Process → A running program View processes: ps or top (live view) Kill process: kill PID (PID = process ID number) Force kill: kill -9 PID 💀 Background jobs: Add & at end → command & Foreground job: fg Check running: jobs
-
-🎯 Managing Services
-
-Service → Programs that run in background (like web server, database) Commands (systemd):
-
-systemctl start servicename → Start service systemctl stop servicename → Stop service systemctl restart servicename → Restart service systemctl status servicename → Check if running systemctl enable servicename → Auto-start on boot systemctl disable servicename → Don't auto-start
-
-🐚 Bash Shell
-
-Bash → The default Linux command language Variables:
-
-Create: NAME="John" Use: echo $NAME
-
-Environment variables: echo $PATH, echo $HOME Special characters:
-
-| → Pipe (send output to next command)
-
-→ Redirect output to file
-
-→ Append to file
-
-→ Wildcard (all files)
-📜 Bash Shell Scripting
-
-Script → A file with multiple commands Create script:
-
-nano script.sh First line: #!/bin/bash Add commands Save and exit
-
-Make executable: chmod +x script.sh Run script: ./script.sh Basic scripting:
-
-bash #!/bin/bash echo "Hello World" NAME="Linux" echo "Learning $NAME"
-
-📦 Software Management
-
-Package → Software you install Package managers:
-
-Ubuntu/Debian: apt
-
-Install: sudo apt install package Update: sudo apt update && sudo apt upgrade Remove: sudo apt remove package
-
-RedHat/CentOS: yum or dnf
-
-Install: sudo yum install package Update: sudo yum update
-
-📋 Managing Log Files
-
-Logs → Records of what happened in the system Location: /var/log/ Important logs:
-
-/var/log/syslog → System messages /var/log/auth.log → Login attempts /var/log/dmesg → Boot messages
-
-View logs:
-
-cat /var/log/syslog → See all tail -f /var/log/syslog → Watch live updates head /var/log/syslog → See first lines
-
-journalctl → Modern log viewer (systemd)
-
-🚀 Advanced Bash Shell Scripting
-
-Conditionals (if statements):
-
-bash if [ $AGE -gt 18 ]; then echo "Adult"
-
-AWS Linux AMIs Overview: https://docs.aws.amazon.com/linux/ EC2 User Guide for Linux: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/
-
-
+### Text Editors:
+| Editor | Difficulty | Notes |
+|--------|------------|-------|
+| **nano** | Easy | Ctrl+X to exit |
+| **vim** | Hard | Press i to insert, :wq to save & quit |
+| **gedit** | Easy | GUI editor (if you have desktop) |
+
+**Example:** `nano myfile.txt`
+
+## File Permissions
+
+### Permission Types:
+- **r** → Read (can view)
+- **w** → Write (can edit)
+- **x** → Execute (can run as program)
+
+### Who Gets Permissions:
+- **Owner** → The person who created it
+- **Group** → Team members  
+- **Others** → Everyone else
+
+### Common Commands:
+
+bash
+ls -l                       # View permissions (shows like: -rwxr-xr--)
+chmod 755 filename          # Change permissions
+chown username filename     # Change owner
+
+
+## Managing Processes
+
+**Process:** A running program
+
+### View Processes:
+bash
+ps                         # Show current processes
+top                        # Live view of processes  
+jobs                       # Show background jobs
+
+### Control Processes:
+
+bash
+kill PID                   # Stop process
+kill -9 PID                # Force kill 💀
+command &                  # Run in background
+## Managing Services
+
+**Service:** Programs that run in background (like web server, database)
+
+### systemctl Commands:
+
+bash
+systemctl start service     # Start service
+systemctl stop service     # Stop service
+systemctl restart service  # Restart service
+systemctl status service   # Check if running
+systemctl enable service   # Auto-start on boot
+systemctl disable service  # Don't auto-start
+
+## Software Management
+
+**Package:** Software you install
+
+### Ubuntu/Debian (apt):
+
+bash
+sudo apt install package            # Install software
+sudo apt update && sudo apt upgrade # Update system
+sudo apt remove package             # Remove software
+### RedHat/CentOS (yum):
+bash
+sudo yum install package    # Install software
+sudo yum update            # Update system  
+sudo yum remove package    # Remove software
+
+## Bash Scripting Basics
+
+**Script:** A file with multiple commands
+
+### Creating a Script:
+bash
+1. nano script.sh           # Create file
+2. #!/bin/bash             # First line (shebang)
+3. echo "Hello World"      # Add commands
+4. chmod +x script.sh      # Make executable
+5. ./script.sh             # Run script
+
+### Variables & Special Characters:
+bash
+# Variables
+NAME="John"
+echo $NAME
+
+# Special Characters
+|    # Pipe (send output to next command)
+>    # Redirect output to file  
+*    # Wildcard (all files)
+
+## Week 2 Key Takeaways 🎯
+
+✅ Linux is free, secure, and runs most cloud servers  
+✅ Command line is powerful once you learn the basics  
+✅ File permissions control who can access what  
+✅ Processes are running programs you can manage  
+✅ Services run in background (web servers, databases)  
+✅ Package managers install software easily  
+✅ Bash scripts automate repetitive tasks  
+✅ Amazon Linux is optimized for AWS EC2  
+
+### Personal Note:
+The command line felt intimidating at first, but once I learned the basic commands, it became incredibly powerful. Being able to manage files, processes, and services from just text commands is amazing - no wonder most servers don't even have a GUI!
