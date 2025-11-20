@@ -2,9 +2,8 @@
 
 Welcome! This repository documents my 12-week journey through the **AWS re/Start program**, an intensive instructor-led training designed to build skills in cloud computing, Linux, networking, security, and Python.
 
-## 📂 Repository Structure
+## 📂 WHATS IN THE REPOSITORY
 
-Here is your guide to navigating the contents of this repository:
 
 ### 1. 👤 [About Me](./About-Me.md)
 *   **What's inside:** My background, career goals, skills, and contact info.
@@ -31,7 +30,6 @@ Here is your guide to navigating the contents of this repository:
 *   **What's inside:** Results from practical lab exercises and troubleshooting logs.
 *   **Why read:** To verify my hands-on technical capabilities.
 
----
 
 ## 🧭 Quick Navigation for Recruiters
 1.  **Start here:** `README.md` (You are here)
