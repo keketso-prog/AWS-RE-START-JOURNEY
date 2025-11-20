@@ -1,105 +1,71 @@
-👤 ABOUT ME 👋
+# About Me 👋
 
-I am a committed and enthusiastic learner enrolled in the AWS re/Start 12-week program, which is an in-depth, instructor-led course that prepares its students for cloud computing and IT careers.
+Hi! I'm **Keketso Bakaqane**, a dedicated and enthusiastic learner who recently completed the intensive 12-week **AWS re/Start program**. I'm passionate about cloud computing and excited to begin my career in the tech industry.
 
-BACKGROUND AND EXPERINCE
+## 🚀 Background
 
-Hello! My name is Keketso Bakaqane,I am a hardworking, friendly, kind, and honest person; I give my best to whatever I embark on. 💪 My professional background is in administrative work where I have developed organizational skills, attention to detail, and the ability to work in an efficient manner under pressure. My experience was non-technical, but curiosity has always been there with regard to technology and how everything happens behind the scenes. That curiosity made me take the step into the tech industry; more specifically, cloud computing! ☁️
+My professional background is in administrative work, where I developed strong organizational skills, attention to detail, and the ability to work efficiently under pressure. While my experience was non-technical, I've always been curious about technology and how things work behind the scenes. This curiosity led me to take the leap into cloud computing!
 
-💻 Skills and Technologies I Know
+I'm naturally hardworking, honest, and kind. I believe in giving my best to everything I do, and I'm committed to continuous learning and growth.
 
-I'm actively building my technical skill set and am now trained as an AWS Cloud Practitioner; here's what I have learned:
+## 💻 Technical Skills
 
-Cloud Computing-AWS ☁️ Amazon EC2 (Virtual Servers) Amazon S3 (Storage Solutions) Amazon RDS & DynamoDB (Databases) VPC & Networking Concepts IAM: Identity and Access Management
+**Cloud Computing (AWS):**
+- Amazon EC2 (Virtual Servers)
+- Amazon S3 (Storage Solutions) 
+- Amazon RDS & DynamoDB
+- VPC & Networking
+- IAM (Identity and Access Management)
+- Auto Scaling & Load Balancing
+- Cloud Economics & Cost Optimization
 
-Auto Scaling & Load Balancing
+**Linux & Networking:**
+- Command line basics
+- File management and permissions
+- Bash scripting essentials
+- IP addressing and subnets
+- VPC configuration
+- Security groups and firewalls
+- Network troubleshooting
 
-Cloud Economics & Cost Optimization Linux: 🐧 Command line basics File management and permissions
+## 🎓 Education & Training
 
-Bash Scripting Essentials
+**AWS re/Start Program** - 12-Week Intensive Cloud Computing Training
+- Completed hands-on labs and assessments
+- AWS Cloud Quest: 12 quests completed
+- Preparing for AWS Cloud Practitioner certification
 
-Process and service management Network troubleshooting Networking: 🌐 IP Addressing: Public/Private, Static/Dynamic
+**Diploma in Information Technology**
+- Foundational IT principles and concepts
 
-VPC configuration
+## 🎯 Career Goals
 
-Subnets and routing Security groups and firewalls Network troubleshooting Soft Skills: 🤝 Strong work ethic and commitment
+**Short-term:** I'm seeking opportunities as a Cloud Support Specialist or Junior Cloud Engineer where I can apply my AWS knowledge and continue learning.
 
-I am passionate about cloud technology and excited about the endless possibilities it offers. My goal is to achieve a successful career in cloud computing, starting as a Cloud Support Specialist or Junior Cloud Engineer.
+**Long-term:** My aspiration is to become an AWS Solutions Architect, helping organizations solve real-world problems through cloud technology.
 
-My interests include:
+**What excites me:**
+- Cloud infrastructure and architecture
+- Security and best practices
+- Automation and efficiency
+- Helping businesses migrate to the cloud
+- Continuous learning and growth
 
-☁️ Cloud infrastructure and architecture
+## 💪 What I Bring
 
-🔒 Cloud security and best practices
+- **Dedication:** I don't give up when things get tough
+- **Reliability:** You can count on me to deliver
+- **Growth Mindset:** Always eager to learn and improve
+- **Attention to Detail:** From my administrative background
 
-🤖 Automation and efficiency optimization
+## 📞 Contact
 
-📊 Helping businesses migrate to the cloud
+- **Email:** keketsomakhoali93@gmail.com
+- **Phone:** +27 78 470 6327
+- **GitHub:** [AWS RE-START Journey](https://github.com/keketso-prog/AWS-RE-START-JOURNEY)
+- **LinkedIn:** [Keketso Bakaqane](https://www.linkedin.com/in/keketso-bakaqane-674066219/)
 
-🌱 Continuous learning and keeping up with new technologies Long-term vision: I aspire to become an AWS Solutions Architect and use cloud technology to help organizations solve real-world problems. I want to be that person who bridges the gap between business needs and technical solutions.
+Though I'm naturally reserved, I'm determined to step out of my comfort zone. This career transition from administrative work to cloud computing is proof that with dedication, anyone can transform their path! 
 
-🎓 Education and Certifications
+**Ready to contribute and grow with the right team! 🚀**
 
-Education: 📜 Diploma in Information Technology
-
-Foundational knowledge of IT principles and concepts Provided me with a technical knowledge base Training & Certifications: ☁️ AWS Cloud Practitioner Training (Completed) Essential Cloud Computing Fundamentals Hands-on experience working with AWS services
-
-AWS Cloud Quest completed (12 quests) Lab assessments and practical exercises Current Learning: 🎯 Preparing for AWS Certified Cloud Practitioner exam
-
-📚 Knowledge expansion in Linux and networking
-
-💼 Building portfolio projects to demonstrate skills
-
-📧 Contact Information
-
-I'd love to hear from you! You may connect with me at:
-
-Name: Keketso Bakaqane
-
-Email: 📧 keketsomakhoali93@gmail.com
-
-Phone: 📱 078 470 6327
-
-Alternative: 📞 079 014 4866
-
-GitHub: 🐙 https://github.com/keketso-prog/AWS-RE-START-JOURNEY/tree/main
-
-Linkedin: 🐙 https://www.linkedin.com/in/keketso-bakaqane-674066219/
-
-🚀 Why I'm Learning Cloud/Technology
-
-My motivation towards cloud technology is influenced by the following: Personal Growth: 🌱 I believe in challenging myself and stepping out of my comfort zone. Moving from administrative work to tech is my way of proving that with dedication and hard work, anyone can learn new skills and transform their career path. Even though I'm naturally shy, I'm determined to grow both personally and professionally. Future-Focused: 🔮
-
-Cloud computing is the future, and I can see how businesses are migrating to the cloud. I would like to be part of this revolution and experience a growing industry that is also evolving day by day, offering immense opportunities for learning and growth.
-
-Problem-Solving: 🧩 I love the fact that technology can solve real problems. Cloud computing allows corporations to be more efficient, cost-effective, and scalable. I would like to help organizations achieve their goals with smart cloud solutions.
-
-Career Opportunity: 💼 The tech industry offers great career opportunities, job security, and the opportunity to be involved in projects with meaning. I am excited about building a well-paying, satisfying career with continuous learning and making a difference.
-
-Passion for Learning:📚
-
-I truly like learning something new when it makes sense and I can find how to apply it somehow. It's so much fun working with AWS Cloud Quest, going through labs, and hands-on projects. With every obstacle overcome, I become more confident and motivated to keep going.
-
-Making an Impact: ✨ I want to use my technical skills to help others. This means helping businesses with cloud journeys, mentoring others who seek to transition into tech, and helping in general where technology can serve as a strong force for change.
-
-💭 A Bit More About Me Although reserved and perhaps quiet initially, I am a very loyal teammate when I get comfortable; honest, kind, and hardworking are my key values.
-
-I bring: Dedication: I don't give up easily when things get tough. Reliability - You can always count on me to see things through. Honesty - truthfulness in communication; I believe in transparency. Kindness - I treat everybody with respect. Growth Mindset: I am always open to learning and getting better at things.
-
-Administrative experience has taught me the importance of organization, time management, and attention to detail-skills that translate perfectly into the tech world. Now, I am combining those strengths with my new technical knowledge to become a well-rounded cloud professional.
-
-🌟What I'm Looking Forward to:
-
-I am looking to:
-
-💼Start my career in cloud computing.
-
-🤝Collaborate with supportive teams that believe in learning.
-
-🚀 Apply my AWS knowledge in real-world scenarios.
-
-📈 Keep building my technical skills.
-
-🎯 start Contributing meaningfully to projects.
-
-If you are looking for a hardworking, honest, eager-to-learn professional committed to excellence, I'd love to connect with you! Though shy, I am now ready to take on new challenges and show what I can do. Thanks for taking the time to learn about me! Let's connect and discover how we can work together! 😊🚀
