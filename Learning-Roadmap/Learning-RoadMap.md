@@ -7,16 +7,6 @@ Week 1-4:  Foundation
 Week 5-8:  AWS Deep Dive       
 Week 9-12: Advanced & Cert     
 
-Milestones 🎯
-AWS Account Created
-First Linux Script Written
-First Python Program
-First EC2 Instance Launched
-First Lambda Function Deployed
-
-Practice Exam Passed: 700+
-AWS Certified Cloud Practitioner 🎓
-
 Learning Path 📅
 📚 Month 1: Foundation
 Week 1: Cloud Foundations ☁️
