@@ -4,7 +4,7 @@ I am a committed and enthusiastic learner enrolled in the AWS re/Start 12-week p
 
 BACKGROUND AND EXPERINCE
 
-Hello! My name is Keketso Bakaqane, but I am rather shy. I am, however, hardworking, friendly, kind, and honest; I give my best to whatever I embark on. 💪 My professional background is in administrative work where I have developed organizational skills, attention to detail, and the ability to work in an efficient manner under pressure. My experience was non-technical, but curiosity has always been there with regard to technology and how everything happens behind the scenes. That curiosity made me take the step into the tech industry; more specifically, cloud computing! ☁️
+Hello! My name is Keketso Bakaqane,I am a hardworking, friendly, kind, and honest person; I give my best to whatever I embark on. 💪 My professional background is in administrative work where I have developed organizational skills, attention to detail, and the ability to work in an efficient manner under pressure. My experience was non-technical, but curiosity has always been there with regard to technology and how everything happens behind the scenes. That curiosity made me take the step into the tech industry; more specifically, cloud computing! ☁️
 
 💻 Skills and Technologies I Know
 
@@ -23,10 +23,6 @@ Process and service management Network troubleshooting Networking: 🌐 IP Addre
 VPC configuration
 
 Subnets and routing Security groups and firewalls Network troubleshooting Soft Skills: 🤝 Strong work ethic and commitment
-
-Excellent organizational skills Friendly and team-oriented
-
-Honest and reliable Quick learner with growth mindset Administrative expertise Career Goals and Interests 🎯
 
 I am passionate about cloud technology and excited about the endless possibilities it offers. My goal is to achieve a successful career in cloud computing, starting as a Cloud Support Specialist or Junior Cloud Engineer.
 
