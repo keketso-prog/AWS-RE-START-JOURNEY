@@ -107,6 +107,8 @@ Portfolio and resume building
  Skills I'm Building ☁️ AWS Cloud Services & Architecture
  
   Linux Command Line & Administration Python Programming & Automation Networking & Security Databases (SQL & NoSQL) AI/ML Basics DevOps & Infrastructure as Code My Recipe for Success Stick to one idea: 30 minutes daily practice.
+
+  🌟 My Success Strategy
  
  Hands-on Learning - Build Real Projects Join Community 
  
@@ -114,14 +116,4 @@ Portfolio and resume building
  
  - Learn by breaking and fixing Celebrate Wins
  
- -  Acknowledge every milestone Progress this week: WeekFocusStatus1Cloud Foundations
  
- -  ⏳2Linux
- 
- -  ⏳Networking
- 
- -  ⏳Security
- 
- -  ⏳AWS & Advanced Topics
- 
- -  ⏳ Objective: Design, deploy, and manage applications on AWS with confidence.
