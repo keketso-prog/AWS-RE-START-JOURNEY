@@ -170,7 +170,7 @@ Here's what I learned from this lab:
 - I verified patch compliance to see which servers were properly updated and which ones might have missed patches
   # OVERALL
   I learned how to manage and automate security updates across multiple servers without having to manually update each one, and how to make sure everything stays secure and up-to-date
-## Lab complete
+## Lab complete 🎓
 
 
 
