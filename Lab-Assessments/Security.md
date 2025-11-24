@@ -88,7 +88,7 @@ Leave the check box for Default patch baseline unselected.
 
 <img width="1600" height="900" alt="Screenshot (1474)" src="https://github.com/user-attachments/assets/e9d6b0c3-fa86-43a9-bfc5-0716b8a293f8" />
 
-<img width="1600" height="900" alt="Screenshot (1475)" src="https://github.com/user-attachments/assets/145397ec-2d66-4b39-a205-277034ce188b" 
+<img width="1600" height="900" alt="Screenshot (1475)" src="https://github.com/user-attachments/assets/145397ec-2d66-4b39-a205-277034ce188b" />
 
  <img width="1600" height="900" alt="Screenshot (1476)" src="https://github.com/user-attachments/assets/48217750-4493-4439-84a4-7fd9931d9cbf" />
 
