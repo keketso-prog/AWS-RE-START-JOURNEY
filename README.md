@@ -1,18 +1,18 @@
 # AWS re/Start Journey ☁️
 
-Welcome! This repository documents my 12-week journey through the **AWS re/Start program**, an intensive instructor-led training designed to build skills in cloud computing, Linux, networking, security, and Python.
+Welcome! This repository documents my 12-week journey through the **AWS re/Start program**
 
- # OVERVIEW
+# OVERVIEW
 
 This repository serves as a complete record of my experience in the AWS re/Start program, an intensive technical training curriculum designed to prepare participants for entry-level cloud computing careers. Throughout this program, I developed proficiency in:
 
-Amazon Web Services (AWS) – Cloud infrastructure and services
-Linux Administration – System operations and command-line proficiency
-Networking Fundamentals – TCP/IP, routing, and network architecture
-Security Best Practices – Cloud security principles and implementation
-Python Programming – Automation and scripting for cloud environments
+- Amazon Web Services (AWS) – Cloud infrastructure and services
+- Linux Administration – System operations and command-line proficiency
+- Networking Fundamentals – TCP/IP, routing, and network architecture
+- Security Best Practices – Cloud security principles and implementation
+- Python Programming – Automation and scripting for cloud environments
 
-This repository documents my technical progression, hands-on project work, and practical application of cloud computing concepts.
+This portfolio documents my technical progression, hands-on project work, and practical application of cloud computing concepts.
 
 ## 📂 WHATS IN THE REPOSITORY
 
