@@ -72,9 +72,9 @@ Here's what I learned from this lab:
 
 # Lab Complete 🎓
 
-SECOND LAB
+## SECOND LAB
 
-👉❗ Chalenge Lab : Build And Access an RDS server
+## Chalenge Lab : Build And Access an RDS server
 
 Create an RDS instance
 Use the Amazon RDS Query Editor to query data
@@ -134,16 +134,17 @@ I took screenshots of each step to submit for the assignment
 
 <img width="673" height="437" alt="Screenshot (1439)" src="https://github.com/user-attachments/assets/48edddac-0b9d-4190-8926-10f179c8d0fb" />
 
+## WHAT I LEARNED
 
+Here's what I learned from this lab:
+- I set up an RDS instance on AWS, which is a managed database that Amazon handles for me.
+-  I used the RDS Query Editor to search and retrieve data from my database without needing any extra tools.
 
-
-
-
-
-
+# OVERALL
+ I learned how to create a database on AWS and start working with the data inside it right away using simple queries
   
             
-Lab Complete 🎓
+## Lab Complete 🎓
 
 
 
