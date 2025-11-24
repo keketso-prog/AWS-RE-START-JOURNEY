@@ -2,7 +2,7 @@
 
  We did many labs under this topic, i will share two from this topic that i found interesting. The first is the Bash Shell Scripting and the second is the Challenge we were given to yield a certain outcome.
 
-#  BASH SHELL SCRIPTING 
+# FIRST LAB: BASH SHELL SCRIPTING 
 
   Objectives
 In this lab, you will:
