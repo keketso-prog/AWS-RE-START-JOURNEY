@@ -1,6 +1,6 @@
 Under Security, we had a few labs to do. I will showcase 2 labs from this topic
 
-SECURITY-HARDENING
+## SECURITY-HARDENING
 
 Objectives
 After completing this lab, you should be able to:
