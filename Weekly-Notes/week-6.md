@@ -5,27 +5,27 @@
 
 The SELECT statement is your go-to for asking your database for information.
 
-Selecting specific columns:
+- Selecting specific columns:
 sql
-SELECT name FROM customers;
+- SELECT name FROM customers;
 
 This will show you just the name column from the customers table.
 
-Selecting multiple columns:
+- Selecting multiple columns:
 sql
-SELECT name, email FROM customers;
+- SELECT name, email FROM customers;
 
 This retrieves both the name and email of every customer.
 
-Selecting everything:
+- Selecting everything:
 sql
-SELECT * FROM customers;
+- SELECT * FROM customers;
 
 This command displays all columns for all rows in the table.
 
-Filtering your results (WHERE):
+- Filtering your results (WHERE):
 sql
-SELECT name FROM customers WHERE age > 18;
+- SELECT name FROM customers WHERE age > 18;
 
 This will give you the names of customers who are older than 18.
 
