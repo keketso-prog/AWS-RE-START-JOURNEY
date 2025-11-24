@@ -1,7 +1,7 @@
 # NETWORKING 263
 Under networking we had a few labs, i will show 2 labs i found challenging
 
-# Create Subnets and Allocate IP addresses in an Amazon Virtual Private Cloud (Amazon VPC)
+# FIRST LAB: Create Subnets and Allocate IP addresses in an Amazon Virtual Private Cloud (Amazon VPC)
 - Summarize the customer scenario
 - Create a Amazon Virtual Private Cloud (Amazon VPC) and understand how to create subnets and allocate IP addresses
 - Familiarize yourself with the Amazon Web Services (AWS) Management Console
@@ -35,4 +35,5 @@ Here’s what I learned from this lab:
 - Using what I learned, I created a practical solution that addressed the customer’s requirements within the VPC
 # OVERALL
 I learned how to analyze a customer scenario, design a VPC, configure its network components, and present a clear solution — core skills for cloud architecture and troubleshooting in AWS.
-# LAB COMPLETE
+ # Lab complete 🎓
+
