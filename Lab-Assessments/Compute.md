@@ -97,8 +97,10 @@ Under task five i had to do the following
   - I learned how to scale my server, adjusting its power as needed based on my requirements.
   -  I tested the termination protection by attempting to delete the server to confirm the safety feature worked as intended
   -   Finally, I correctly shut down and removed the instance once I was done.
-    # Overall : I gained practical experience with the key aspects of managing and operating a cloud server.
+    # Overall :
+
+  I gained practical experience with the key aspects of managing and operating a cloud server.
 
 
-  Lab Complete 🎓
+##  Lab Complete 🎓
 
