@@ -45,32 +45,34 @@ Launch a web server with termination protection enabled
     <img width="1600" height="900" alt="Screenshot (1290)" src="https://github.com/user-attachments/assets/869d8dd6-32c1-4142-91b3-e084294f481a" />
 
 
- TASK 3 :
-    UPDATE SECURITY RULES AND ACCESS THE WEB SERVER
+ # TASK 3 :
+UPDATE SECURITY RULES AND ACCESS THE WEB SERVER
     
-    Under task three i had to do the following
-    - Go to network & security
-    - The select security groups
-    - select inbound rules
-    - Edit the rules with the following : - Type: HTTP      Source: Anywhere-IPv4
-    - Save the rules and reload web server to see the desired outcome.
+ Under task three i had to do the following
+ - Go to network & security
+ - The select security groups
+ - select inbound rules
+ - Edit the rules with the following : - Type: HTTP      Source: Anywhere-IPv4
+ - Save the rules and reload web server to see the desired outcome.
       THIS IS THE OUTCOME
-      <img width="1600" height="900" alt="Screenshot (1291)" src="https://github.com/user-attachments/assets/be1cbd61-ffbd-471c-b49c-f251c5d534fa" />
-      <img width="1600" height="900" alt="Screenshot (1292)" src="https://github.com/user-attachments/assets/aafe013c-5816-45d1-af45-6270afcd694a" />
+      
+  <img width="1600" height="900" alt="Screenshot (1291)" src="https://github.com/user-attachments/assets/64b7336e-63ba-46eb-82ab-e92095e1cf8a" />
+
+  <img width="1600" height="900" alt="Screenshot (1292)" src="https://github.com/user-attachments/assets/aafe013c-5816-45d1-af45-6270afcd694a" />
 
       
    
-  TASK 4 :
-    RESIZE YOUR INSTANCE
+# TASK 4 :
+ RESIZE YOUR INSTANCE
     
-    Under task four i had to do the following
-    - Navigate to instance and select the web server you created
-    - Select instance state > Stop instance
-    - Instance must display stopped
-    - Change the instance to t3.small under Actions tab
-    - Resize volume under actions to 10
-    The desired outcome must display the new changes i just did
-     THIS IS THE OUTCOME
+Under task four i had to do the following
+- Navigate to instance and select the web server you created
+- Select instance state > Stop instance
+- Instance must display stopped
+- Change the instance to t3.small under Actions tab
+- Resize volume under actions to 10
+The desired outcome must display the new changes i just did
+ THIS IS THE OUTCOME
 <img width="1600" height="900" alt="Screenshot (1293)" src="https://github.com/user-attachments/assets/03ce1736-f693-44da-91b6-9242d756dfd4" />
 
 
