@@ -49,11 +49,11 @@ This portfolio documents my technical progression, hands-on project work, and pr
 3.  **What can I do?** `Projects.md` & `Lab-Assessments.md`
 4.  **Visual Proof:** `Project-Gallery.md`
 
-🎯 Purpose & Value
-This repository demonstrates:
+## 🎯 Purpose of this portfolio
+This portfolio demonstrates:
 
-Technical Proficiency – Hands-on experience with cloud infrastructure and services
-Documentation Standards – Clear, organized technical communication
-Continuous Learning – Structured approach to skill development
-Problem-Solving Capability – Real-world application of theoretical knowledge
-Professional Development – Commitment to industry-recognized training and certification
+- Technical Proficiency – Hands-on experience with cloud infrastructure and services
+- Documentation Standards – Clear, organized technical communication
+- Continuous Learning – Structured approach to skill development
+- Problem-Solving Capability – Real-world application of theoretical knowledge
+- Professional Development – Commitment to industry-recognized training and certification
