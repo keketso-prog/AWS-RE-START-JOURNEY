@@ -1,15 +1,15 @@
-👉❗  LAB ASSESSEMENT : LINUX
+## LINUX
 
  We did many labs under this topic, i will share two from this topic that i found interesting. The first is the Bash Shell Scripting and the second is the Challenge we were given to yield a certain outcome.
 
-  BASH SHELL SCRIPTING 💻
+#  BASH SHELL SCRIPTING 
 
   Objectives
 In this lab, you will:
 
 Create a bash script that will automate the backup of a folder.
 
-TASK 1
+# TASK 1
 
 Firstly i have to follow this instructions to connect using SSH:
 
@@ -26,7 +26,7 @@ Download  PuTTY to SSH into the Amazon EC2 instance. If you do not have PuTTY in
 
 Open putty.exe
 
-TASK 2
+# TASK 2
 
 Write a shell script
 
@@ -76,19 +76,24 @@ saved my script and exit from the editor
 
  <img width="570" height="409" alt="Screenshot (1363)" src="https://github.com/user-attachments/assets/eae43c71-bc04-44f6-8d14-c6d64b9ce5a2" />
 
+# WHAT I LEARNED
+Here's what I learned from this lab:
+-  I wrote a bash script that automatically backs up a folder, so I don't have to manually copy files every time
+  # OVERALL
+   I learned how to automate repetitive backup tasks using simple scripting instead of doing it by hand
 
- Lab Complete 🎓
+# Lab Complete 🎓
 
- SECOND LAB
+## SECOND LAB
 
-👉❗ CHALLENGE LAB : BASH SHELL SCRIPTING EXERCISE
+# BASH SHELL SCRIPTING EXERCISE
 
  Objectives
 In this challenge, you will:
 
 Create a directory
 
-TASK 1
+# TASK 1
 
 Firstly i have to follow this instructions to connect using SSH:
 
@@ -105,7 +110,7 @@ Download  PuTTY to SSH into the Amazon EC2 instance. If you do not have PuTTY in
 
 Open putty.exe
 
-TASK 2
+# TASK 2
 
 MY CHALLENGE INSTRUCTIONS :
 
@@ -163,9 +168,15 @@ Step 8: I tested it again (run the script multiple times)
 
 Each time i ran it, it created the next 25 files with increasing numbers!
 
+#  WHAT I LEARNED
+Here's what I learned from this task:
+-  I learned how to use a for loop in bash to repeat actions multiple times instead of typing the same command 25 times.
+-   figured out how to automatically search for files that already exist and find the highest number, so the script knows where to continue from
+-    I learned how to do calculations in a script, like taking the last number and adding 1 to it, or adding 24 to get the ending number
+-    I used ls -lh to check that all my files were created correctly with the right names and in the right order.
+-    he biggest lesson was understanding how to make a script smart enough to figure things out on its own instead of me having to tell it the numbers every time.
 
+ # OVERALL
+I learned how to write a script that's actually intelligent and can adapt based on what's already there, not just blindly follow hard-coded instructions
 
-
- 
-
-  Lab Complete 🎓
+##  Lab Complete 🎓
