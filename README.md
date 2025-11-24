@@ -57,3 +57,6 @@ This portfolio demonstrates:
 - Continuous Learning – Structured approach to skill development
 - Problem-Solving Capability – Real-world application of theoretical knowledge
 - Professional Development – Commitment to industry-recognized training and certification
+
+  # BADGES
+  
