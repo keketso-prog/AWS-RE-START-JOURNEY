@@ -1,11 +1,95 @@
-WEEK 6
 
-Retrieving Data from Your Database (SELECT) This is the method you use to request information from the database.
+## Week 6 Notes – SQL Basics
 
-To obtain specific columns: Specify precisely what you wish to view. SELECT name FROM customers; Translation: "Display only the name column from the customers table." To retrieve multiple columns: Simply enumerate them. SELECT name, email FROM customers; Translation: "Provide the name and email for all customers." To access everything: Utilize the * wildcard. SELECT * FROM customers; Translation: "Display all columns for all customers." To refine your results: Employ WHERE to set conditions. SELECT name FROM customers WHERE age > 18; Translation: "Display the names of customers who are older than 18." 2. Inserting New Information (INSERT) This is the procedure for adding a new row of data to a table.
+## Retrieving Data (SELECT)
 
-To insert a single new row: INSERT INTO customers (name, email) VALUES ('John', 'john@email.com'); Translation: "Insert a new customer named 'John' with the email 'john@email.com'." To insert multiple rows simultaneously (more efficient): INSERT INTO customers (name, email) VALUES ('Sarah', 'sarah@email.com'), ('Mike', 'mike@email.com'); Translation: "Insert two new customers, Sarah and Mike, in one operation." 3. Performing Calculations & Modifying Text (Functions) Functions are integrated tools that execute actions on your data.
+The SELECT statement is your go-to for asking your database for information.
 
-Mathematical Functions (operate on numerous rows at once): COUNT() - Counts the total number of rows. SUM() - Totals all the numbers in a column. AVG() - Computes the average. MAX() - Identifies the highest value. MIN() - Determines the lowest value. Text Functions (alter the appearance of text): UPPER() - Transforms text to ALL CAPS. LOWER() - Converts text to all lowercase. CONCAT() - Combines text together. 4. Organizing and Grouping Your Results This is the method for structuring the data you receive to enhance its utility.
+Selecting specific columns:
+sql
+SELECT name FROM customers;
 
-Sorting (ORDER BY): Arrange your results in a designated order. SELECT * FROM products ORDER BY price ASC; Translation: "Display all products, sorted by price from lowest to highest." (Use DESC for highest to lowest). Grouping (GROUP BY): Organizes similar data into categories. SELECT category
+This will show you just the name column from the customers table.
+
+Selecting multiple columns:
+sql
+SELECT name, email FROM customers;
+
+This retrieves both the name and email of every customer.
+
+Selecting everything:
+sql
+SELECT * FROM customers;
+
+This command displays all columns for all rows in the table.
+
+Filtering your results (WHERE):
+sql
+SELECT name FROM customers WHERE age > 18;
+
+This will give you the names of customers who are older than 18.
+
+Extra examples:
+sql
+WHERE city = 'London';
+WHERE age BETWEEN 18 AND 30;
+WHERE email LIKE '%gmail.com';
+
+These examples help you narrow down your results even further.
+
+## Adding New Rows (INSERT)
+
+INSERT is the command you use to add new data into a table.
+
+Inserting a single row:
+sql
+INSERT INTO customers (name, email)
+VALUES ('John', 'john@email.com');
+
+This adds John to the customers table.
+
+Inserting multiple rows at once:
+sql
+INSERT INTO customers (name, email)
+VALUES 
+('Sarah', 'sarah@email.com'),
+('Mike', 'mike@email.com');
+
+This adds both Sarah and Mike in one go, which is usually faster and tidier.
+
+Tip:
+Always include the column names when inserting data — it helps prevent errors if the table structure changes down the line.
+
+## Using Functions (Math & Text)
+
+SQL has built-in functions that allow you to calculate or format data easily.
+
+Math / Aggregate Functions:
+These functions work across multiple rows:
+- COUNT() → gives you the number of rows
+- SUM() → totals up a numeric column
+- AVG() → calculates the average
+- MAX() → finds the highest value
+- MIN() → finds the lowest value
+
+Example:
+sql
+SELECT COUNT(*) FROM orders;
+
+
+Text Functions:
+These are handy for cleaning or formatting text:
+- UPPER(text) → converts to ALL CAPS
+- LOWER(text) → converts to all lowercase
+- CONCAT(a, b) → joins text together
+
+Example:
+sql
+SELECT CONCAT(first_name, ' ', last_name) AS full_name FROM users;
+
+## Sorting & Grouping Results
+
+Sorting lets you arrange your query results in a specific order, making it easier to analyze or read the data.
+
+SELECT * FROM products
+ORDER BY price ASC;
