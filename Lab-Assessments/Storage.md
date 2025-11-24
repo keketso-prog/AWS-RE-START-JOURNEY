@@ -64,15 +64,15 @@ Value: Enter Restored Volume.
 - Create volume
 - choose Volumes
   # Task 6.2: Attaching the restored volume to the EC2 instance
-  - Select Restored Volume
-  - choose Attach volume
-  - choose the Lab instance.
-  - Attach volume.
+- Select Restored Volume
+- choose Attach volume
+- choose the Lab instance.
+- Attach volume.
  
   # Task 6.3: Mounting the restored volume
-  - create a directory for mounting the new storage volume
-  - mount the new volume
-  - verify that the volume
+- create a directory for mounting the new storage volume
+- mount the new volume
+- verify that the volume
  
   # WHAT I LEARNED
 Here's what I learned from this lab:
