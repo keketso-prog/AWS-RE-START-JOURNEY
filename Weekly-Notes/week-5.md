@@ -1,7 +1,5 @@
 ## WEEK 5
 
-## AWS Databases
-
 ## Database Basics
 
 - What is a Database? Think of it as a super-organized digital filing cabinet for your data.
