@@ -90,7 +90,7 @@ Leave the check box for Default patch baseline unselected.
 
 <img width="1600" height="900" alt="Screenshot (1475)" src="https://github.com/user-attachments/assets/145397ec-2d66-4b39-a205-277034ce188b" 
 
-  <img width="1600" height="900" alt="Screenshot (1476)" src="https://github.com/user-attachments/assets/48217750-4493-4439-84a4-7fd9931d9cbf" />
+ <img width="1600" height="900" alt="Screenshot (1476)" src="https://github.com/user-attachments/assets/48217750-4493-4439-84a4-7fd9931d9cbf" />
 
   - In the Patch baselines section, select the button for the WindowsServerSecurityUpdates patch
   - Choose the Actions dropdown list, and then choose Modify patch groups.
