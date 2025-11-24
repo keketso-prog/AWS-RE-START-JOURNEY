@@ -29,18 +29,16 @@
 **Simple answer:** Using someone else's computers over the internet instead of owning physical servers yourself.
 
 ### Key Benefits:
-✅ No upfront costs  
-✅ Pay only for what you use  
-✅ Scale up or down instantly  
-✅ Access from anywhere  
-✅ No hardware maintenance  
+- No upfront costs  
+- Pay only for what you use  
+- Scale up or down instantly  
+- Access from anywhere  
+- No hardware maintenance  
 
 ### Service Types:
 - **IaaS** - Basic building blocks (like EC2)
 - **PaaS** - Platform ready to use (like Elastic Beanstalk)  
 - **SaaS** - Complete applications (like Gmail)
-
----
 
 ## Shared Responsibility Model
 
@@ -53,8 +51,6 @@ Think of it like **renting an apartment:**
 | Network infrastructure | Operating system updates |
 | Building security | Application security |
 
----
-
 ## AWS Pricing
 
 **Main idea:** Pay-as-you-go, like your electricity bill!
@@ -64,9 +60,7 @@ Think of it like **renting an apartment:**
 2. **Save by reserving** - Commit 1-3 years for discounts  
 3. **Volume discounts** - Use more = pay less per unit
 
-💡 **Free Tier:** AWS gives you free usage limits for 12 months - perfect for learning!
-
----
+**Free Tier:** AWS gives you free usage limits for 12 months - perfect for learning!
 
 ## Amazon EC2 (Virtual Servers)
 
@@ -83,8 +77,6 @@ Think of it like **renting an apartment:**
 - **Reserved** - 1-3 year commitment (cheaper)
 - **Spot** - Bid on unused capacity (cheapest)
 
----
-
 ## AWS Global Infrastructure
 
 AWS has data centers all around the world to bring services closer to users.
@@ -93,20 +85,16 @@ AWS has data centers all around the world to bring services closer to users.
 - **Availability Zones** - Data centers within a region (for backup)  
 - **Edge Locations** - Cache points for faster content delivery
 
----
+## Week 1 Key Takeaways 
 
-## Week 1 Key Takeaways 🎯
-
-✅ AWS is Amazon's cloud computing platform  
-✅ Cloud computing = using someone else's computers over internet  
-✅ Pay-as-you-go pricing model  
-✅ EC2 provides virtual servers  
-✅ Shared responsibility model  
-✅ Global infrastructure with regions and AZs  
-✅ Free tier available for learning  
-✅ IaaS, PaaS, SaaS service models  
-
----
+- AWS is Amazon's cloud computing platform  
+- Cloud computing = using someone else's computers over internet  
+- Pay-as-you-go pricing model  
+- EC2 provides virtual servers  
+- Shared responsibility model  
+- Global infrastructure with regions and AZs  
+- Free tier available for learning  
+- IaaS, PaaS, SaaS service models  
 
 ### Personal Note:
 This week was mind-blowing! Coming from an administrative background, learning that you can rent computing power like electricity was a game-changer. The concept of not owning physical servers but still having full control over virtual ones is incredible.
