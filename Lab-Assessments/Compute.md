@@ -20,7 +20,7 @@ Launch a web server with termination protection enabled
   Launch the instance on the EC2
    <img width="1600" height="900" alt="Screenshot (1296)" src="https://github.com/user-attachments/assets/0d33d8d5-73b5-44bb-b691-9ea7cdfdccf2" />
 
-  TASK 1 :
+ # TASK 1 :
   LAUNCH EC2 INSTANCE
   
   Under task one i had to follow this steps below to get tHe required outcome
@@ -36,7 +36,7 @@ Launch a web server with termination protection enabled
   <img width="1600" height="900" alt="Screenshot (1289)" src="https://github.com/user-attachments/assets/ee7a4d40-d86f-4b4f-b547-aec3bead5cda" />
    
 
-  TASK 2 :
+ # TASK 2 :
   MONITOR THE INSTANCE
   
   under task two, i had to do the following
@@ -45,7 +45,7 @@ Launch a web server with termination protection enabled
     <img width="1600" height="900" alt="Screenshot (1290)" src="https://github.com/user-attachments/assets/869d8dd6-32c1-4142-91b3-e084294f481a" />
 
 
-    TASK 3 :
+#    TASK 3 :
     UPDATE SECURITY RULES AND ACCESS THE WEB SERVER
     
     Under task three i had to do the following
@@ -60,7 +60,7 @@ Launch a web server with termination protection enabled
 
       
    
-    TASK 4 :
+ #   TASK 4 :
     RESIZE YOUR INSTANCE
     
     Under task four i had to do the following
@@ -75,7 +75,7 @@ Launch a web server with termination protection enabled
 
 
 
-TASK 5:
+# TASK 5:
 TEST TERMINATION PROCESS
 
 Under task five i had to do the following
