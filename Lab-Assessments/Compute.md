@@ -1,10 +1,10 @@
 ##   COMPUTE
-Under compute ill share 2 labs
+Under compute i WIll share 2 labs
 #  FIRST LAB : EC2
 
-I had to make a lab that introduced me to Amazon EC2. 💻
-After doing the lab, the outcome was to learn the following
-Launch a web server with termination protection enabled
+- I had to make a lab that introduced me to Amazon EC2.
+- After doing the lab, the outcome was to learn the following
+- Launch a web server with termination protection enabled
 
 - Monitor Your EC2 instance
 
