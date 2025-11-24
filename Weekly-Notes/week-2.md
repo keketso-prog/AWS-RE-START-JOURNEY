@@ -40,7 +40,7 @@ bash
 touch filename.txt           # Create file
 cp source.txt dest.txt      # Copy file  
 mv old.txt new.txt          # Move/Rename
-rm filename.txt             # Delete file ⚠️
+rm filename.txt             # Delete file 
 cat filename.txt            # View file content
 
 ### Folder Operations:
@@ -51,7 +51,7 @@ rmdir foldername           # Delete empty folder
 rm -r foldername           # Delete folder & contents  
 ls -la                     # List all files with details
 
-⚠️ **Be careful with rm:** There's no undo in Linux! Always double-check before deleting.
+ **Be careful with rm:** There's no undo in Linux! Always double-check before deleting.
 
 ## Editing Files
 
@@ -98,7 +98,7 @@ jobs                       # Show background jobs
 
 bash
 kill PID                   # Stop process
-kill -9 PID                # Force kill 💀
+kill -9 PID                # Force kill 
 command &                  # Run in background
 ## Managing Services
 
@@ -153,16 +153,16 @@ echo $NAME
 >    # Redirect output to file  
 *    # Wildcard (all files)
 
-## Week 2 Key Takeaways 🎯
+## Week 2 Key Takeaways 
 
-✅ Linux is free, secure, and runs most cloud servers  
-✅ Command line is powerful once you learn the basics  
-✅ File permissions control who can access what  
-✅ Processes are running programs you can manage  
-✅ Services run in background (web servers, databases)  
-✅ Package managers install software easily  
-✅ Bash scripts automate repetitive tasks  
-✅ Amazon Linux is optimized for AWS EC2  
+- Linux is free, secure, and runs most cloud servers  
+- Command line is powerful once you learn the basics  
+- File permissions control who can access what  
+- Processes are running programs you can manage  
+- Services run in background (web servers, databases)  
+- Package managers install software easily  
+- Bash scripts automate repetitive tasks  
+- Amazon Linux is optimized for AWS EC2  
 
 ### Personal Note:
 The command line felt intimidating at first, but once I learned the basic commands, it became incredibly powerful. Being able to manage files, processes, and services from just text commands is amazing - no wonder most servers don't even have a GUI!
