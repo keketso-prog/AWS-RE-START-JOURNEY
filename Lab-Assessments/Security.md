@@ -271,9 +271,16 @@ Password: Enter Lab-Password3
 
 
 # WHAT I LEARNED
+Here's what I learned from this lab:
+- I created an IAM password policy that sets requirements like minimum length and complexity, so everyone has strong passwords
+- I explored how IAM users and groups work, seeing how multiple users can be organized into groups instead of managing them individually.
+- I looked at IAM policies to understand what permissions each group has and what they're allowed to do in AWS
+-  I added users to different groups and saw how they instantly got all the permissions that group has
+-   I found and used the special IAM sign-in URL to log in as regular users (not the root account)
+-   I experimented by trying to access different AWS services with different users to see what they could and couldn't do based on their policies.
 
 # OVERALL
-
+I learned how to control who can access what in AWS, how to organize users efficiently, and how policies actually affect what people can do once they log in.Retry
 
 ## Lab complete �
 
