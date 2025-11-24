@@ -1,15 +1,15 @@
-🚀 AWS Re/Start Program - My Cloud Journey
+# 🚀 AWS Re/Start Program - My Cloud Journey
 
 12-week intensive program to become AWS Certified Cloud Practitioner
 
-Progress Timeline 📊
-Week 1-4:  Foundation         
-Week 5-8:  AWS Deep Dive       
-Week 9-12: Advanced & Cert     
+Progress Timeline 
+- Week 1-4:  Foundation         
+- Week 5-8:  AWS Deep Dive       
+- Week 9-12: Advanced & Cert     
 
-Learning Path 📅
-📚 Month 1: Foundation
-Week 1: Cloud Foundations ☁️
+Learning Path 
+# 📚 Month 1: Foundation
+# Week 1: Cloud Foundations ☁️
 
 What is cloud computing and AWS?
 
@@ -17,7 +17,7 @@ AWS Global Infrastructure
 Service models and deployment types
 AWS Console Navigation
 
-Week 2: Linux Fundamentals 
+# Week 2: Linux Fundamentals 
 
 Command line navigation
 File management and permissions
@@ -25,23 +25,23 @@ Essential Linux commands
 
 Text editors and basic scripting
 
-Week 3: Networking Foundations 
+# Week 3: Networking Foundations 
 How networks work
 IP addresses and subnets
 
 DNS basics
 
 Linux networking commands
-Week 4: Security Essentials 🔒
+# Week 4: Security Essentials 
 Security principles for cloud
 
 Firewalls and encryption
 
 Common threats and prevention
 Principle of least privilege
-AWS Deep Dive Month 2 
+# AWS Deep Dive Month 2 
 
-Week 5: Python Basics 🐍
+# Week 5: Python Basics 
 
 First Python programs
 Variables and data types
@@ -49,7 +49,7 @@ If statements and loops
 
 Practical Security Implementation
 
-Week 6: Databases 
+# Week 6: Databases 
 Python functions and data structures
 Database fundamentals
 
@@ -57,14 +57,14 @@ SQL basics
 
 Connecting Python to databases
 
-Week 7: AWS Architecture 🏗️
+# Week 7: AWS Architecture 
 AWS Database Services: RDS, DynamoDB
 
 Well-Architected Framework
 
 Scalability and elasticity
 Cost optimization strategies
-Week 8: Automation ⚙️
+# Week 8: Automation 
 
 EC2 deep dive
 
@@ -72,35 +72,35 @@ Infrastructure as Code. CloudFormation
 AWS CLI
 Monitoring and logging
 
-Month 3: Advanced & Career
+# Month 3: Advanced & Career
 
-Week 9: Serverless & Containers 
+# Week 9: Serverless & Containers 
 Auto Scaling
 AWS Lambda
 
 Docker and ECS
 
 Route 53
-Week 10: Monitoring & Security 
+# Week 10: Monitoring & Security 
 
 CloudWatch and alarms
 
 IAM deep dive
 Cost management
 CI/CD pipelines
-Week 11: AI/ML Services 
+# Week 11: AI/ML Services 
 Machine Learning concepts
 AWS SageMaker
 
 Rekognition, Comprehend, Polly
 Amazon Bedrock and Generative AI
-Week 12: Certification Prep 
+# Week 12: Certification Prep 
 Full services review
 Exam strategies
 Practice exams
 Portfolio and resume building
 
- Certification Objective AWS Certified Cloud Practitioner (CLF-C02) 
+ Certification Objective AWS Certified Cloud Practitioner 
  
  Target Date: End of Week 12 Passing Score: 700/1000 Current Status: Foundation Phase 
  
