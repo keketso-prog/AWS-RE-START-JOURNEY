@@ -5,7 +5,7 @@
 ## Database Basics
 
 - What is a Database? Think of it as a super-organized digital filing cabinet for your data.
-- 
+  
 Two Main Types: Relational (SQL): Like a collection of perfectly organized Excel spreadsheets. Data is strict, structured in tables with rows and columns, and great for things like financial records where relationships are important.
 
  - Non-Relational (NoSQL): More like a collection of flexible documents or folders. Each document can have different information. It's great for things like user profiles or social media posts that don't all have the same fields.
