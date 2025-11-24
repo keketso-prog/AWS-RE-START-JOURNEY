@@ -84,7 +84,7 @@ Here's what I learned from this lab:
 
 # Lab Complete 🎓
 
-## SECOND LAB
+
 
 # BASH SHELL SCRIPTING EXERCISE
 
