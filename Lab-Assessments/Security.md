@@ -173,7 +173,7 @@ Here's what I learned from this lab:
 ## Lab complete 🎓
 
 
-## SECOND LAB: Introduction to AWS Identity and Access Management (IAM)
+## SECOND LAB: Introduction to AWS Identity and Access Management (IAM) 279
 
 Objectives
 After completing this lab, you should be able to:
