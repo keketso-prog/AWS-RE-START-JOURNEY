@@ -31,9 +31,9 @@ This will give you the names of customers who are older than 18.
 
 Extra examples:
 sql
-WHERE city = 'London';
-WHERE age BETWEEN 18 AND 30;
-WHERE email LIKE '%gmail.com';
+- WHERE city = 'London';
+- WHERE age BETWEEN 18 AND 30;
+- WHERE email LIKE '%gmail.com';
 
 These examples help you narrow down your results even further.
 
@@ -43,14 +43,14 @@ INSERT is the command you use to add new data into a table.
 
 Inserting a single row:
 sql
-INSERT INTO customers (name, email)
-VALUES ('John', 'john@email.com');
+- INSERT INTO customers (name, email)
+- VALUES ('John', 'john@email.com');
 
 This adds John to the customers table.
 
 Inserting multiple rows at once:
 sql
-INSERT INTO customers (name, email)
+- INSERT INTO customers (name, email)
 VALUES 
 ('Sarah', 'sarah@email.com'),
 ('Mike', 'mike@email.com');
