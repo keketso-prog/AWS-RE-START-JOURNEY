@@ -45,7 +45,7 @@ Launch a web server with termination protection enabled
     <img width="1600" height="900" alt="Screenshot (1290)" src="https://github.com/user-attachments/assets/869d8dd6-32c1-4142-91b3-e084294f481a" />
 
 
-# TASK 3 :
+ TASK 3 :
     UPDATE SECURITY RULES AND ACCESS THE WEB SERVER
     
     Under task three i had to do the following
@@ -60,7 +60,7 @@ Launch a web server with termination protection enabled
 
       
    
- # TASK 4 :
+  TASK 4 :
     RESIZE YOUR INSTANCE
     
     Under task four i had to do the following
