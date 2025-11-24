@@ -8,7 +8,7 @@ Progress Timeline
 - Week 9-12: Advanced & Cert     
 
 Learning Path 
-# 📚 Month 1: Foundation
+# Month 1: Foundation
 # Week 1: Cloud Foundations ☁️
 
 What is cloud computing and AWS?
