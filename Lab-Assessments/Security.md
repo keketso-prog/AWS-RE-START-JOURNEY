@@ -1,7 +1,7 @@
 ## SECURITY
 Under Security, we had a few labs to do. I will showcase 2 labs from this topic
 
-## SECURITY-HARDENING
+## FIRST LAB: SECURITY-HARDENING
 
 Objectives
 After completing this lab, you should be able to:
@@ -173,7 +173,7 @@ Here's what I learned from this lab:
 ## Lab complete 🎓
 
 
-## Introduction to AWS Identity and Access Management (IAM)
+## SECOND LAB: Introduction to AWS Identity and Access Management (IAM)
 
 Objectives
 After completing this lab, you should be able to:
@@ -270,7 +270,9 @@ Password: Enter Lab-Password3
 - choose Stop
 
 
+# WHAT I LEARNED
 
+# OVERALL
 
 
 ## Lab complete �
