@@ -83,4 +83,48 @@ Here's what I learned from this lab:
   # OVERALL
  I learned how to add storage to cloud servers, back it up, and restore it when needed - all the essential skills for managing data in AWS.
 
- # Lab complete
+ # Lab complete 🎓
+
+# SECOND LAB: Challenge Lab: Amazon S3 184
+
+# Task 1: Connecting to the CLI Host instance
+- Enter and choose EC2
+- select the CLI Host instance
+- Connect
+- choose Connect
+
+# Task 2: Configuring the AWS CLI
+- At the prompts, copy the following values that you pasted into your text editor, and paste them into the terminal window as directed.
+
+AWS Access Key ID: Enter the value for AccessKey.
+
+AWS Secret Access Key: Enter the value for SecretKey.
+
+Default region name: Enter us-west-2.
+
+Default output format: Enter json
+
+# Task 3: Finishing the challenge
+- Create an S3 bucket. 
+
+- Upload an object into this bucket.
+
+- Try to access the object by using a web browser. 
+
+- Make the object (not the bucket) publicly accessible.
+
+- Access the object by using a web browser. 
+
+- List the contents of the S3 bucket by using the AWS CLI. 
+
+# WHAT I LEARNED
+Here’s what I learned from this lab:
+- I set up an S3 bucket, which works like creating a dedicated folder in the cloud for storing data.
+- I uploaded an object into the bucket so I could store and manage data directly in S3.
+- I learned how to open the object in a web browser, showing how S3 can be used to make files publicly accessible when needed
+- I used the AWS CLI to list everything inside the S3 bucket, which is helpful for managing and checking files through the command line
+# OVERALL
+I learned how to create cloud storage, upload data, access it from the web, and manage it using the CLI — all essential skills for working with Amazon S3
+
+
+ # Lab complete 🎓
