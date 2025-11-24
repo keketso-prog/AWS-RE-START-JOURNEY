@@ -1,3 +1,4 @@
+## SECURITY
 Under Security, we had a few labs to do. I will showcase 2 labs from this topic
 
 ## SECURITY-HARDENING
@@ -15,7 +16,7 @@ Verify patch compliance
 
 STEPS ON HOW I DID THE LAB
 
-TASK 1  Patch Linux instances using default baselines
+# TASK 1  Patch Linux instances using default baselines
 
 - Choose system manager
 
@@ -64,7 +65,7 @@ Choose Add
 
 <img width="1600" height="900" alt="Screenshot (1469)" src="https://github.com/user-attachments/assets/0020eba5-1365-4f6d-8379-6a53af58e379" />
 
-TASK 2 Create a custom patch baseline for Windows instances
+# TASK 2 Create a custom patch baseline for Windows instances
 
 - In the search bar at the top, enter Systems Manager
 - under Node Management, choose Patch Manager.
@@ -100,7 +101,7 @@ Leave the check box for Default patch baseline unselected.
 
 <img width="1600" height="900" alt="Screenshot (1479)" src="https://github.com/user-attachments/assets/c044d76e-9feb-4d14-81af-2168c73aa449" />
 
-TASK 3 Tagging Windows instances
+# TASK 3 Tagging Windows instances
 
 - enter EC2 and select it
 -Choose Instances, select the check box next to the Windows-1 instance, and then choose the Tags tab.
@@ -118,7 +119,7 @@ Repeat the previous steps to tag the Windows-2 and Windows-3 instances with the 
 
 <img width="1600" height="900" alt="Screenshot (1482)" src="https://github.com/user-attachments/assets/dd0cff7a-b3e0-4920-a1f5-f78ce4583b15" />
 
-Task 3.2: Patching Windows instances
+# Task 3.2: Patching Windows instances
 
 - enter Systems Manager
 - Choose Patch Manager
@@ -143,7 +144,7 @@ Choose Patch now
 
 <img width="1600" height="900" alt="Screenshot (1484)" src="https://github.com/user-attachments/assets/60cf30c5-90cc-4f87-b7ba-af8b9597c4f7" />
 
-task 4
+# task 4
 
 - under Node Management, choose Patch Manager
 - hoose the Compliance reporting tab
@@ -161,7 +162,15 @@ Used patch groups to to patch Windows instances using custom patch baseline.
 
 Verified patch compliance
 
-Lab complete
+## WHAT I LEARNED
+Here's what I learned from this lab:
+- I learned how to use AWS Systems Manager to automatically patch Linux servers using Amazon's default security updates
+- I figured out how to make a custom patch baseline, which lets me decide exactly which updates get installed and when
+- I learned to use patch groups to manage Windows servers separately, so different groups can have different patching schedules and rules.
+- I verified patch compliance to see which servers were properly updated and which ones might have missed patches
+  # OVERALL
+  I learned how to manage and automate security updates across multiple servers without having to manually update each one, and how to make sure everything stays secure and up-to-date
+## Lab complete
 
 
 
