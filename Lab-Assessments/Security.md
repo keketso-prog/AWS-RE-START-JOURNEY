@@ -173,12 +173,107 @@ Here's what I learned from this lab:
 ## Lab complete 🎓
 
 
+## Introduction to AWS Identity and Access Management (IAM)
+
+Objectives
+After completing this lab, you should be able to:
+
+Create and apply an IAM password policy
+Explore pre-created IAM users and user groups
+Inspect IAM policies as applied to the pre-created user groups
+Add users to user groups with specific capabilities active
+Locate and use the IAM sign-in URL
+Experiment with the effects of policies on service access
+
+# TASK 1: Create an account password policy
+
+- create a custom password policy for your AWS account
+- enter IAM
+- In the left navigation pane, choose Account settings
+- Choose Change password policy
+- Under Select your account password policy requirements, configure the following options:
+
+- For Enforce minimum password length, change 8 to 10 characters.
+- Select every check box except the check box for Password expiration requires administrator reset.
+- For Enable password expiration, leave the default option of 90 days. 
+-For Prevent password reuse, leave the default option of 5 passwords.
+- Choose Save changes.
+
+# TASK 2: Explore users and user groups
+- In the left navigation pane, choose Users.
+- Choose user-1
+- Choose the Groups tab
+- Choose the Security credentials tab
+- In the left navigation pane, choose User groups
+- Choose the EC2-Support group.
+
+- Choose the Permissions tab
+- Under Actions, choose the Show Policy link
+- choose User groups
+- Choose the S3-Support group
+- From the Actions menu, choose the Show Policy link.
+
+- choose User groups
+- Choose the EC2-Admin group
+- choose Show Policy to view the policy
+
+# TASK 3: Add users to user groups
+- choose User groups.
+- Choose the S3-Support group.
+- Choose the Users tab
+- choose Add users
+- In the Add users to S3-Support window, configure the following options:
+
+Select the check box for user-1.
+Choose Add Users.
+- add user-2 to the EC2-Support group.
+- add user-3 to the EC2-Admin group
+-  choose User groups
+# TASK 4: Sign in and test user permissions
+
+- In the left navigation pane, choose Dashboard.
+- Copy the Sign-in URL for IAM users in this account
+- Open a private window
+- Paste the Sign-in URL for IAM users in this account
+-  Sign in
+
+- choose S3.
+-  choose EC2
+-  Sign user-1 out of the AWS Management Console
+-  Sign out.
+-  Paste the Sign-in URL for IAM users in this account
+-  Sign in using the following credentials:
+
+IAM user name: Enter user-2
+Password: Enter Lab-Password2
+- Choose Sign in.
+- choose EC2
+- choose Instances
+- choose Stop instance.
+- choose Stop
+- choose Cancel
+- choose S3
+- Sign user-2 out of the AWS Management Console by following these steps:
+
+At the top of the screen, choose user-2.
+Choose Sign out.
+- Paste the Sign-in URL for IAM users in this account
+- Sign in using the following credentials:
+
+IAM user name: Enter user-3
+Password: Enter Lab-Password3
+- Choose Sign in
+- choose EC2
+- choose Instances.
+- As an EC2 administrator,I now have permissions to stop the EC2 instance.
+- choose Stop instance.
+- choose Stop
 
 
 
 
 
-
+## Lab complete �
 
 
 
