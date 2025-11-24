@@ -16,7 +16,7 @@ Create a snapshot of an EBS volume.
 Create an EBS volume from a snapshot.
 
 THIS ARE THE STEPS I TOOK
-# TASK 1;  Creating a new EBS volume
+# TASK 1:  Creating a new EBS volume
 - Enter and choose EC2
 - Choose Create volume
 - In the Tags -optional section, choose Add tag, and configure the following options:
