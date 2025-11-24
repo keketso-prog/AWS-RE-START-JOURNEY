@@ -2,7 +2,7 @@
 
 ## LAB ASSESSMENTS : EC2
 
-Had to make a lab that introduced me to Amazon EC2. 💻
+I had to make a lab that introduced me to Amazon EC2. 💻
 After doing the lab, the outcome was to learn the following
 Launch a web server with termination protection enabled
 
@@ -86,7 +86,18 @@ Under task five i had to do the following
   THIS IS THE OUTCOME
   <img width="1600" height="900" alt="Screenshot (1294)" src="https://github.com/user-attachments/assets/429b93a7-4133-45b8-b5ec-a05ce8ecb84d" />
 
+
   <img width="1600" height="900" alt="Screenshot (1295)" src="https://github.com/user-attachments/assets/7c524d9c-3e11-4367-b1a0-5da26498799b" />
+
+  ## WHAT I LEARNED
+  Here's what I learned from this lab:
+  - I set up a web server using AWS by launching an EC2 instance and enabling termination protection to prevent accidental deletion
+  -  I monitored the performance of my server to ensure everything was functioning properly
+  - I adjusted the security settings to allow web access so visitors could access my website via HTTP.
+  - I learned how to scale my server, adjusting its power as needed based on my requirements.
+  -  I tested the termination protection by attempting to delete the server to confirm the safety feature worked as intended
+  -   Finally, I correctly shut down and removed the instance once I was done.
+    # Overall : I gained practical experience with the key aspects of managing and operating a cloud server.
 
 
   Lab Complete 🎓
