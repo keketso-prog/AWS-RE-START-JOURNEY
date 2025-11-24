@@ -38,7 +38,7 @@ Value: Enter My Volume
 - select the Lab instance
 - select the Lab instance
 
-#Task 4: Creating and configuring the file system
+# Task 4: Creating and configuring the file system
 - view the storage
 - create an ext3 file system on the new volume
 - create a directory to mount the new storage volume
