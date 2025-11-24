@@ -282,7 +282,8 @@ Here's what I learned from this lab:
 # OVERALL
 I learned how to control who can access what in AWS, how to organize users efficiently, and how policies actually affect what people can do once they log in.Retry
 
-## Lab complete �
+ # Lab complete 🎓
+
 
 
 
