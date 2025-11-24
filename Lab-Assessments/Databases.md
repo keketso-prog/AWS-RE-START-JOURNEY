@@ -1,8 +1,9 @@
-👉❗ Lab Assessment : DATABASES
+
+## DATABASES
 
 We did many labs under this topic. I will share two labs i found interesting
 
-FIRST LAB
+## FIRST LAB :Build Your DB Server and Interact With Your DB Using an App
 
 Launch an Amazon RDS DB instance with high availability.
 
@@ -10,7 +11,7 @@ Configure the DB instance to permit connections from your web server.
 
 Open a web application and interact with your database.
 
-TASK 1
+# TASK 1
 
 create a security group to allow your web server to access your RDS DB instance. The security group will be used when you launch the database instance
 
@@ -19,7 +20,7 @@ create a security group to allow your web server to access your RDS DB instance.
 <img width="1600" height="900" alt="Screenshot (1365)" src="https://github.com/user-attachments/assets/779c24e9-2b55-4d13-b206-4d33684a5cc6" />
 
 
-TASK 2
+# TASK 2
 
 create a DB subnet group that is used to tell RDS which subnets can be used for the database. Each DB subnet group requires subnets in at least two Availability Zones.
 
@@ -31,7 +32,7 @@ create a DB subnet group that is used to tell RDS which subnets can be used for 
 
 <img width="1600" height="900" alt="Screenshot (1369)" src="https://github.com/user-attachments/assets/9c3c4392-848f-48e9-af5a-cca1c4fade72" />
 
-TASK 3
+# TASK 3
 
 configure and launch a Multi-AZ Amazon RDS for MySQL database instance.
 
@@ -49,7 +50,7 @@ configure and launch a Multi-AZ Amazon RDS for MySQL database instance.
 
 <img width="1600" height="900" alt="Screenshot (1377)" src="https://github.com/user-attachments/assets/53996983-3a62-4edc-9025-c5f5215d1e0d" />
 
-TASK 4
+# TASK 4
 
 open a web application running on my web server and configure it to use the database
 
@@ -61,8 +62,15 @@ open a web application running on my web server and configure it to use the data
 
 <img width="1600" height="900" alt="Screenshot (1381)" src="https://github.com/user-attachments/assets/11a328a7-e443-4a58-8fc0-68f5294770d7" />
 
+# WHAT I LEARNED:
+Here's what I learned from this lab:
+- I launched an Amazon RDS database with high availability, which means it has backups and won't easily go down.
+- I launched an Amazon RDS database with high availability, which means it has backups and won't easily go down.
+- I opened up a web application and got it to read and write data to my database, seeing everything work together.
+  # OVERALL
+  I learned how to create a database on AWS and hook it up to a website so they can communicate with each other.
 
-Lab Complete 🎓
+# Lab Complete 🎓
 
 SECOND LAB
 
