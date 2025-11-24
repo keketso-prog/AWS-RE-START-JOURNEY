@@ -1,7 +1,5 @@
 ## WEEK 4
 
-AWS Security & Networking: Simple Notes
-
 ## Core Data Security Ideas
 - Defense in Depth: Don't just have one lock on your door. Use multiple layers of security (like a firewall, encryption, and access control) to protect your data.
 - Shared Responsibility Model: This is a team effort.
