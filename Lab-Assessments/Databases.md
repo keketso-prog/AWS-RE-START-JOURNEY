@@ -1,7 +1,7 @@
 
 ## DATABASES
 
-We did many labs under this topic. I will share two labs i found interesting
+We did many labs under this topic. I will share 2 labs i found interesting
 
 ## FIRST LAB :Build Your DB Server and Interact With Your DB Using an App
 
@@ -145,6 +145,7 @@ Here's what I learned from this lab:
   
             
 ## Lab Complete 🎓
+
 
 
 
