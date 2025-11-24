@@ -1,6 +1,6 @@
 ##   COMPUTE
 
-## LAB ASSESSMENTS : EC2
+## LAB ASSESSMENT : EC2
 
 I had to make a lab that introduced me to Amazon EC2. 💻
 After doing the lab, the outcome was to learn the following
