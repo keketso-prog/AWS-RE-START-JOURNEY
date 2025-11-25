@@ -28,15 +28,26 @@ I'm naturally hardworking, honest, and kind. I believe in giving my best to ever
 - Security groups and firewalls
 - Network troubleshooting
 
-## 🎓 Education & Training
+**Diploma in Information Technology**
+- Foundational IT principles and concepts
+
+  ## 🎓 Education & Training
 
 **AWS re/Start Program** - 12-Week Intensive Cloud Computing Training
 - Completed hands-on labs and assessments
 - AWS Cloud Quest: 12 quests completed
 - Preparing for AWS Cloud Practitioner certification
 
-**Diploma in Information Technology**
-- Foundational IT principles and concepts
+<img width="994" height="725" alt="Screenshot (1527)" src="https://github.com/user-attachments/assets/37e34390-2414-4a0f-add1-ab184fea8355" />
+
+<img width="988" height="716" alt="Screenshot (1528)" src="https://github.com/user-attachments/assets/69ee5db6-c81d-4c51-885d-fd86cead134d" />
+
+<img width="972" height="718" alt="Screenshot (1529)" src="https://github.com/user-attachments/assets/9301ddae-b641-4016-b12f-c800b88ab614" />
+
+<img width="987" height="683" alt="Screenshot (1530)" src="https://github.com/user-attachments/assets/92b36665-b22c-4189-bebe-8dc1eb3b72a4" />
+
+<img width="993" height="725" alt="Screenshot (1531)" src="https://github.com/user-attachments/assets/375ecbc9-6e98-425a-b9cd-ccccf651f2ae" />
+
 
 ## 🎯 Career Goals
 
