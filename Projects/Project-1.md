@@ -45,6 +45,7 @@ We kept the technical side simple but effective:
 - CloudFront to make sure pages load fast everywhere
 - Route 53 for managing the domain name
 - Certificate Manager to keep everything secure with HTTPS
+- DynamoDB to store all booking and order data, which prevents double bookings and triggers our automated SMS and email notifications
 
 # Working as a Team
 Honestly, five people working on one project could've been messy, but we made it work. We split up the tasks based on what everyone was good at—some of us handled the design and coding, others tackled the AWS setup, and a few focused on creating the content and preparing our presentation. We had our moments of disagreement (especially about color schemes!), but overall, we're pretty proud of what we pulled together.
