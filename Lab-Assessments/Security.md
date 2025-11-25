@@ -185,6 +185,9 @@ Add users to user groups with specific capabilities active
 Locate and use the IAM sign-in URL
 Experiment with the effects of policies on service access
 
+<img width="632" height="300" alt="Screenshot (1575)" src="https://github.com/user-attachments/assets/5081f0e6-1642-4f53-b116-69345038e426" />
+
+
 # TASK 1: Create an account password policy
 
 - create a custom password policy for your AWS account
@@ -198,6 +201,11 @@ Experiment with the effects of policies on service access
 - For Enable password expiration, leave the default option of 90 days. 
 -For Prevent password reuse, leave the default option of 5 passwords.
 - Choose Save changes.
+
+<img width="1569" height="740" alt="Screenshot (1577)" src="https://github.com/user-attachments/assets/a88acf9b-5365-4908-a3a8-681f434815e6" />
+
+<img width="1600" height="900" alt="Screenshot (1478)" src="https://github.com/user-attachments/assets/9bbdcb68-d7b2-4c0f-9f99-6cc23734eba8" />
+
 
 # TASK 2: Explore users and user groups
 - In the left navigation pane, choose Users.
@@ -217,6 +225,31 @@ Experiment with the effects of policies on service access
 - Choose the EC2-Admin group
 - choose Show Policy to view the policy
 
+<img width="1554" height="740" alt="Screenshot (1578)" src="https://github.com/user-attachments/assets/4466af62-669b-48cb-a943-44f493b31555" />
+
+<img width="1575" height="734" alt="Screenshot (1579)" src="https://github.com/user-attachments/assets/dd0ec59f-ee75-4704-9343-350f9a6071bf" />
+
+<img width="1569" height="735" alt="Screenshot (1580)" src="https://github.com/user-attachments/assets/d47670e1-3a29-42f0-8089-23ef3d23b02e" />
+
+<img width="1581" height="737" alt="Screenshot (1581)" src="https://github.com/user-attachments/assets/8008167c-5540-41b1-8cb9-963e632cd939" />
+
+<img width="1588" height="746" alt="Screenshot (1582)" src="https://github.com/user-attachments/assets/aa393ca7-ff5c-440d-9ea1-c03ad519de8c" />
+
+<img width="1572" height="740" alt="Screenshot (1583)" src="https://github.com/user-attachments/assets/85d7a270-7fde-415f-a1ac-3cfc3287a98b" />
+
+<img width="1581" height="737" alt="Screenshot (1584)" src="https://github.com/user-attachments/assets/1a38d5c9-0cc2-4872-ace8-aa6b4ecce88f" />
+
+<img width="1571" height="743" alt="Screenshot (1585)" src="https://github.com/user-attachments/assets/84ed5b83-2eed-4ee2-9016-e3762c27fc47" />
+
+<img width="1584" height="751" alt="Screenshot (1586)" src="https://github.com/user-attachments/assets/dafd5390-d74d-4f6d-9479-934d46e91346" />
+
+<img width="1584" height="754" alt="Screenshot (1587)" src="https://github.com/user-attachments/assets/244313e0-e226-4dad-8e61-c1fd3d60c4de" />
+
+<img width="1559" height="735" alt="Screenshot (1588)" src="https://github.com/user-attachments/assets/374cb2c5-bf1f-41bc-869c-b62dc890dcbb" />
+
+<img width="1594" height="749" alt="Screenshot (1589)" src="https://github.com/user-attachments/assets/c3eeff0e-ed82-4aae-957a-d76a6efa93cc" />
+
+
 # TASK 3: Add users to user groups
 - choose User groups.
 - Choose the S3-Support group.
@@ -224,11 +257,37 @@ Experiment with the effects of policies on service access
 - choose Add users
 - In the Add users to S3-Support window, configure the following options:
 
+<img width="1588" height="749" alt="Screenshot (1590)" src="https://github.com/user-attachments/assets/3f8ca987-4317-4ee2-a9d4-91857a2e26f5" />
+
+<img width="1584" height="740" alt="Screenshot (1591)" src="https://github.com/user-attachments/assets/ce2e3fca-0579-4b0b-9124-03351c2b8c38" />
+
+<img width="1594" height="743" alt="Screenshot (1592)" src="https://github.com/user-attachments/assets/ef00ccba-f5e2-4500-b9bb-80e8d59b822d" />
+
+
 Select the check box for user-1.
 Choose Add Users.
 - add user-2 to the EC2-Support group.
+
+<img width="1600" height="746" alt="Screenshot (1593)" src="https://github.com/user-attachments/assets/220cdfd0-3026-477a-a852-d4f7b014a745" />
+
+<img width="1584" height="746" alt="Screenshot (1594)" src="https://github.com/user-attachments/assets/e2337eb5-584d-4c4f-b4b0-d46361a2c4f5" />
+
+<img width="1594" height="731" alt="Screenshot (1595)" src="https://github.com/user-attachments/assets/e4a2262d-d445-48fe-848d-b841d33bc6da" />
+
+  
 - add user-3 to the EC2-Admin group
+
+<img width="1587" height="737" alt="Screenshot (1596)" src="https://github.com/user-attachments/assets/425bb63c-6ea2-466f-9d94-f034dbccdf11" />
+
+<img width="1600" height="746" alt="Screenshot (1597)" src="https://github.com/user-attachments/assets/9f7cd270-afee-4666-a918-6ec154ecbbbb" />
+
+<img width="1590" height="737" alt="Screenshot (1598)" src="https://github.com/user-attachments/assets/951a9396-c3f3-41e5-adc7-823a9d2c54a9" />
+
 -  choose User groups
+
+<img width="1581" height="749" alt="Screenshot (1599)" src="https://github.com/user-attachments/assets/c9842e07-b94a-426b-ad8d-8ad72f8f80ed" />
+
+  
 # TASK 4: Sign in and test user permissions
 
 - In the left navigation pane, choose Dashboard.
@@ -244,6 +303,13 @@ Choose Add Users.
 -  Paste the Sign-in URL for IAM users in this account
 -  Sign in using the following credentials:
 
+<img width="1600" height="900" alt="Screenshot (1601)" src="https://github.com/user-attachments/assets/4ea8e86e-ab12-4fc7-b6ec-976a373cff62" />
+
+<img width="1600" height="900" alt="Screenshot (1605)" src="https://github.com/user-attachments/assets/3b5ff11a-b1d0-4bfc-a09a-6f5412dfe071" />
+
+<img width="1600" height="900" alt="Screenshot (1606)" src="https://github.com/user-attachments/assets/37a8ddd2-7276-4570-8d4e-0a75588ef9a2" />
+  
+
 IAM user name: Enter user-2
 Password: Enter Lab-Password2
 - Choose Sign in.
@@ -257,6 +323,14 @@ Password: Enter Lab-Password2
 
 At the top of the screen, choose user-2.
 Choose Sign out.
+
+<img width="1600" height="900" alt="Screenshot (1607)" src="https://github.com/user-attachments/assets/c229328b-faaf-44d9-8291-f8c508b61960" />
+
+<img width="1587" height="737" alt="Screenshot (1609)" src="https://github.com/user-attachments/assets/8977eae7-d5c0-45f6-ae31-ec6f4cc31c6b" />
+
+<img width="1594" height="746" alt="Screenshot (1610)" src="https://github.com/user-attachments/assets/59d34a8e-d93e-4a49-8ac3-41b5e28d7b5d" />
+
+
 - Paste the Sign-in URL for IAM users in this account
 - Sign in using the following credentials:
 
@@ -269,7 +343,16 @@ Password: Enter Lab-Password3
 - choose Stop instance.
 - choose Stop
 
+<img width="1587" height="852" alt="Screenshot (1612)" src="https://github.com/user-attachments/assets/bfc3b645-43ef-41ee-a856-c94d0ebe99dc" />
 
+<img width="1584" height="819" alt="Screenshot (1613)" src="https://github.com/user-attachments/assets/50cb910e-c31a-48b2-a2b7-e8c14ee8bf7f" />
+
+ <img width="1587" height="728" alt="Screenshot (1614)" src="https://github.com/user-attachments/assets/af531b54-8381-46c5-9a4c-3e552687f33c" />
+ 
+<img width="1587" height="749" alt="Screenshot (1615)" src="https://github.com/user-attachments/assets/d6d105bc-f45a-4b61-81a5-ea46d6164021" />
+
+# Summary of task 4
+In this task, you were able to sign in as all three users. You verified that user-1 was able to view S3 buckets but unable to view EC2 instances. You then signed in as user-2 and verified that they were able to view EC2 instances but unable to perform the stop instance action. user-2 was also unable to view S3 buckets. After signing in as user-3, you were able to view EC2 instances and perform the stop instance action.
 # WHAT I LEARNED
 Here's what I learned from this lab:
 - I created an IAM password policy that sets requirements like minimum length and complexity, so everyone has strong passwords
