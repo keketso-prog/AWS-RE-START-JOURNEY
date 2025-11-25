@@ -1,1 +1,19 @@
 
+# How We Built It
+Okay, so here's how we actually got this thing up and running. It sounds complicated when you list it all out, but honestly, once we figured out what each piece did, it wasn't too bad.
+# Amazon S3 - Where Everything Lives
+S3 is basically just cloud storage, but it's perfect for websites. We created what they call a "bucket" (yeah, weird name) and dumped all our files in there—HTML, CSS, images of pasta dishes, you name it. Then we clicked a few settings to tell S3, "hey, treat this like a website," and suddenly our files were accessible online. No servers to maintain, no crazy setup. Just upload and go. And it costs almost nothing, which was great because we weren't exactly working with a big budget here.
+# CloudFront - Speed Things Up
+So S3 stores everything in one spot, right? But what happens when someone across town tries to load the site? That's where CloudFront comes in. It basically copies our website to a bunch of different servers spread out geographically. When someone visits, they automatically get the files from whichever server is closest to them. We hooked it up to our S3 bucket, and it just... worked. Pages load fast no matter where you are. One of our team members tested it from their phone on the other side of town, and it was instant.
+# Route 53 - The Actual Web Address
+Nobody's going to remember or want to type some random AWS link, so we needed a real domain name. Route 53 handles that. We registered "marblebistro.com" (well, whatever domain we ended up getting) and connected it to everything else. It's like giving the website a proper address instead of some weird string of numbers and letters. There were some DNS settings we had to mess with, and honestly, we had to Google a few things because the terminology was confusing at first. But we got there.
+# Certificate Manager - The Security Thing
+You know that padlock you see in the browser? That's what this does. Since people would be entering their info for bookings, we needed the site to be secure. Certificate Manager gave us a free security certificate that encrypts everything. We had to prove we actually owned the domain (they send a verification email or something), then we attached it to CloudFront. Now the site uses HTTPS and customers can feel safe using it. Plus, Google ranks secure sites higher, so that's a bonus.
+# Amazon SNS - Texts for New Orders
+This was probably the owner's favorite part. We set up text notifications so they'd know immediately when someone booked a table or placed an order. Amazon SNS handles this—it's their messaging service. We created what they call a "topic," added the owner's phone number, and connected it to our booking forms. Now whenever someone submits something, boom—the owner gets a text with all the details. Name, time, party size, special requests, everything.
+The owner actually texts back sometimes when we're in the restaurant: "Just got another booking!" You can tell they're genuinely excited about it. And it only costs like a couple cents per text, which is basically free.
+Making It All Work Together
+# Here's the flow: - 
+Customer goes to the website → Route 53 points them to the right place → CloudFront delivers the pages super fast from S3 → Everything's encrypted thanks to Certificate Manager → They make a booking → SNS shoots a text to the owner's phone. The whole thing happens in seconds.
+Not gonna lie, there were some frustrating moments. DNS changes take forever to propagate (we learned that the hard way), and we definitely had a "why isn't this working?!" moment when the SNS permissions weren't set right. But after some trial and error—and maybe a few late-night group chats—we figured it out.
+The cool thing is, now that it's set up, it just runs. The owner doesn't need to do anything technical. It's all automatic.RetryClaude can make mistakes. Please double-check responses. 
