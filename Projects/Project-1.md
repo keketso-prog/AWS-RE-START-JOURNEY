@@ -10,24 +10,9 @@ streamline customer interactions and improve order and booking management. Addit
 will prepare a presentation to showcase the benefits of migrating the restaurant’s digital
 presence to AWS, targeting a panel of your choice (e.g., the restaurant owner or a mock
 business panel).
-# Project Deliverables
-# Static Website: Build a fully functional static website for the restaurant, hosted on AWS.
-# PowerPoint Presentation: Create a presentation (slides and notes) covering the
-restaurant’s overview, challenges, AWS services, cost analysis, and benefits of migrating
-to AWS.
-# Project Requirements
-# Static Website Development:
-# Build a simple static website for the restaurant using the current lab setup.
-# Optionally, store website images (e.g., menu photos or restaurant ambiance) in the
-database if feasible; otherwise, use Amazon S3 for image hosting.
-# Ensure the website is user-friendly, with a clean design to help customers easily
-make bookings or place orders. Include features like a booking form, an order
-submission form, and a confirmation page
 
-# Use minimal colours to keep text readable, but incorporate images, videos, or
-animations to enhance the website’s design (e.g., photos of the restaurant, a short
-video of the dining experience, or an animated menu display).
-# AWS Services Presentation
+# Static Website: Build a fully functional static website for the restaurant, hosted on AWS.
+
 # Company Overview
 The restaurant (e.g., “Marble Bistro,” a local eatery) is a popular dining spot
 experiencing a surge in customers. They receive a high volume of bookings and
