@@ -44,7 +44,7 @@ Here’s what I learned from this lab:
 I learned how to analyze a customer scenario, design a VPC, configure its network components, and present a clear solution — core skills for cloud architecture and troubleshooting in AWS.
  # Lab complete 🎓
 
-# SECOND LAB: Build Your VPC and Launch a Web Server 267
+# SECOND LAB: Build Your VPC and Launch a Web Server
 
 Objectives
 After completing this lab, you should be able to:
