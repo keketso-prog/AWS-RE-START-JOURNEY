@@ -1,4 +1,4 @@
-# NETWORKING 263
+# NETWORKING 
 Under networking we had a few labs, i will show 2 labs i found challenging
 
 # FIRST LAB: Create Subnets and Allocate IP addresses in an Amazon Virtual Private Cloud (Amazon VPC)
@@ -19,13 +19,23 @@ Under networking we had a few labs, i will show 2 labs i found challenging
 - For Subnet name, leave this option set to Public subnet.
 - Leave the remaining options set to their default settings.
 -  Create VPC.
+
+<img width="1600" height="763" alt="Screenshot (1532)" src="https://github.com/user-attachments/assets/fa5f5d6d-eecb-47fe-aa7e-e2e13993b764" />
+
+ <img width="1587" height="752" alt="Screenshot (1533)" src="https://github.com/user-attachments/assets/21e5b2b0-f0d7-402a-843b-26fc646c893a" />
+
+<img width="1550" height="751" alt="Screenshot (1534)" src="https://github.com/user-attachments/assets/02e8e725-ee79-4da1-beb9-aa2bb20fed6c" />
+
+
 # Now configure the following options:
 
 - Choose VPC with a Single Public Subnet.
 - Choose Select to move to the next step
 
 # Task 2: Send the response to the customer
-- walk through how i would build the VPC in email format
+- walk through how i would build the VPC in email format:
+
+  In this task, I independently finished the VPC configuration, functioning as both the client and the cloud support technician. I began by designing the VPC layout, selecting the CIDR block to guarantee sufficient IP addresses for every subnet. I subsequently established both public and private subnets to distinguish resources according to access needs. Subsequently, I configured the routing tables, connecting public subnets to an internet gateway for internet communication, while ensuring private subnets remained isolated. I additionally set up security groups and network ACLs to manage traffic flow securely. During the process, I assessed connectivity between subnets and confirmed that resources within the VPC were able to communicate as anticipated. By managing the setup on my own, I gained a comprehensive insight into how every element of a VPC—subnets, routing tables, gateways, and security rules—interconnects to establish an effective and safe cloud network. This task not only strengthened my technical abilities but also enabled me to consider both the customer's and engineer's viewpoints, which is essential for creating effective cloud architectures
 
 # WHAT I LEARNED
 Here’s what I learned from this lab:
