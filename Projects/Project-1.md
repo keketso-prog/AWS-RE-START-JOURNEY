@@ -1,5 +1,5 @@
 # Marble Bistro - Static Website Project
-Below i will be explaining about the project in detail. Please see the Project Gallery for the visuals and more explaination of how we hosted the static website.
+👇 Below i will be explaining about the project in detail. Please see the Project Gallery for the visuals and more explaination of how we hosted the static website.
 # About This Project
 Our team of five took on the challenge of helping Marble Bistro, a busy local restaurant that was drowning in paperwork and missed reservations. What started as a straightforward web development assignment turned into a real eye-opener about how small businesses struggle without the right digital tools.
 # The Problem We Found
