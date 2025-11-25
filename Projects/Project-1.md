@@ -34,4 +34,4 @@ identify repeat customers or manage special requests.
 consuming (e.g., hiring more staff to manage orders or upgrading on-premises
 hardware).
 
-# Benefits: Explain why the restaurant should choose 
+# Benefits: Explain why the restaurant should choose aws
