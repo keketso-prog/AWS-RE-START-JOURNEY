@@ -23,11 +23,20 @@ Under networking we had a few labs, i will show 2 labs i found challenging
 - Leave the remaining options set to their default settings.
 -  Create VPC.
 
-<img width="1600" height="763" alt="Screenshot (1532)" src="https://github.com/user-attachments/assets/fa5f5d6d-eecb-47fe-aa7e-e2e13993b764" />
+ <img width="1581" height="748" alt="Screenshot (1537)" src="https://github.com/user-attachments/assets/997b15d2-3e2d-4795-a4ad-07ed25d5136b" />
+ 
+ <img width="1552" height="754" alt="Screenshot (1538)" src="https://github.com/user-attachments/assets/020f46f3-df4e-476e-97b9-43bef8c4ea25" />
 
- <img width="1587" height="752" alt="Screenshot (1533)" src="https://github.com/user-attachments/assets/21e5b2b0-f0d7-402a-843b-26fc646c893a" />
+  <img width="1556" height="754" alt="Screenshot (1539)" src="https://github.com/user-attachments/assets/d587a0d5-e2ea-427e-9a23-667723035a5b" />
 
-<img width="1550" height="751" alt="Screenshot (1534)" src="https://github.com/user-attachments/assets/02e8e725-ee79-4da1-beb9-aa2bb20fed6c" />
+<img width="1524" height="754" alt="Screenshot (1540)" src="https://github.com/user-attachments/assets/fcf1b5fa-c4fd-484e-923a-18b32eb754f3" />
+
+<img width="1568" height="752" alt="Screenshot (1541)" src="https://github.com/user-attachments/assets/58674793-fde1-45dc-bece-5a51016e3365" />
+
+<img width="1576" height="752" alt="Screenshot (1542)" src="https://github.com/user-attachments/assets/8f815cd7-eef8-4ef7-a3ef-9b8ea944b972" />
+
+<img width="1578" height="755" alt="Screenshot (1543)" src="https://github.com/user-attachments/assets/57177b40-fc00-4c27-b423-f97ce85aa652" />
+
 
 # Task 2: Send the response to the customer
 - walk through how i would build the VPC in email format:
