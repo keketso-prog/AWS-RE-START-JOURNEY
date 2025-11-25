@@ -33,7 +33,5 @@ identify repeat customers or manage special requests.
 • Scaling the current system to handle more customers is costly and time
 consuming (e.g., hiring more staff to manage orders or upgrading on-premises
 hardware).
-# AWS Services: Recommend AWS services to address the restaurant’s needs:
-• Use Amazon S3 to host the static website and store images (e.g., menu
-photos).
+
 # Benefits: Explain why the restaurant should choose 
