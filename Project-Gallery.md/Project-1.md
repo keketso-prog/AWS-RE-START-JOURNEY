@@ -21,7 +21,8 @@ We built Marble Bistro's website using a combination of AWS services that work t
 # Amazon S3 - Static Website Hosting
 We chose Amazon S3 as the hosting solution for our static website. S3 provides a simple yet powerful way to store and serve web content without the complexity of managing traditional servers. We created an S3 bucket to house all our website files—HTML pages, CSS stylesheets, JavaScript functionality, and image assets including menu photos and branding materials. After uploading our files, we enabled static website hosting in the bucket configuration and set the appropriate permissions to make the content publicly accessible. This approach gave us reliable hosting at a fraction of the cost of conventional server solutions.
 
-![Uploading Screenshot (1636).png…]()
+<img width="1228" height="466" alt="Screenshot (1636)" src="https://github.com/user-attachments/assets/ac0ee34c-dcc5-478c-b4a7-c049c1e06400" />
+
 
 
 # Amazon CloudFront - Content Delivery Network
