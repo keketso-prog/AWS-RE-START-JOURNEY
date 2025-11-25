@@ -1,19 +1,46 @@
 
 # How We Built It
-Okay, so here's how we actually got this thing up and running. It sounds complicated when you list it all out, but honestly, once we figured out what each piece did, it wasn't too bad.
-# Amazon S3 - Where Everything Lives
-S3 is basically just cloud storage, but it's perfect for websites. We created what they call a "bucket" (yeah, weird name) and dumped all our files in there—HTML, CSS, images of pasta dishes, you name it. Then we clicked a few settings to tell S3, "hey, treat this like a website," and suddenly our files were accessible online. No servers to maintain, no crazy setup. Just upload and go. And it costs almost nothing, which was great because we weren't exactly working with a big budget here.
-# CloudFront - Speed Things Up
-So S3 stores everything in one spot, right? But what happens when someone across town tries to load the site? That's where CloudFront comes in. It basically copies our website to a bunch of different servers spread out geographically. When someone visits, they automatically get the files from whichever server is closest to them. We hooked it up to our S3 bucket, and it just... worked. Pages load fast no matter where you are. One of our team members tested it from their phone on the other side of town, and it was instant.
-# Route 53 - The Actual Web Address
-Nobody's going to remember or want to type some random AWS link, so we needed a real domain name. Route 53 handles that. We registered "marblebistro.com" (well, whatever domain we ended up getting) and connected it to everything else. It's like giving the website a proper address instead of some weird string of numbers and letters. There were some DNS settings we had to mess with, and honestly, we had to Google a few things because the terminology was confusing at first. But we got there.
-# Certificate Manager - The Security Thing
-You know that padlock you see in the browser? That's what this does. Since people would be entering their info for bookings, we needed the site to be secure. Certificate Manager gave us a free security certificate that encrypts everything. We had to prove we actually owned the domain (they send a verification email or something), then we attached it to CloudFront. Now the site uses HTTPS and customers can feel safe using it. Plus, Google ranks secure sites higher, so that's a bonus.
-# Amazon SNS - Texts for New Orders
-This was probably the owner's favorite part. We set up text notifications so they'd know immediately when someone booked a table or placed an order. Amazon SNS handles this—it's their messaging service. We created what they call a "topic," added the owner's phone number, and connected it to our booking forms. Now whenever someone submits something, boom—the owner gets a text with all the details. Name, time, party size, special requests, everything.
-The owner actually texts back sometimes when we're in the restaurant: "Just got another booking!" You can tell they're genuinely excited about it. And it only costs like a couple cents per text, which is basically free.
-Making It All Work Together
-# Here's the flow: - 
-Customer goes to the website → Route 53 points them to the right place → CloudFront delivers the pages super fast from S3 → Everything's encrypted thanks to Certificate Manager → They make a booking → SNS shoots a text to the owner's phone. The whole thing happens in seconds.
-Not gonna lie, there were some frustrating moments. DNS changes take forever to propagate (we learned that the hard way), and we definitely had a "why isn't this working?!" moment when the SNS permissions weren't set right. But after some trial and error—and maybe a few late-night group chats—we figured it out.
-The cool thing is, now that it's set up, it just runs. The owner doesn't need to do anything technical. It's all automatic.RetryClaude can make mistakes. Please double-check responses. 
+We built Marble Bistro's website using a combination of AWS services that work together to create a reliable, secure, and efficient platform. Here's a breakdown of our technical approach
+
+<img width="1600" height="900" alt="Screenshot (1622)" src="https://github.com/user-attachments/assets/7d56e334-724b-4278-a595-33f27bce1708" />
+
+# Technical Implementation
+We built Marble Bistro's website using a combination of AWS services that work together to create a reliable, secure, and efficient platform. 
+
+Here's a breakdown of our technical approach:
+# Amazon S3 - Static Website Hosting
+We chose Amazon S3 as the hosting solution for our static website. S3 provides a simple yet powerful way to store and serve web content without the complexity of managing traditional servers. We created an S3 bucket to house all our website files—HTML pages, CSS stylesheets, JavaScript functionality, and image assets including menu photos and branding materials. After uploading our files, we enabled static website hosting in the bucket configuration and set the appropriate permissions to make the content publicly accessible. This approach gave us reliable hosting at a fraction of the cost of conventional server solutions.
+# Amazon CloudFront - Content Delivery Network
+To ensure fast loading times for all users, we integrated Amazon CloudFront as our content delivery network. CloudFront caches our website content across multiple edge locations around the world, which means customers receive data from the server closest to their physical location. We configured our CloudFront distribution to pull content from the S3 bucket as its origin source. This setup dramatically reduced page load times and improved the browsing experience, particularly during peak hours when the restaurant receives the most online traffic.
+# Route 53 - DNS Management
+Professional presentation was important to us, so we registered a custom domain name for Marble Bistro and managed it through Amazon Route 53. Route 53 is AWS's domain name system service that translates the easy-to-remember domain name into the technical addresses needed to locate our CloudFront distribution. We created a hosted zone and configured the necessary DNS records to properly route traffic from the domain to our website. This gave the restaurant a professional web presence with a clean, memorable URL that customers can easily find and trust.
+# AWS Certificate Manager - SSL/TLS Encryption
+Security was non-negotiable for this project, especially since customers would be providing personal information for reservations and orders. We used AWS Certificate Manager to provision a free SSL/TLS certificate for the domain. This certificate, attached to our CloudFront distribution, encrypts all communication between customers' browsers and our website. The result is a secure HTTPS connection indicated by the padlock icon in the browser address bar, which both protects customer data and builds trust in the platform.
+# Amazon SNS - Instant SMS Notifications
+One of the most valuable features we implemented was real-time notifications for the restaurant staff. Using Amazon Simple Notification Service (SNS), we created a notification system that alerts the owner immediately when new bookings or orders come through. We set up an SNS topic dedicated to restaurant notifications and subscribed the owner's phone number to it. When a customer completes a booking form on the website, the form submission triggers the SNS topic, which sends an SMS message to the owner's phone containing the reservation details—customer name, date and time, number of guests, and any special requests noted. This immediate notification system eliminates the risk of missed bookings and allows the restaurant to respond quickly to customer needs.
+# Amazon SES - Automated Email Confirmations
+To enhance the customer experience, we integrated Amazon Simple Email Service (SES) to handle automated email confirmations. After a customer submits a booking or places an order, SES immediately sends them a confirmation email with a complete summary of their transaction. The email includes their reservation details, a unique confirmation number, estimated preparation times for orders, and the restaurant's contact information in case they need to make changes. These automated confirmations provide customers with immediate peace of mind and a record they can reference, while simultaneously reducing the number of confirmation calls the restaurant receives.
+System Architecture and Workflow
+
+<img width="1287" height="600" alt="Screenshot (1635)" src="https://github.com/user-attachments/assets/d9c0d5e7-f0a4-4ab3-8a07-319d5f4390b1" />
+
+
+# The complete system works through the following process:
+
+- A customer navigates to Marble Bistro's website using the custom domain name
+- Route 53 resolves the domain and directs the request to our CloudFront distribution
+- CloudFront serves the website content from the nearest edge location, pulling from S3 as needed
+- All data exchanged between the customer and the website is encrypted via the SSL/TLS certificate
+# When the customer submits a booking or order:
+
+- SNS immediately sends an SMS alert to the restaurant owner with the details
+- SES simultaneously sends a confirmation email to the customer
+
+
+
+This entire sequence executes in a matter of seconds, providing both parties with instant confirmation.
+# Operational Benefits
+- The architecture we've built is designed to be self-sustaining. Once deployed, it requires no ongoing technical maintenance from the restaurant owner.
+-  The system automatically handles traffic fluctuations, maintains security certificates, and processes notifications without manual intervention.
+-  This allows the business to focus entirely on food quality and customer service while the technology infrastructure operates reliably in the background.
+-  The combination of these AWS services has created a solution that's not only functional but also scalable for future growth.
