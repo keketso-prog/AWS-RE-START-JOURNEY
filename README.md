@@ -42,9 +42,9 @@ This portfolio documents my technical progression, hands-on project work, and pr
 *   **What's inside:** Results from practical lab exercises and troubleshooting logs.
 *   **Why read:** To verify my hands-on technical capabilities.
 
-### 7. 🥼 [Lab Assessments](./Lab-Assessments.md)
-*   **What's inside:** Results from practical lab exercises and troubleshooting logs.
-*   **Why read:** To verify my hands-on technical capabilities.
+### 7. 🥼 [Certificates](./AWS-Certificates.md)
+*   **What's inside:** Results of the Certicates i ahve accumulated while on the program.
+*   **Why read:** To see the certicates of what im learning about
 
 ## 🧭 Quick Navigation for Recruiters
 1.  **Start here:** `README.md` (You are here)
