@@ -44,3 +44,8 @@ python3 file.py
 <img width="657" height="415" alt="Screenshot (1747)" src="https://github.com/user-attachments/assets/fe829c00-734e-44bc-8120-524168c81420" />
 
 # The script successfully identified 53 prime numbers and saved them to the results file as required.
+## WHAT I LEARNED
+
+# OVERALL
+
+## Lab Complete 🎓
