@@ -3,7 +3,7 @@ Under python, we did a number of labs.i will show case 3 of the labs here
 
 ## FIRST LAB
 
-<img width="1577" height="826" alt="Screenshot (1733)" src="https://github.com/user-attachments/assets/3170fe59-339d-4ea0-aca1-783f29e14007" />
+
 
 ## Write a Python script to:
 
@@ -18,6 +18,7 @@ Note: Both Python 2 and Python 3 are installed on the Linux Host. It is recommen
 python3 file.py
 
 # STEPS TAKEN TO ACHIEVE THIS
+<img width="1577" height="826" alt="Screenshot (1733)" src="https://github.com/user-attachments/assets/3170fe59-339d-4ea0-aca1-783f29e14007" />
 <img width="652" height="420" alt="Screenshot (1735)" src="https://github.com/user-attachments/assets/bd20d923-e4be-4add-9dfd-e20092bd46e5" />
 
 - Created the Python script file using the nano text editor by executing nano prime_numbers.py in the Linux terminal.
