@@ -1,1 +1,14 @@
+## AWS CORE SERVICES
 
+Below i will explain 5 AWS core services that i find fascinating
+
+## 1. Amazon S3 (Simple Storage Service)
+S3 is like a massive, indestructible hard drive in the cloud. Drop any file into it—photos, videos, backups, documents—and access them anytime from anywhere. The service automatically makes copies of your data across multiple locations, so even if an entire data center fails, your files stay safe. You can store a single file or billions of them without worrying about running out of space. Popular uses include backing up your data, hosting website images, and storing logs. Pricing is straightforward: you pay only for what you store and transfer.
+## 2. Amazon EC2 (Elastic Compute Cloud)
+EC2 gives you a computer in the cloud that you can turn on, use, and turn off whenever needed. Need a small machine to run a blog? Spin one up in seconds. Need a powerful server with lots of RAM for data processing? Choose that instead. If your app suddenly gets popular, add more servers. When traffic dies down, remove them. No long-term contracts, no buying expensive hardware that sits idle. It's computing power on demand—like renting instead of buying a house, but for servers.
+## 3. AWS Lambda
+Lambda lets you run code without managing servers at all. Upload your function, and Lambda runs it automatically when triggered—maybe when a file is uploaded, an API is called, or a scheduled time arrives. You're only charged for the milliseconds your code actually runs, making it incredibly cost-effective for sporadic tasks. No patching, no capacity planning, no paying for idle servers. Perfect for things like image resizing, data processing, or building APIs. Write your code, deploy it, and forget about the infrastructure.
+## 4. Amazon RDS (Relational Database Service)
+RDS is a managed database that handles all the boring maintenance work automatically. Choose your database type—MySQL, PostgreSQL, or others—and RDS sets it up, backs it up daily, applies security patches, and can even automatically scale storage when you're running low. If hardware fails, it automatically switches to a backup. You get all the benefits of a professional database without needing a database administrator. Focus on building your application while RDS keeps your data safe and available.
+## 5. Amazon CloudFront
+CloudFront is a content delivery network that makes your website or app faster for users worldwide. It copies your content to servers around the globe, so when someone in Tokyo visits your site, they get the data from a nearby server instead of one in Virginia. This dramatically reduces load times—pages appear instantly, videos stream smoothly, and downloads finish faster. It also protects against traffic spikes and attacks. Set it up once, and your users automatically get the fastest possible experience no matter where they are.
