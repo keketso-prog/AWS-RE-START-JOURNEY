@@ -16,7 +16,9 @@ Welcome to Introduction to Programming. For the labs, you will use the Python pr
 
 - At the top of these instructions, choose AWS.
 - In the AWS Management Console, choose Services > Cloud9. In the Your environments panel, locate the reStart-python-cloud9 card, and choose Open IDE.
+  
   <img width="1584" height="865" alt="Screenshot (1714)" src="https://github.com/user-attachments/assets/f6535b15-253e-4a59-911b-77b2f92bf886" />
+  
   <img width="1588" height="734" alt="Screenshot (1707)" src="https://github.com/user-attachments/assets/cac88401-d7e4-4e8d-acfc-c40a6c4e052e" />
 
 
@@ -41,13 +43,15 @@ Welcome to Introduction to Programming. For the labs, you will use the Python pr
 
 <img width="1590" height="852" alt="Screenshot (1709)" src="https://github.com/user-attachments/assets/7488ca8d-62b3-4c74-bdd2-f349163859f5" />
 
-  <img width="1587" height="861" alt="Screenshot (1710)" src="https://github.com/user-attachments/assets/1db730ed-7cef-4bb5-89d1-b5f83f8bd5b3" />
+<img width="1587" height="861" alt="Screenshot (1710)" src="https://github.com/user-attachments/assets/1db730ed-7cef-4bb5-89d1-b5f83f8bd5b3" />
+
 <img width="1587" height="861" alt="Screenshot (1711)" src="https://github.com/user-attachments/assets/9cd0c9c8-b496-4177-bc9b-cbac7ce06463" />
 
-  <img width="1600" height="848" alt="Screenshot (1712)" src="https://github.com/user-attachments/assets/e2a3f9a1-71b3-4f10-990e-d4953bbb6a35" />
+<img width="1600" height="848" alt="Screenshot (1712)" src="https://github.com/user-attachments/assets/e2a3f9a1-71b3-4f10-990e-d4953bbb6a35" />
 
   # Exercise 2: Writing your first Python program
 - Enter code and see results
+- 
   <img width="1590" height="865" alt="Screenshot (1713)" src="https://github.com/user-attachments/assets/f29d4b6c-2ae3-40d1-a923-2a0a940273f3" />
 
 
@@ -79,8 +83,10 @@ I learned how to set up and run a basic Python program on a Linux environment, c
 
 - At the top of these instructions, choose AWS.
 - In the AWS Management Console, choose Services > Cloud9. In the Your environments panel, locate the reStart-python-cloud9 card, and choose Open IDE.
+- 
   <img width="1584" height="865" alt="Screenshot (1714)" src="https://github.com/user-attachments/assets/f6535b15-253e-4a59-911b-77b2f92bf886" />
-<img width="1588" height="734" alt="Screenshot (1707)" src="https://github.com/user-attachments/assets/cac88401-d7e4-4e8d-acfc-c40a6c4e052e" /
+  
+<img width="1588" height="734" alt="Screenshot (1707)" src="https://github.com/user-attachments/assets/cac88401-d7e4-4e8d-acfc-c40a6c4e052e" />
 
   - From the menu bar of the AWS Cloud9 IDE, choose File > New From Template > Python File.
 
