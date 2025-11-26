@@ -1,7 +1,7 @@
 ## PYTHON
 Under python, we did a number of labs.i will show case 3 of the labs here
 
-## FIRST LAB
+## THIRD LAB LAB
 
 
 
