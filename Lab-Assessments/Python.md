@@ -1,9 +1,30 @@
 ## PYTHON
 Under python, we did a number of labs.i will show case 3 of the labs here
 
+## FIRST LAB
+# HELLO WORLD
+
+
+
+
+
+# WHAT I LEARNED
+# OVERALL
+## Lab Complete 🎓
+
+
+
+
+
+
+## SECOND LAB
+##
+
+# WHAT I LEARNED
+# OVERALL
+## Lab Complete 🎓
+
 ## THIRD LAB LAB
-
-
 
 ## Write a Python script to:
 
@@ -45,7 +66,11 @@ python3 file.py
 
 # The script successfully identified 53 prime numbers and saved them to the results file as required.
 ## WHAT I LEARNED
+Here's what I learned from this challenge:
 
+- I created a Python script using the nano text editor and learned the importance of proper indentation and syntax in Python.
+- I implemented a prime number algorithm that identifies all prime numbers between 1 and 250 by checking for divisibility.
+- I used Python's file handling methods to write results to a text file for permanent storage.
 # OVERALL
-
+I learned how to write and execute Python scripts on Linux, process numerical data, and save output to external files using the command line
 ## Lab Complete 🎓
