@@ -42,12 +42,16 @@ This portfolio documents my technical progression, hands-on project work, and pr
 *   **What's inside:** Results from practical lab exercises and troubleshooting logs.
 *   **Why read:** To verify my hands-on technical capabilities.
 
+### 7. 🥼 [Lab Assessments](./Lab-Assessments.md)
+*   **What's inside:** Results from practical lab exercises and troubleshooting logs.
+*   **Why read:** To verify my hands-on technical capabilities.
 
 ## 🧭 Quick Navigation for Recruiters
 1.  **Start here:** `README.md` (You are here)
 2.  **Who am I?** `About-Me.md`
 3.  **What can I do?** `Projects.md` & `Lab-Assessments.md`
 4.  **Visual Proof:** `Project-Gallery.md`
+5.  **Certicates:**`Certicates.md`
 
 ## 🎯 Purpose of this portfolio
 This portfolio demonstrates:
@@ -57,7 +61,3 @@ This portfolio demonstrates:
 - Continuous Learning – Structured approach to skill development
 - Problem-Solving Capability – Real-world application of theoretical knowledge
 - Professional Development – Commitment to industry-recognized training and certification
-
-  # BADGES
-<img width="601" height="601" alt="aws-cloud-quest-cloud-practitioner-training-badge" src="https://github.com/user-attachments/assets/99498097-643b-4627-ba00-8f5f56a139cb" />
-
