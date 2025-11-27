@@ -38,8 +38,8 @@ This portfolio documents my technical progression, hands-on project work, and pr
 *   **Why read:** To verify my hands-on technical capabilities.
 
 ### 6. 🥼 [Certificates](./AWS-Certificates.md)
-*   **What's inside:** Results of the Certicates i ahve accumulated while on the program.
-*   **Why read:** To see the certicates of what im learning about
+*   **What's inside:** Results of the Certicates i have accumulated while on the program.
+*   **Why read:** To see the certicates of what im learning 
 
 ## 🧭 Quick Navigation for Recruiters
 1.  **Start here:** `README.md` (You are here)
