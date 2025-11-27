@@ -1,6 +1,6 @@
 # STORAGE 
 
-under storage we have a few labs, i will share 2 labs i found intriguing
+Under storage we have a few labs, i will share 2 labs i found intriguing
 
 # FIRST LAB: Working with Amazon EBS
 
