@@ -160,15 +160,7 @@ Here's what I learned from this lab:
 - Connected to EC2 instance via SSH
 
 # Task 2: Configuring the AWS CLI
-- At the prompts, copy the following values that you pasted into your text editor, and paste them into the terminal window as directed.
-
-AWS Access Key ID: Enter the value for AccessKey.
-
-AWS Secret Access Key: Enter the value for SecretKey.
-
-Default region name: Enter us-west-2.
-
-Default output format: Enter json
+- use an SSH client to connect to the EC2 instance,
 
 <img width="447" height="441" alt="Screenshot (1783)" src="https://github.com/user-attachments/assets/60bfa20a-694a-4c9d-9714-0d6213f86ed6" />
 
@@ -177,7 +169,7 @@ Default output format: Enter json
 <img width="655" height="412" alt="Screenshot (1785)" src="https://github.com/user-attachments/assets/f94fc40f-2dea-4111-bb06-2dc95560301b" />
 
 # Task 3: Finishing the challenge
-- Create an S3 bucket. 
+# Create the bucket
 
 
 <img width="1600" height="823" alt="Screenshot (1786)" src="https://github.com/user-attachments/assets/9b264efd-7d89-481b-9c25-380d11a7ac82" />
@@ -189,7 +181,7 @@ Default output format: Enter json
 <img width="1594" height="823" alt="Screenshot (1789)" src="https://github.com/user-attachments/assets/3e513cdc-b9ec-4aca-af0a-808efb382b36" />
 
 
-- Upload an object into this bucket.
+# Upload an object into this bucket.
 
 
 <img width="1584" height="823" alt="Screenshot (1791)" src="https://github.com/user-attachments/assets/677c979b-22b9-4330-86b1-39b335c1af0e" />
@@ -200,7 +192,7 @@ Default output format: Enter json
 
 <img width="1590" height="819" alt="Screenshot (1794)" src="https://github.com/user-attachments/assets/e1acac76-c7c1-433f-94f0-5c4d683baf46" />
 
-- List the contents of the S3 bucket by using the AWS CLI. 
+# List the contents of the S3 bucket by using the AWS CLI. 
 
 <img width="660" height="406" alt="Screenshot (1799)" src="https://github.com/user-attachments/assets/b24529d5-fb4f-4695-8097-6fc5cf6288bc" />
 
@@ -222,7 +214,7 @@ Default output format: Enter json
 
   <img width="654" height="406" alt="Screenshot (1811)" src="https://github.com/user-attachments/assets/f2a397cf-a81e-4b54-87e9-af5517e0d11e" />
 
-- Access the object by using a web browser.
+# Access the object by using a web browser.
 
 <img width="1590" height="868" alt="Screenshot (1810)" src="https://github.com/user-attachments/assets/477aab86-a92f-4158-9659-92e2ca988f1b" />
 
