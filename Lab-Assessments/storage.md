@@ -50,10 +50,24 @@ Value: Enter My Volume
 
 
 # Task 3: Connecting to the Lab EC2 instance
-- CONNECTED TO THE EC3 via SSH
-- Then did a few prompts
+- CONNECTED TO THE EC2 via SSH
 
-<img width="657" height="426" alt="Screenshot (1758)" src="https://github.com/user-attachments/assets/ff1e604b-1d5e-426a-8b13-41a90d2ed4f9" />
+<img width="447" height="441" alt="Screenshot (1783)" src="https://github.com/user-attachments/assets/60bfa20a-694a-4c9d-9714-0d6213f86ed6" />
+
+<img width="666" height="419" alt="Screenshot (1784)" src="https://github.com/user-attachments/assets/14deed0a-1063-428d-904c-def45caab57d" />
+
+<img width="655" height="412" alt="Screenshot (1785)" src="https://github.com/user-attachments/assets/f94fc40f-2dea-4111-bb06-2dc95560301b" />
+
+
+# Task 4: Creating and configuring the file system
+- view the storage
+- create an ext3 file system on the new volume
+- create a directory to mount the new storage volume
+- mount the new volume
+- view the configuration file
+- view the available storage again
+-  create a file and add some text on the mounted volume
+-  verify that the text has been written to your volume
 
 <img width="662" height="422" alt="Screenshot (1759)" src="https://github.com/user-attachments/assets/22903744-57d0-4afa-be25-75458499281e" />
 
@@ -69,32 +83,21 @@ Value: Enter My Volume
 
 <img width="776" height="423" alt="Screenshot (1765)" src="https://github.com/user-attachments/assets/1400bd40-b1b7-4c41-9125-62a51c87abaa" />
 
-# Task 4: Creating and configuring the file system
-- view the storage
-- create an ext3 file system on the new volume
-- create a directory to mount the new storage volume
-- mount the new volume
-- view the configuration file
-- view the available storage again
--  create a file and add some text on the mounted volume
--  verify that the text has been written to your volume
-
-<img width="1600" height="819" alt="Screenshot (1766)" src="https://github.com/user-attachments/assets/4445a255-0579-4e37-95ba-c4844809c89f" />
+# Task 5: Creating an Amazon EBS snapshot
+- choose Volumes, and select My Volume
+- delete the file that you created on your volume
+- verify that the file has been deleted
+  
+ <img width="1600" height="819" alt="Screenshot (1766)" src="https://github.com/user-attachments/assets/4445a255-0579-4e37-95ba-c4844809c89f" />
 
 <img width="1600" height="823" alt="Screenshot (1767)" src="https://github.com/user-attachments/assets/9c446999-6b94-4b86-bc2c-27eb9486402e" />
 
 <img width="1584" height="813" alt="Screenshot (1768)" src="https://github.com/user-attachments/assets/3c904661-1e76-4c0b-85a0-46cf2dcd564d" />
 
-# Task 5: Creating an Amazon EBS snapshot
-- choose Volumes, and select My Volume
-- delete the file that you created on your volume
-- verify that the file has been deleted
-
 <img width="1587" height="826" alt="Screenshot (1769)" src="https://github.com/user-attachments/assets/7f1865e5-5566-4a63-8d1e-6249fdc6cb38" />
 
 <img width="770" height="420" alt="Screenshot (1770)" src="https://github.com/user-attachments/assets/761a32d2-dc2c-4bee-8f8f-bc0f9be75f58" />
 
-<img width="1600" height="816" alt="Screenshot (1772)" src="https://github.com/user-attachments/assets/8215ab51-bafe-431b-a873-df7b83f6e934" />
 
 
 # Task 6: Restoring the Amazon EBS snapshot
@@ -107,6 +110,9 @@ Key: Enter Name.
 Value: Enter Restored Volume.
 - Create volume
 - choose Volumes
+
+<img width="1600" height="816" alt="Screenshot (1772)" src="https://github.com/user-attachments/assets/8215ab51-bafe-431b-a873-df7b83f6e934" />
+
   # Task 6.2: Attaching the restored volume to the EC2 instance
 - Select Restored Volume
 - choose Attach volume
