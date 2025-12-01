@@ -16,6 +16,6 @@ support this 3D application and meet key business and technical requirements
 
 ##  2. Explain Your Choices
 -  Write a brief document (1–2 pages) explaining:
-▪ Why you chose each AWS service.
-▪ How your architecture meets each of the 5 requirements.
-▪ Any design trade-offs or challenges
+- Why you chose each AWS service.
+- How your architecture meets each of the 5 requirements.
+- Any design trade-offs or challenges
