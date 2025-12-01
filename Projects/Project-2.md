@@ -1,6 +1,6 @@
 ## Design a 3D E-Commerce Platform Architecture on AWS
 
-👇 Below i will be explaining about the project details. ❗❗❗Please see the Project Gallery for the architecture we made.
+👇 Below i will be explaining about the project details. ❗❗❗Please see the Project Gallery for the architecture we made and explanation of the AWS services we used,how our architecture meets the requirements and any design challanges we faced.
 
 ## About This Project
 You are part of a startup team launching a next-generation 3D e-commerce web application. 
