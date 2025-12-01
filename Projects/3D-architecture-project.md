@@ -2,6 +2,8 @@
 
 👇 Below i will be explaining about the project details. ❗❗❗Please see the Project Gallery for the architecture we made and explanation of the AWS services we used,how our architecture meets the requirements and any design challanges we faced.
 
+# 👇 link to the project gallery
+https://github.com/keketso-prog/AWS-RE-START-JOURNEY/blob/main/Project-Gallery/3D-architecture-project.md
 ## About This Project
 You are part of a startup team launching a next-generation 3D e-commerce web application. 
 This platform will allow users to interact with 3D models of products (e.g., furniture, gadgets, 
