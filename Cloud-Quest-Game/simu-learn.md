@@ -12,7 +12,7 @@ Deploy the stabilization system across two ec2 instances in seperate availabilit
 
 IAM Certitification
 
-<img width="1066" height="716" alt="Screenshot (1412)" src="https://github.com/user-attachments/assets/d075037c-adb8-441d-94cd-77c89ec15db3" />
+
 
 
 
