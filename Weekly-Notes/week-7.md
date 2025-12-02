@@ -1,4 +1,4 @@
-## Week 7 Notes
+## Week 7 
 
 ## AWS Well-Architected Framework
 
