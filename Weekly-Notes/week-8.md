@@ -1,4 +1,4 @@
-# WEEK 8 NOTES
+# WEEK 8
 
 ## Amazon EC2 Scaling
 
