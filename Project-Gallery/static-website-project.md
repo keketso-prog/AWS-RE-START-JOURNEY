@@ -7,15 +7,16 @@ We built Marble Bistro's website using a combination of AWS services that work t
 # Technical Implementation
 We built Marble Bistro's website using a combination of AWS services that work together to create a reliable, secure, and efficient platform. 
 
-<img width="1278" height="630" alt="Screenshot (1623)" src="https://github.com/user-attachments/assets/b32c777a-5496-4c5a-851c-ccacf54a048f" />
+<img width="1600" height="855" alt="Screenshot (1821)" src="https://github.com/user-attachments/assets/750feab8-b3a7-4441-91ea-ad14bebc4fc6" />
 
-<img width="1283" height="671" alt="Screenshot (1624)" src="https://github.com/user-attachments/assets/cd1c42e6-47ec-459d-9258-503178401812" />
+<img width="1600" height="868" alt="Screenshot (1822)" src="https://github.com/user-attachments/assets/4545609a-76ab-4d33-87d1-1253a2e26a4d" />
 
-<img width="1264" height="603" alt="Screenshot (1625)" src="https://github.com/user-attachments/assets/797a5a0e-ac7c-45dc-a2c9-ad243002eabb" />
+<img width="1600" height="861" alt="Screenshot (1823)" src="https://github.com/user-attachments/assets/192a4a58-3e45-4781-8194-a1709cf1f0c6" />
 
-<img width="1268" height="606" alt="Screenshot (1626)" src="https://github.com/user-attachments/assets/42cb64ae-cbd5-414f-b2f5-e20e334f91c3" />
+<img width="1600" height="861" alt="Screenshot (1824)" src="https://github.com/user-attachments/assets/ce62f5f0-0180-4352-b524-998d943e3f76" />
 
-<img width="1288" height="644" alt="Screenshot (1628)" src="https://github.com/user-attachments/assets/d9546201-25cc-486c-a27d-85f3ae3c1e96" />
+<img width="1590" height="858" alt="Screenshot (1825)" src="https://github.com/user-attachments/assets/6eb2c4bb-ea4d-40d2-a201-6129629dc09d" />
+
 
 # Here's a breakdown of our technical approach:
 # Amazon S3 - Static Website Hosting
