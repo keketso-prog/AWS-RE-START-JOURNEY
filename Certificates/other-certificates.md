@@ -1,5 +1,7 @@
 ## Below are other certificates i did on the skills builder
 
+I completed AWS training on artificial intelligence and machine learning services. I learned about tools like Amazon Rekognition for analyzing images, Amazon Comprehend for understanding text, Amazon Translate for language translation, and Amazon Lex for building chatbots. Basically, I got familiar with AWS's pre-built AI services and when to use each one—like which service helps analyze documents versus which one detects objects in photos. It was foundational training to understand what AI tools are available on AWS and how they work at a basic level.
+
 <img width="994" height="725" alt="Screenshot (1527)" src="https://github.com/user-attachments/assets/ab7fe8b1-cf58-402a-ac7d-88ac0e5cd3ae" />
 
 <img width="972" height="718" alt="Screenshot (1529)" src="https://github.com/user-attachments/assets/0e9d89ae-38fe-42e2-a872-4623fc429760" />
