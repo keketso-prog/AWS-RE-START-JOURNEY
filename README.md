@@ -38,14 +38,14 @@ This portfolio documents my technical progression, hands-on project work, and pr
 *   **Why read:** To verify my hands-on technical capabilities.
 
 ### 6. 🥼 [Certificates](./AWS-Certificates.md)
-*   **What's inside:** Results of the Certicates i have accumulated while on the program.
-*   **Why read:** To see the certicates of what im learning 
+*   **What's inside:** Results of the Certificates i have accumulated while on the program.
+*   **Why read:** To see the certificates of what im learning 
 
 ## 🧭 Quick Navigation for Recruiters
 1.  **Start here:** `README.md` (You are here)
 2.  **What can I do?** `Projects.md` & `Lab-Assessments.md`
 3.  **Visual Proof:** `Project-Gallery.md`
-4.  **Certicates:**`Certicates.md`
+4.  **Certfiicates:**`Certificates.md`
 
 ## 🎯 Purpose of this portfolio
 This portfolio demonstrates:
