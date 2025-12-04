@@ -8,109 +8,95 @@ Progress Timeline
 - Week 9-12: Advanced & Cert     
 
 Learning Path 
-# Month 1: Foundation
 # Week 1: Cloud Foundations ☁️
 
 What is cloud computing and AWS?
 
-AWS Global Infrastructure
-Service models and deployment types
-AWS Console Navigation
+- AWS Global Infrastructure
+- Service models and deployment types
+-  AWS Console Navigation
 
 # Week 2: Linux Fundamentals 
 
-Command line navigation
-File management and permissions
-Essential Linux commands
-
-Text editors and basic scripting
+- Command line navigation
+- File management and permissions
+- Essential Linux commands
+- Text editors and basic scripting
 
 # Week 3: Networking Foundations 
-How networks work
-IP addresses and subnets
+- How networks work
+- IP addresses and subnets
+- DNS basics
+- Linux networking commands
 
-DNS basics
+# Week 4: Security Essentials
 
-Linux networking commands
-# Week 4: Security Essentials 
-Security principles for cloud
-
-Firewalls and encryption
-
-Common threats and prevention
-Principle of least privilege
-# AWS Deep Dive Month 2 
+- Security principles for cloud
+- Firewalls and encryption
+- Common threats and prevention
+- Principle of least privilege
 
 # Week 5: Python Basics 
 
-First Python programs
-Variables and data types
-If statements and loops
-
-Practical Security Implementation
+- First Python programs
+- Variables and data types
+- If statements and loops
+- Practical Security Implementation
 
 # Week 6: Databases 
-Python functions and data structures
-Database fundamentals
-
-SQL basics
-
-Connecting Python to databases
+- Python functions and data structures
+- Database fundamentals
+- SQL basics
+- Connecting Python to databases
 
 # Week 7: AWS Architecture 
-AWS Database Services: RDS, DynamoDB
 
-Well-Architected Framework
+- AWS Database Services: RDS, DynamoDB
+- Well-Architected Framework
+- Scalability and elasticity
+- Cost optimization strategies
 
-Scalability and elasticity
-Cost optimization strategies
 # Week 8: Automation 
 
-EC2 deep dive
-
-Infrastructure as Code. CloudFormation
-AWS CLI
-Monitoring and logging
-
-# Month 3: Advanced & Career
+- Ec2 deep dive
+- Infrastructure as Code. CloudFormation
+- AWS CLI Monitoring and logging
 
 # Week 9: Serverless & Containers 
-Auto Scaling
-AWS Lambda
-
-Docker and ECS
-
-Route 53
+- Auto Scaling
+- AWS Lambda
+- Docker and ECS
+- Route 53
+  
 # Week 10: Monitoring & Security 
 
-CloudWatch and alarms
-
-IAM deep dive
-Cost management
-CI/CD pipelines
+- CloudWatch and alarms
+- IAM deep dive
+- Cost management
+- CI/CD pipelines
+  
 # Week 11: AI/ML Services 
-Machine Learning concepts
-AWS SageMaker
-
-Rekognition, Comprehend, Polly
-Amazon Bedrock and Generative AI
+- Learning concepts
+- AWS SageMaker
+- Rekognition, Comprehend, Polly
+- Amazon Bedrock and Generative AI
+  
 # Week 12: Certification Prep 
-Full services review
-Exam strategies
-Practice exams
-Portfolio and resume building
+- Full services review
+- Exam strategies
+- Practice exams
+- Portfolio and resume building
+- Certification Objective AWS Certified Cloud Practitioner 
+ 
+- Target Date: End of Week 12 Passing Score: 700/1000 Current Status: Foundation Phase 
+ 
+- Skills I'm Building ☁️ AWS Cloud Services & Architecture
+ 
+- Linux Command Line & Administration Python Programming & Automation Networking & Security Databases (SQL & NoSQL) AI/ML Basics DevOps & Infrastructure as Code My Recipe for Success Stick to one idea: 30 minutes daily practice.
 
- Certification Objective AWS Certified Cloud Practitioner 
+ ##  🌟 My Success Strategy
  
- Target Date: End of Week 12 Passing Score: 700/1000 Current Status: Foundation Phase 
- 
- Skills I'm Building ☁️ AWS Cloud Services & Architecture
- 
-  Linux Command Line & Administration Python Programming & Automation Networking & Security Databases (SQL & NoSQL) AI/ML Basics DevOps & Infrastructure as Code My Recipe for Success Stick to one idea: 30 minutes daily practice.
-
-  🌟 My Success Strategy
- 
- Hands-on Learning - Build Real Projects Join Community 
+ - Hands-on Learning - Build Real Projects Join Community 
  
  - Connect with fellow learners Embrace Mistakes
  
