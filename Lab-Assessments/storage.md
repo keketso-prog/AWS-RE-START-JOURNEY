@@ -5,70 +5,60 @@ Under storage we have a few labs, i will share 2 labs i found intriguing
 # FIRST LAB: Working with Amazon EBS
 
 Objectives
-By the end of this lab, you will be able to do the following:
+- By the end of this lab, you will be able to do the following:
+- Create an EBS volume.
+- Attach and mount an EBS volume to an EC2 instance.
+- Create a snapshot of an EBS volume.
+- Create an EBS volume from a snapshot.
 
-Create an EBS volume.
+I worked through a hands-on lab with Amazon EBS volumes, learning how to create, attach, snapshot, and restore storage on AWS. Here's what I did.
+# Task 1: Creating a New EBS Volume
+I started by navigating to the EC2 service in my AWS Console. I clicked "Create volume" and added a tag to help me identify it later—I set the Key as "Name" and the Value as "My Volume." Then I created the volume.
+# Task 2: Attaching the Volume to My EC2 Instance
+Once my volume was ready, I selected "My Volume" and clicked "Attach volume." I chose my Lab instance from the dropdown and confirmed the attachment.
+# Task 3: Connecting to My Lab EC2 Instance
+I connected to my EC2 instance using SSH so I could work directly on the Linux system.
+# Task 4: Creating and Configuring the File System
+This is where things got technical.
 
-Attach and mount an EBS volume to an EC2 instance.
+- Viewed the existing storage to see what was available
+- Created an ext3 file system on my new volume
+- Created a directory to serve as the mount point
+- Mounted the new volume to that directory
+- Checked the configuration file to verify everything
+- Viewed the available storage again to confirm the mount was successful
+- Created a test file and added some text to it on the mounted volume
+- Verified that the text was properly written to my volume
 
-Create a snapshot of an EBS volume.
+# Task 5: Creating an Amazon EBS Snapshot
+I went back to the Volumes section and selected "My Volume." Then I deleted the file I had created on the volume and verified it was actually gone.
+# Task 6: Restoring the Amazon EBS Snapshot
+- Task 6.1: Creating a Volume from the Snapshot
+I selected "My Snapshot" and created a new volume from it. I tagged this one with the Key "Name" and Value "Restored Volume," then created the volume and navigated to the Volumes section.
+- Task 6.2: Attaching the Restored Volume to My EC2 Instance
+I selected "Restored Volume," clicked "Attach volume," chose my Lab instance, and attached it.
+- Task 6.3: Mounting the Restored Volume
+Finally, I created a new directory for mounting the restored volume, mounted it, and verified that everything was working correctly.
 
-Create an EBS volume from a snapshot.
+
 
 <img width="1600" height="861" alt="Screenshot (1749)" src="https://github.com/user-attachments/assets/a7dc80c1-a426-4744-9266-029a4fbb4f80" />
-
-
-THIS ARE THE STEPS I TOOK
-# TASK 1:  Creating a new EBS volume
-- Enter and choose EC2
-- Choose Create volume
-- In the Tags -optional section, choose Add tag, and configure the following options:
-
-Key: Enter Name.
-
-Value: Enter My Volume
--  Create volume
-
-  <img width="1600" height="861" alt="Screenshot (1751)" src="https://github.com/user-attachments/assets/f249c1bf-1622-42cd-bc32-f95428b3a90a" />
+<img width="1600" height="861" alt="Screenshot (1751)" src="https://github.com/user-attachments/assets/f249c1bf-1622-42cd-bc32-f95428b3a90a" />
 
 <img width="1594" height="858" alt="Screenshot (1752)" src="https://github.com/user-attachments/assets/d225abe8-43b8-4b7b-975f-87167b0ce1e7" />
 
 <img width="1600" height="819" alt="Screenshot (1753)" src="https://github.com/user-attachments/assets/6f66cb5d-33e7-48cf-9498-6ded4ab568d2" />
-
-
-  # Task 2: Attaching the volume to an EC2 instance
-  - Select My Volume
-  - choose Attach volume.
-  - choose the Lab instance.
-  - Choose Attach volume.
 
  <img width="1600" height="845" alt="Screenshot (1754)" src="https://github.com/user-attachments/assets/1d6c9cfe-830c-4f3e-b7dd-308025cc664f" />
 
 <img width="1597" height="858" alt="Screenshot (1755)" src="https://github.com/user-attachments/assets/90aa889b-749d-4749-a3db-4ed65423b953" />
 
 <img width="1600" height="823" alt="Screenshot (1756)" src="https://github.com/user-attachments/assets/7b170471-f2ee-423e-be88-b2d31759809f" />
-
-
-# Task 3: Connecting to the Lab EC2 instance
-- CONNECTED TO THE EC2 via SSH
-
 <img width="447" height="441" alt="Screenshot (1783)" src="https://github.com/user-attachments/assets/60bfa20a-694a-4c9d-9714-0d6213f86ed6" />
 
 <img width="666" height="419" alt="Screenshot (1784)" src="https://github.com/user-attachments/assets/14deed0a-1063-428d-904c-def45caab57d" />
 
 <img width="655" height="412" alt="Screenshot (1785)" src="https://github.com/user-attachments/assets/f94fc40f-2dea-4111-bb06-2dc95560301b" />
-
-
-# Task 4: Creating and configuring the file system
-- view the storage
-- create an ext3 file system on the new volume
-- create a directory to mount the new storage volume
-- mount the new volume
-- view the configuration file
-- view the available storage again
--  create a file and add some text on the mounted volume
--  verify that the text has been written to your volume
-
 <img width="662" height="422" alt="Screenshot (1759)" src="https://github.com/user-attachments/assets/22903744-57d0-4afa-be25-75458499281e" />
 
 <img width="756" height="439" alt="Screenshot (1760)" src="https://github.com/user-attachments/assets/33f3b101-5405-4199-b531-5237918fd1b3" />
@@ -83,11 +73,6 @@ Value: Enter My Volume
 
 <img width="776" height="423" alt="Screenshot (1765)" src="https://github.com/user-attachments/assets/1400bd40-b1b7-4c41-9125-62a51c87abaa" />
 
-# Task 5: Creating an Amazon EBS snapshot
-- choose Volumes, and select My Volume
-- delete the file that you created on your volume
-- verify that the file has been deleted
-  
  <img width="1600" height="819" alt="Screenshot (1766)" src="https://github.com/user-attachments/assets/4445a255-0579-4e37-95ba-c4844809c89f" />
 
 <img width="1600" height="823" alt="Screenshot (1767)" src="https://github.com/user-attachments/assets/9c446999-6b94-4b86-bc2c-27eb9486402e" />
@@ -98,26 +83,7 @@ Value: Enter My Volume
 
 <img width="770" height="420" alt="Screenshot (1770)" src="https://github.com/user-attachments/assets/761a32d2-dc2c-4bee-8f8f-bc0f9be75f58" />
 
-
-
-# Task 6: Restoring the Amazon EBS snapshot
-# Task 6.1: Creating a volume by using the snapshot
-- select My Snapshot
-- In the Tags - optional section, choose Add tag, and then configure the following options:
-
-Key: Enter Name.
-
-Value: Enter Restored Volume.
-- Create volume
-- choose Volumes
-
 <img width="1600" height="816" alt="Screenshot (1772)" src="https://github.com/user-attachments/assets/8215ab51-bafe-431b-a873-df7b83f6e934" />
-
-  # Task 6.2: Attaching the restored volume to the EC2 instance
-- Select Restored Volume
-- choose Attach volume
-- choose the Lab instance.
-- Attach volume.
 
 <img width="1600" height="826" alt="Screenshot (1773)" src="https://github.com/user-attachments/assets/d9485041-815a-4bc7-8a90-07f93fa2e52f" />
 
@@ -132,11 +98,6 @@ Value: Enter Restored Volume.
 <img width="1600" height="823" alt="Screenshot (1778)" src="https://github.com/user-attachments/assets/5d97a426-ba59-44e1-b326-29ac828b5528" />
 
 <img width="1597" height="800" alt="Screenshot (1779)" src="https://github.com/user-attachments/assets/b100f948-88a1-41f1-b2b0-441f17954294" />
-
-  # Task 6.3: Mounting the restored volume
-- create a directory for mounting the new storage volume
-- mount the new volume
-- verify that the volume
 
 <img width="774" height="428" alt="Screenshot (1780)" src="https://github.com/user-attachments/assets/bd8801c4-dff9-4ab6-89a2-fba66d9ba2f3" />
 
