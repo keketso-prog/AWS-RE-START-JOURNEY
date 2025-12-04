@@ -1,43 +1,89 @@
-## Team Members
-- Keketso
-- kwanele
-- Madimetja
-- Neo
-- Leah
+3D E-Commerce Platform Architecture on AWS: High Availability Design
 
-##   3D E-Commerce Platform Architecture on AWS
+ <img width="953" height="1095" alt="image" src="https://github.com/user-attachments/assets/f56e628f-f1d7-4147-852e-b852f74ada2d" />
 
-## High Availability Design - AWS Cloud Practitioner Project
 
-<img width="953" height="1095" alt="image" src="https://github.com/user-attachments/assets/f56e628f-f1d7-4147-852e-b852f74ada2d" />
+AWS Cloud Practitioner Project – High Availability Design
+Team Members: Kwanele, Neo, Madimetja, Leah, Keketso
 
-# Overview and Design Principles
-This architecture supports a global 3D e-commerce platform that enables users to interact with high-resolution 3D product models. The design follows the AWS Well-Architected Framework and focuses on five core pillars: high availability, scalability, performance, security, and cost efficiency. The platform eliminates single points of failure through multi-region deployments, scales automatically to handle global traffic spikes, and delivers large 3D assets with minimal latency worldwide.
-# Core AWS Services and Their Functions
-- Route 53 serves as our global DNS service, routing users to the nearest healthy application endpoint using latency-based routing. It continuously monitors endpoint health and provides automatic failover within 30 seconds if regional deployments become unavailable.
-- Amazon CloudFront operates as our content delivery network with over 400 edge locations worldwide. It caches 3D models, textures, and static assets close to users, reducing load times from seconds to milliseconds. CloudFront integrates with S3 through Origin Access Control, ensuring secure asset delivery while minimizing origin server load and data transfer costs.
-# Amazon S3
-- provides durable storage for all 3D assets with eleven nines of durability. We organize assets by product category and resolution level, implementing S3 Intelligent-Tiering to automatically move infrequently accessed models to lower-cost storage classes without impacting availability.
-- Application Load Balancer distributes incoming traffic across multiple backend servers at Layer 7, enabling intelligent routing based on request content. It performs health checks every 30 seconds, automatically removing unhealthy servers from rotation and handling SSL termination to reduce computational burden on application servers.
-- Compute Layer uses a hybrid approach. EC2 Auto Scaling Groups handle intensive tasks like real-time 3D rendering and model customization, automatically adding or removing instances based on demand. We use a mix of on-demand instances for baseline capacity and spot instances for cost-effective handling of traffic spikes. AWS Lambda manages lightweight, event-driven tasks such as cart updates and user authentication, scaling automatically from zero to thousands of executions and charging only for actual compute time.
-# Database 
-- DynamoDB provides sub-10ms response times for product catalog lookups with automatic scaling and multi-availability zone replication.
-- Amazon Aurora handles transactional data requiring ACID compliance, such as orders and inventory, with automatic replication across three availability zones and support for read replicas to scale read operations independently.
-- Amazon CloudWatch centralizes monitoring across all services, collecting metrics, logs, and events. We configure alarms to trigger notifications when thresholds are exceeded and use CloudWatch Insights to analyze trends and troubleshoot issues. This data informs auto-scaling policies and optimization decisions.
-- AWS Trusted Advisor continuously scans our environment against best practices, providing recommendations for cost optimization, security improvements, and performance enhancements that we review and implement regularly.
-# Meeting Key Requirements
-- High Availability is achieved through multi-region deployments where Route 53 redirects traffic if entire regions fail, multi-availability zone configurations for all critical services, database replication with automatic failover, and stateless application design that stores sessions in DynamoDB rather than on individual servers.
-Scalability leverages horizontal scaling across all layers.
-- Auto Scaling Groups adjust EC2 instance counts based on real-time metrics, Lambda functions scale automatically to thousands of concurrent executions, DynamoDB throughput scales based on demand, and CloudFront handles traffic increases transparently through AWS-managed infrastructure.
-- Performance Optimization focuses on edge caching to serve content from locations near users, database query optimization through appropriate indexing and data modeling, connection pooling to reduce overhead, and progressive loading that displays low-resolution previews while high-resolution models load in the background.
-- Security Implementation uses multiple defense layers including network isolation with private subnets for backend resources, security groups that act as virtual firewalls with least-privilege access rules, IAM roles instead of embedded credentials, encryption in transit and at rest using KMS, AWS WAF to protect against common web exploits, and CloudTrail for comprehensive audit logging.
-- Cost Efficiency is maintained through serverless-first architecture that eliminates idle capacity costs, reserved capacity purchases for predictable workloads at up to 75% discounts, spot instances for fault-tolerant workloads at 70-90% savings, intelligent storage tiering, and CloudFront caching that reduces origin data transfer by approximately 90%.
-# Challenges and Solutions
-- Compute Trade-offs: Lambda's 15-minute execution limit makes it unsuitable for complex 3D rendering jobs. We address this by using Lambda for quick operations like thumbnail generation while deploying GPU-enabled EC2 instances for intensive rendering tasks.
-- Database Selection: DynamoDB excels at simple lookups but lacks SQL's flexibility for complex queries. We use DynamoDB for the product catalog and RDS Aurora for transactional data requiring joins. For analytics requiring complex aggregations, we export data to Amazon Redshift.
-- Asset Size Management: High-fidelity 3D models can exceed 500MB, creating poor experiences on mobile networks. We implement multi-resolution storage with preview, standard, and high-detail versions, progressively enhancing quality based on user interaction and network conditions. CloudFront compression reduces transmission sizes by 40-60%.
-- Infrastructure Complexity: Proper VPC configuration with public and private subnets, NAT gateways, and security groups requires expertise. We use Infrastructure as Code with CloudFormation to define network architecture in version-controlled templates, ensuring consistency and enabling automated compliance checking.
-# Key Insights
-This project demonstrated that AWS service integration creates capabilities greater than individual components. The seamless connections between CloudFront and S3, ALB and Auto Scaling Groups, and Route 53 with multi-region deployments enable robust, production-grade architecture. We learned that comprehensive monitoring is essential for optimization and troubleshooting, security requires layered approaches rather than single solutions, and cost management demands continuous attention through regular reviews and leveraging different pricing models.
-# Conclusion
-This architecture successfully combines AWS managed services to create a global, highly available, and cost-effective platform for 3D e-commerce. By leveraging CloudFront for content delivery, S3 for durable storage, Auto Scaling for compute elasticity, and purpose-built databases, we have designed a system capable of serving millions of users worldwide while maintaining reasonable operational costs. The design adheres to AWS Well-Architected Framework principles and provides practical experience in balancing technical requirements, business objectives, and operational constraints. This foundation can scale with growing demand while ensuring resilience against both traffic spikes and component failures.
+
+Overview & Core Design Principles
+This architecture supports a global 3D e-commerce platform where users interact with high-resolution 3D product models. The design strictly adheres to the AWS Well-Architected Framework, focusing on the following pillars:
+
+Pillar	Focus Area
+High Availability	No single point of failure (SPOF); multi-AZ deployments.
+Scalability	Automatic scaling to handle peak global traffic.
+Performance	Low latency delivery of large 3D assets worldwide.
+Security	Defence-in-depth approach; encryption and least-privilege access.
+Cost Efficiency	Utilizing serverless and pay-as-you-go services to minimize operational expenditure (OpEx).
+
+
+
+
+
+
+
+
+
+
+Key AWS Services Used and Rationale
+AWS Service	Function	Rationale
+Route 53	DNS & Global Traffic Routing	Routes users to the nearest, healthy application endpoint using Latency-Based Routing. Provides robust health checks (100% SLA) for fast failover.
+Amazon CloudFront	Global Content Delivery Network (CDN)	Caches large 3D models (OBJ/GLB files), textures, and static assets at Edge Locations to deliver content with millisecond latency globally. Uses OAC (Origin Access Control) for S3 security.
+Amazon S3	Durable Storage for 3D Assets	Provides 11 nines of durability and virtually unlimited storage capacity for high-resolution 3D files. Its integration with CloudFront is seamless and secure.
+Application Load Balancer (ALB)	Layer 7 Traffic Distribution	Distributes incoming HTTP/HTTPS traffic across multiple EC2 instances or containers within a Virtual Private Cloud (VPC). Manages SSL termination and detailed request routing.
+Compute Layer	Backend Business Logic & Rendering	Option A: EC2 Auto Scaling Group for demanding tasks like real-time 3D model configuration/rendering APIs. Option B: AWS Lambda for event-driven, lightweight tasks (e.g., cart updates, user authentication).
+Database Layer	Data Persistence	DynamoDB (NoSQL) for high-read, low-latency product catalog lookups. Amazon RDS (Aurora Multi-AZ) for highly transactional data (orders, payments, inventory, customer profiles) requiring ACID compliance.
+Amazon CloudWatch	Monitoring & Observability	Centralized collection of metrics, logs, and events across all services. Crucial for defining auto-scaling policies and setting up alerts for performance degradation.
+AWS Trusted Advisor	Optimization & Best Practices	Continuously scans the environment against AWS best practices to ensure ongoing cost optimization, security posture, and fault tolerance.
+
+	
+
+
+
+How the Architecture Meets the 5 Requirements
+1. High Availability 
+•	Multi-AZ Deployment: RDS (Aurora) and the EC2 Auto Scaling Group span multiple Availability Zones within an AWS Region.
+•	Decentralized Delivery: CloudFront caches content at edge locations, reducing dependency on a single region or origin.
+•	Automatic Failover: Route 53 health checks automatically re-route traffic away from unhealthy endpoints.
+2. Scalability 
+•	Horizontal Scaling: EC2 Auto Scaling dynamically adds or removes instances based on demand (CPU utilization, queue length).
+•	Serverless Scaling: Lambda and DynamoDB offer near-instant, massive, and automatic scaling capabilities.
+•	Elastic Storage: S3 and CloudFront provide virtually unlimited, auto-scaling capacity for global asset storage and delivery.
+3. Performance 
+•	Edge Caching: CloudFront significantly reduces the load on the origin (S3/EC2) and provides the fastest possible delivery to end-users worldwide.
+•	Specialized Databases: DynamoDB is optimized for sub-10ms product lookups, keeping the user experience snappy.
+•	Efficient Routing: ALB intelligently distributes traffic for optimal server resource usage.
+4. Security 
+•	VPC Isolation: Backend resources (EC2, RDS) are isolated in private subnets, only accessible via the ALB.
+•	Least Privilege: IAM Roles and policies enforce granular access control for all services.
+•	Data Protection: RDS enforces data-at-rest encryption. CloudFront OAC restricts S3 access only to CloudFront.
+5. Cost Optimization 
+•	Pay-as-you-go: Utilizing Lambda and DynamoDB eliminates idle compute costs for sporadic workloads.
+•	Caching Efficiency: CloudFront minimizes expensive requests to the origin (EC2/S3) by serving content from cheaper edge caches.
+•	Resource Right-Sizing: The Auto Scaling Group and DynamoDB auto-scaling ensure resources precisely match the current load, preventing over-provisioning.
+
+Trade-offs and Challenges
+Area	Trade-off / Challenge	Mitigation Strategy
+EC2 vs. Lambda	Lambda has a time limit (up to 15 minutes) and is not ideal for long-running, complex 3D rendering jobs.	Use EC2 Spot Instances within the Auto Scaling Group for cost-effective heavy rendering tasks that can tolerate interruption.
+RDS vs. DynamoDB	DynamoDB requires careful data modeling and lacks the flexibility of SQL for complex analytical queries.	Use Amazon Redshift (optional) to pull data from RDS for complex business intelligence (BI) analysis, keeping the operational databases lean.
+3D Asset Size	High-resolution 3D models and textures can be hundreds of megabytes, impacting initial load times.	Implement CloudFront Compression and use multi-tiered caching (e.g., S3 Intelligent-Tiering) to manage storage costs for less-frequently accessed models.
+VPC Design	Initial setup of private subnets, NAT Gateways, and Security Groups adds configuration complexity.	Use Infrastructure as Code (e.g., AWS CloudFormation) to define the VPC structure reliably and repeatably.
+
+
+Insight
+This taught us how to integrate and optimize AWS services to solve the complex technical challenges of a global, high-demand platform as this research serves as a practical lesson in designing a modern, highly available, and scalable cloud application using AWS.
+
+Conclusion
+The proposed architecture successfully leverages a suite of AWS managed services—particularly the combination of CloudFront, S3, Auto Scaling compute, and a specialized database layer (DynamoDB/RDS)—to create a global, highly available, and cost-effective foundation for a high-traffic 3D e-commerce platform. This design minimizes operational overhead while ensuring resilience against both sudden traffic spikes and component failures.
+
+
+
+
+
+
+
+
+
+
+
