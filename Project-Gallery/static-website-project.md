@@ -22,12 +22,16 @@ We built Marble Bistro's website using a combination of AWS services that work t
 # Amazon S3 - Static Website Hosting
 We chose Amazon S3 as the hosting solution for our static website. S3 provides a simple yet powerful way to store and serve web content without the complexity of managing traditional servers. We created an S3 bucket to house all our website files—HTML pages, CSS stylesheets, JavaScript functionality, and image assets including menu photos and branding materials. After uploading our files, we enabled static website hosting in the bucket configuration and set the appropriate permissions to make the content publicly accessible. This approach gave us reliable hosting at a fraction of the cost of conventional server solutions.
 
-<img width="1228" height="466" alt="Screenshot (1636)" src="https://github.com/user-attachments/assets/ac0ee34c-dcc5-478c-b4a7-c049c1e06400" />
+<img width="1917" height="854" alt="Objects-hosted-on-S3" src="https://github.com/user-attachments/assets/6a2f498d-7b36-45c0-aadc-2aba15644ddc" />
 
 
 
 # Amazon CloudFront - Content Delivery Network
 To ensure fast loading times for all users, we integrated Amazon CloudFront as our content delivery network. CloudFront caches our website content across multiple edge locations around the world, which means customers receive data from the server closest to their physical location. We configured our CloudFront distribution to pull content from the S3 bucket as its origin source. This setup dramatically reduced page load times and improved the browsing experience, particularly during peak hours when the restaurant receives the most online traffic.
+
+<img width="1907" height="835" alt="Cloudfront" src="https://github.com/user-attachments/assets/41c662eb-7b77-482f-9a02-72297e95750c" />
+
+
 # Route 53 - DNS Management
 Professional presentation was important to us, so we registered a custom domain name for Marble Bistro and managed it through Amazon Route 53. Route 53 is AWS's domain name system service that translates the easy-to-remember domain name into the technical addresses needed to locate our CloudFront distribution. We created a hosted zone and configured the necessary DNS records to properly route traffic from the domain to our website. This gave the restaurant a professional web presence with a clean, memorable URL that customers can easily find and trust.
 # AWS Certificate Manager - SSL/TLS Encryption
@@ -35,18 +39,21 @@ Security was non-negotiable for this project, especially since customers would b
 # Amazon DynamoDB - Centralized Data Storage
 To eliminate lost bookings and order mix-ups, we used Amazon DynamoDB to store all reservation and order data. DynamoDB checks availability in real-time before confirming bookings, preventing the double-booking problems that frustrated customers. It also serves as the trigger for our notification system—when new bookings are saved to the database, it automatically sends SMS alerts to the owner via SNS and confirmation emails to customers via SES.
 
-<img width="1266" height="537" alt="Screenshot (1629)" src="https://github.com/user-attachments/assets/934bc79a-c93e-4089-a238-060e5edbe91c" />
-
-
-<img width="1273" height="535" alt="Screenshot (1630)" src="https://github.com/user-attachments/assets/a225e0fe-b1ca-419b-ad48-f7ca5a857f6b" />
-
-
-<img width="1271" height="535" alt="Screenshot (1631)" src="https://github.com/user-attachments/assets/00c79cdb-390a-4f8b-9836-b5db6ada5b27" />
+<img width="1906" height="859" alt="DynamoDB-Tables" src="https://github.com/user-attachments/assets/fa3e21aa-8a44-49f1-bb75-6a277906d76f" />
 
 # AWS Lambda - Serverless Computing
 To handle all the behind-the-scenes work that a static website can't do on its own, we used AWS Lambda. Lambda lets us run code without managing servers—it only executes when triggered, like when a customer submits a booking. We created Lambda functions to validate form data, check DynamoDB for available time slots, save confirmed bookings to the database, and fire off the SNS and SES notifications. The best part? We only pay for the split seconds when the code actually runs, and it automatically handles whether one person or a hundred people book at the same time.
+
+<img width="1902" height="856" alt="Lambda" src="https://github.com/user-attachments/assets/1cba5ab0-04d4-4e66-a3a0-9219321d9803" />
+
+<img width="1899" height="856" alt="IAM-Configuration" src="https://github.com/user-attachments/assets/b77ac084-f904-4c4c-82ce-89926a43b3bc" />
+
+
 # Amazon API Gateway - Connecting the Dots
 Our static website needed a way to talk to those Lambda functions, so we set up Amazon API Gateway. API Gateway creates secure endpoints that our booking forms connect to—when someone clicks "Confirm Reservation," the form sends the data to API Gateway, which then triggers the right Lambda function to handle it. It also provides built-in security features like rate limiting to prevent spam and validates incoming data before passing it along. Basically, it's the secure bridge between what customers see on the website and all the processing that happens in the background.
+
+<img width="1897" height="856" alt="API-Gateway" src="https://github.com/user-attachments/assets/c9536b52-4c89-40c1-ba77-87e0e86b9a91" />
+
 
 # Amazon SNS - Instant SMS Notifications
 One of the most valuable features we implemented was real-time notifications for the restaurant staff. Using Amazon Simple Notification Service (SNS), we created a notification system that alerts the owner immediately when new bookings or orders come through. We set up an SNS topic dedicated to restaurant notifications and subscribed the owner's phone number to it. When a customer completes a booking form on the website, the form submission triggers the SNS topic, which sends an SMS message to the owner's phone containing the reservation details—customer name, date and time, number of guests, and any special requests noted. This immediate notification system eliminates the risk of missed bookings and allows the restaurant to respond quickly to customer needs.
