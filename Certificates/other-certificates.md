@@ -10,14 +10,14 @@
 
 <img width="993" height="725" alt="Screenshot (1531)" src="https://github.com/user-attachments/assets/74430656-0a47-4503-8206-b0b52933eb83" />
 
-<img width="1600" height="900" alt="Screenshot (1858)" src="https://github.com/user-attachments/assets/f80b56fb-28a8-49e3-a671-8f9d348f2bb2" />
+<img width="1073" height="722" alt="Screenshot (1858)" src="https://github.com/user-attachments/assets/34c9fd68-466f-454a-9252-2452fd314353" />
 
-<img width="1600" height="900" alt="Screenshot (1859)" src="https://github.com/user-attachments/assets/22b13df8-7a7c-4f7f-87b5-0dcde032c518" />
+<img width="1053" height="742" alt="Screenshot (1859)" src="https://github.com/user-attachments/assets/f75fff2d-47dc-45cc-bf14-792ac29d3935" />
 
-<img width="1600" height="900" alt="Screenshot (1860)" src="https://github.com/user-attachments/assets/a0f879f1-27bf-4a27-aa96-1c9db3251406" />
+<img width="1062" height="724" alt="Screenshot (1860)" src="https://github.com/user-attachments/assets/4664a0b8-a9e0-46ec-bfac-8811b16ea8f4" />
 
-<img width="1600" height="900" alt="Screenshot (1861)" src="https://github.com/user-attachments/assets/f1e8fc71-d5d3-4ea6-8d45-68132cb58a16" />
+<img width="1034" height="745" alt="Screenshot (1861)" src="https://github.com/user-attachments/assets/1e6359bc-d225-442a-bd85-372a4a9ead38" />
 
-<img width="1600" height="900" alt="Screenshot (1862)" src="https://github.com/user-attachments/assets/7b28ff3b-037c-4055-b5b0-2d57780e3614" />
+<img width="1044" height="766" alt="Screenshot (1862)" src="https://github.com/user-attachments/assets/2bb7c0e5-087b-4040-9e61-a843b8833db2" />
 
-![Uploading Screenshot (1863).png…]()
+<img width="977" height="753" alt="Screenshot (1863)" src="https://github.com/user-attachments/assets/feb9ac4b-87d7-4b9a-a113-2784a47d15d0" />
