@@ -2,94 +2,81 @@
 Under compute i WIll share 2 labs
 #  FIRST LAB : EC2
 
-- I had to make a lab that introduced me to Amazon EC2.
-- After doing the lab, the outcome was to learn the following
-- Launch a web server with termination protection enabled
+I worked through a hands-on lab with Amazon EC2, learning how to launch, configure, monitor, modify, and manage EC2 instances. Here's what I did.
+Starting the Lab
+I started the lab environment and navigated to the EC2 service in the AWS Management Console to begin launching my instance.
+# Task 1: Launching an EC2 Instance
+I clicked "Launch instance" and configured the following settings:
 
-- Monitor Your EC2 instance
+- Instance name: Gave my instance a descriptive name (Web Server)
+- Amazon Machine Image (AMI): Selected an appropriate AMI (such as Amazon Linux 2)
+- Instance type: Chose an instance type (initially t3.micro)
+- Key pair: Configured or selected an existing key pair for SSH access
+- Network settings: Selected the appropriate VPC and subnet, and configured the security group
+- Storage: Added and configured the storage volume (8GB by default)
+- Advanced settings: Enabled termination protection to prevent accidental deletion
 
-- Modify the security group that your web server is using to allow HTTP access
+I then launched the instance and waited for it to enter the "running" state.
+# Task 2: Monitoring the Instance
+I selected my running instance and explored the monitoring features:
 
-- Resize your Amazon EC2 instance to scale
+- Reviewed the Status Checks tab to verify system and instance reachability
+- Examined the Monitoring tab to view CloudWatch metrics like CPU utilization, network traffic, and disk I/O
+- Used these metrics to understand instance performance and troubleshoot any potential issues
 
-- Test termination protection
+# Task 3: Updating Security Rules and Accessing the Web Server
+I needed to allow HTTP access to my web server:
 
-- Terminate your EC2 instance
+- Navigated to Network & Security and selected Security Groups
+- Selected the security group associated with my instance
+- Clicked on the Inbound rules tab and selected "Edit inbound rules"
+- Added a new rule with:
 
-  I had to start the lab
-  Launch the instance on the EC2
-   <img width="1600" height="900" alt="Screenshot (1296)" src="https://github.com/user-attachments/assets/0d33d8d5-73b5-44bb-b691-9ea7cdfdccf2" />
-
- # TASK 1 :
-  LAUNCH EC2 INSTANCE
-  
-  Under task one i had to follow this steps below to get tHe required outcome
-
--  Name the instance
--  Choose an Amazon machine image
--  Choose an instance type
--  Configure a key pair
--  Configure the network settings
--  Add storage
--  Configure advanced network settings
--  Then finally launch the instance
-  <img width="1600" height="900" alt="Screenshot (1289)" src="https://github.com/user-attachments/assets/ee7a4d40-d86f-4b4f-b547-aec3bead5cda" />
-   
-
- # TASK 2 :
-  MONITOR THE INSTANCE
-  
-  under task two, i had to do the following
-  - Monitor and troubleshoot to get the this outcome
-    THIS IS THE OUTCOME
-    <img width="1600" height="900" alt="Screenshot (1290)" src="https://github.com/user-attachments/assets/869d8dd6-32c1-4142-91b3-e084294f481a" />
+Type: HTTP
+Source: Anywhere-IPv4 (0.0.0.0/0)
 
 
- # TASK 3 :
-UPDATE SECURITY RULES AND ACCESS THE WEB SERVER
-    
- Under task three i had to do the following
- - Go to network & security
- - The select security groups
- - select inbound rules
- - Edit the rules with the following : - Type: HTTP      Source: Anywhere-IPv4
- - Save the rules and reload web server to see the desired outcome.
-      THIS IS THE OUTCOME
-      
-  <img width="1600" height="900" alt="Screenshot (1291)" src="https://github.com/user-attachments/assets/64b7336e-63ba-46eb-82ab-e92095e1cf8a" />
+- Saved the rules
 
-  <img width="1600" height="900" alt="Screenshot (1292)" src="https://github.com/user-attachments/assets/aafe013c-5816-45d1-af45-6270afcd694a" />
+I then copied the instance's public IP address and pasted it into a browser to access the web server. The webpage loaded successfully, confirming that HTTP traffic was now allowed.
+# Task 4: Resizing the Instance
+To scale my instance, I performed the following steps:
 
-      
-   
-# TASK 4 :
- RESIZE YOUR INSTANCE
-    
-Under task four i had to do the following
-- Navigate to instance and select the web server you created
-- Select instance state > Stop instance
-- Instance must display stopped
-- Change the instance to t3.small under Actions tab
-- Resize volume under actions to 10
-The desired outcome must display the new changes i just did
- THIS IS THE OUTCOME
+- Selected my web server instance
+- Chose Instance state > Stop instance and waited until the status showed "Stopped"
+- Selected Actions > Instance settings > Change instance type
+- Changed the instance type from t3.micro to t3.small
+- Selected Actions > Storage and modified the volume size from 8GB to 10GB
+Started the instance again
+
+The instance successfully restarted with the new configuration, displaying the updated instance type and storage capacity.
+# Task 5: Testing Termination Protection
+I tested the termination protection feature:
+
+- Selected my web server instance
+Attempted to terminate it by selecting Instance state > Terminate instance
+The termination failed because termination protection was enabled
+
+# To successfully terminate the instance:
+
+- Went to Actions > Instance settings > Change termination protection
+- Unchecked the "Enable" box to disable termination protection
+- Returned to Actions > Instance state > Terminate instance
+- Confirmed the termination, and the instance was successfully terminated
+
+
+
+<img width="1600" height="900" alt="Screenshot (1296)" src="https://github.com/user-attachments/assets/0d33d8d5-73b5-44bb-b691-9ea7cdfdccf2" />
+<img width="1600" height="900" alt="Screenshot (1289)" src="https://github.com/user-attachments/assets/ee7a4d40-d86f-4b4f-b547-aec3bead5cda" />
+<img width="1600" height="900" alt="Screenshot (1290)" src="https://github.com/user-attachments/assets/869d8dd6-32c1-4142-91b3-e084294f481a" />   
+<img width="1600" height="900" alt="Screenshot (1291)" src="https://github.com/user-attachments/assets/64b7336e-63ba-46eb-82ab-e92095e1cf8a" />
+<img width="1600" height="900" alt="Screenshot (1292)" src="https://github.com/user-attachments/assets/aafe013c-5816-45d1-af45-6270afcd694a" />
 <img width="1600" height="900" alt="Screenshot (1293)" src="https://github.com/user-attachments/assets/03ce1736-f693-44da-91b6-9242d756dfd4" />
+<img width="1600" height="900" alt="Screenshot (1294)" src="https://github.com/user-attachments/assets/429b93a7-4133-45b8-b5ec-a05ce8ecb84d" />
+<img width="1600" height="900" alt="Screenshot (1295)" src="https://github.com/user-attachments/assets/7c524d9c-3e11-4367-b1a0-5da26498799b" />
 
-
-
-# TASK 5:
-TEST TERMINATION PROCESS
-
-Under task five i had to do the following
-- Navigate to instance, and then select the web server you just created
-- Under instance menu select the termination delete tab
-- Bescause he it did not work, go to actions > select instance setting > change protection then uncheck ENABLE
-- Go to actions again instance state > terminate instance
-  THIS IS THE OUTCOME
-  <img width="1600" height="900" alt="Screenshot (1294)" src="https://github.com/user-attachments/assets/429b93a7-4133-45b8-b5ec-a05ce8ecb84d" />
-
-
-  <img width="1600" height="900" alt="Screenshot (1295)" src="https://github.com/user-attachments/assets/7c524d9c-3e11-4367-b1a0-5da26498799b" />
+# CHALLENGES
+I initially struggled with understanding why my web server wasn't accessible in the browser even though the instance was running. After troubleshooting, I realized the security group didn't have an inbound rule allowing HTTP traffic on port 80. Once I added the HTTP rule with source set to Anywhere-IPv4, the web server became accessible immediately. This taught me the importance of properly configuring security groups for different types of applications.
 
   ## WHAT I LEARNED
   Here's what I learned from this lab:
@@ -107,35 +94,67 @@ Under task five i had to do the following
 ##  Lab Complete 🎓
 
 # SECOND LAB: AWS Lambda Exercise (Challenge) 177
-Objectives
-After completing this lab, you will be able to do the following:
 
-- Create a Lambda function to count the number of words in a text file.
+I worked through a hands-on lab with AWS Lambda, learning how to create a serverless function that automatically counts words in text files and sends email notifications. Here's what I did.
+# Task 1: Creating an SNS Topic for Email Notifications
+I started by creating an Amazon SNS topic to handle email notifications:
 
-- Configure an Amazon Simple Storage Service (Amazon S3) bucket to invoke a Lambda function when a text file is uploaded to the S3 bucket.
+- Navigated to the SNS service in the AWS Management Console
+- Created a new topic with a descriptive name (WordCountTopic)
+- Created a subscription with the protocol set to Email
+- Entered my email address as the endpoint
+- Confirmed the subscription by clicking the link sent to my email
 
-- Create an Amazon Simple Notification Service (Amazon SNS) topic to report the word count in an email
-# challenge
+# Task 2: Creating the Lambda Function
+I navigated to the Lambda service and created a new function:
 
-- Create a Lambda function to count the number of words in a text file. The general steps are as follows:
+- Chose "Author from scratch"
+- Named the function (WordCountFunction)
+- Selected Python as the runtime
+- Created a new execution role with basic Lambda permissions
 
-- Use the AWS Management Console to develop a Lambda function in Python and create the function's required resources.
+I then wrote the Lambda function code in Python that:
 
-- Report the word count in an email by using an SNS topic. Optionally, also send the result in an SMS (text) message.
+- Retrieved the uploaded text file from the S3 bucket using the event data
+- Read the file contents
+- Counted the number of words in the text
+- Formatted the message as: "The word count in the <textFileName> file is nnn."
+- Published the result to the SNS topic with the subject "Word Count Result"
 
-- Format the response message as follows:
+I also configured the Lambda function's execution role to grant permissions for:
 
-- The word count in the <textFileName> file is nnn. 
-- Replace <textFileName> with the name of the file.
+- Reading objects from S3
+- Publishing messages to SNS
 
-- Enter the following text as the email subject: Word Count Result
+# Task 3: Configuring the S3 Bucket Trigger
+I created an S3 bucket to store text files:
 
-- Automatically invoke the function when the text file is uploaded to an S3 bucket.
+- Navigated to the S3 service and created a new bucket
+- Configured the bucket to trigger the Lambda function automatically when objects are uploaded
+- Added an event notification with:
 
-- Test the function by uploading a few sample text files with different word counts to the S3 bucket.
+- Event type: PUT (object created)
+- Destination: Lambda function
+- Lambda function: Selected my WordCountFunction
 
-- Forward the email that one of your tests produces and a screenshot of your Lambda function to your instructor.
-- 
+
+
+This setup ensured that whenever a text file was uploaded to the bucket, the Lambda function would automatically execute.
+# Task 4: Testing the Function
+I tested the function by uploading several sample text files to the S3 bucket:
+
+- Created text files with different word counts (10 words, 50 words, 100 words)
+- Uploaded each file to the S3 bucket
+- Verified that the Lambda function was triggered automatically for each upload
+- Checked my email inbox for the SNS notifications
+
+Each test successfully generated an email with the correct word count and filename.
+# Task 5: Submitting Results
+I forwarded one of the email notifications to my instructor and took a screenshot of my Lambda function code in the console to document my work
+
+
+# CHALLENGES
+I initially encountered permission errors when the Lambda function tried to read files from S3. The error messages indicated "Access Denied." After troubleshooting, I realized the Lambda execution role didn't have the necessary S3 permissions. I had to manually add an IAM policy to the role that allowed s3:GetObject actions on the specific bucket. Once I updated the permissions, the function worked correctly and could read the text files without issues.
 # WHAT I LEARNED
 Here’s what I learned from this lab:
 - I created a Lambda function that counts the number of words in a text file, showing how AWS can run code automatically without needing a server
