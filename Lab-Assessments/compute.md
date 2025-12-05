@@ -1,5 +1,5 @@
 ##   COMPUTE
-Under compute i WIll share 2 labs
+Under compute i will share 2 labs
 #  FIRST LAB : EC2
 
 I worked through a hands-on lab with Amazon EC2, learning how to launch, configure, monitor, modify, and manage EC2 instances. Here's what I did.
