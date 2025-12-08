@@ -42,7 +42,7 @@ Long-term: My aspiration is to become an AWS Solutions Architect, helping organi
 <img width="601" height="601" alt="aws-cloud-quest-cloud-practitioner-training-badge" src="https://github.com/user-attachments/assets/99498097-643b-4627-ba00-8f5f56a139cb" />
 
 # 🛠️ Skills & Technologies
-- Cloud Computing (AWS)
+# Cloud Computing (AWS)
 - Amazon EC2 (Virtual Servers)
 - Amazon S3 (Storage Solutions)
 - Amazon RDS & DynamoDB
