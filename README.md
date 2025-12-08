@@ -53,7 +53,7 @@ Long-term: My aspiration is to become an AWS Solutions Architect, helping organi
 - Route 53 (DNS Management)
 - Certificate Manager
 - Cloud Economics & Cost Optimization
-- Linux & Networking
+# Linux & Networking
 - Command line basics
 - File management and permissions
 - Bash scripting essentials
@@ -61,7 +61,7 @@ Long-term: My aspiration is to become an AWS Solutions Architect, helping organi
 - VPC configuration
 - Security groups and firewalls
 - Network troubleshooting
-- Professional Skills
+# Professional Skills
 - Problem-Solving
 - Attention to Detail
 - Quick Learner
