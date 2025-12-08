@@ -1,10 +1,13 @@
 👋 Hello! I'm Keketso
+
 A dedicated learner with a growing passion for cloud computing and a clear vision of building a career as a Cloud Solutions Architect. My journey into tech is fueled by curiosity about how cloud technologies can revolutionize the way we build, scale, and deliver digital solutions.
 
 I am deeply passionate about cloud computing because I see it as the foundation of modern innovation. The ability to architect scalable, secure, and cost-effective solutions that can transform businesses fascinates me. My goal is to master the technical depths of cloud infrastructure while developing the strategic thinking required to design solutions that truly solve real-world problems. This passion drives my commitment to continuous learning and my determination to contribute meaningfully to the cloud ecosystem.
 
 🚀 About Me
+
 Background
+
 My professional background is in administrative work, where I developed strong organizational skills, attention to detail, and the ability to work efficiently under pressure. While my experience was non-technical, I've always been curious about technology and how things work behind the scenes. This curiosity led me to take the leap into cloud computing!
 
 I'm naturally hardworking, honest, and kind. I believe in giving my best to everything I do, and I'm committed to continuous learning and growth. My journey into cloud computing represents a deliberate career pivot toward technology. What sets me apart is my approach to learning—I don't just aim to understand how services work, but why certain architectural decisions matter. I'm building my expertise with a user-centric mindset, always considering how technical solutions translate into business value and improved user experiences.
@@ -32,8 +35,10 @@ Security and best practices
 Automation and efficiency
 Helping businesses migrate to the cloud
 Continuous learning and growth
+
 🏆 AWS Badges
 aws-cloud-quest-cloud-practitioner-training-badge
+
 🛠️ Skills & Technologies
 Cloud Computing (AWS)
 Amazon EC2 (Virtual Servers)
