@@ -10,13 +10,6 @@ We used AWS services such as: ▪ Amazon S3 for 3D asset storage ▪ CloudFront 
 - How your architecture meets each of the 5 requirements.
 - Any design trade-offs or challenges
   
-## Team Members
-- Keketso
-- kwanele
-- Madimetja
-- Neo
-- Leah
-
 ##   3D E-Commerce Platform Architecture on AWS
 
 ## High Availability Design - AWS Cloud Practitioner Project
