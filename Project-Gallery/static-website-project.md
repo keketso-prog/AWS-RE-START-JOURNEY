@@ -1,3 +1,5 @@
+# About This Project
+Our team of five took on the challenge of helping Marble Bistro, a busy local restaurant that was drowning in paperwork and missed reservations. What started as a straightforward web development assignment turned into a real eye-opener about how small businesses struggle without the right digital tools.
 
 # How We Built It
 We built Marble Bistro's website using a combination of AWS services that work together to create a reliable, secure, and efficient platform. Here's a breakdown of our technical approach
