@@ -106,11 +106,18 @@ When we sat down with the owner to explain our recommendation, we wanted to keep
 
 # Here's what sold them on AWS:
 - It's Actually Affordable: The owner was worried about costs, but AWS pricing blew their mind.
- They're only charged for what they actually use—no expensive servers gathering dust in a back room.
- For a static website like this, the monthly cost is less than what they'd spend on printer paper and ink for their old system.
--It Just Works: We promised 99.99% uptime, and the owner asked what that meant in real terms. -We explained: "Your website will be up and running pretty much always—even at 2 AM when someone's craving your food and wants to place an order for tomorrow." That clicked immediately.
+ - They're only charged for what they actually use—no expensive servers gathering dust in a back room.
+-  For a static website like this, the monthly cost is less than what they'd spend on printer paper and ink for their old system.
+-It Just Works: We promised 99.99% uptime, and the owner asked what that meant in real terms. 
+- We explained: "Your website will be up and running pretty much always—even at 2 AM when someone's craving your food and wants to place an order for tomorrow." That clicked immediately.
 - Handles the Rush: Remember Valentine's Day or Mother's Day when the restaurant gets absolutely slammed? The website can handle those traffic spikes without breaking a sweat. No crashes, no slowdowns, no turning customers away.
 - Way More Secure: We didn't get too technical here, but we explained that AWS protects customer information way better than a filing cabinet or an old computer ever could. In today's world, that peace of mind matters to customers.
 - Zero Maintenance Headaches: This was huge. The owner doesn't know much about technology and didn't want to learn. With AWS managing the infrastructure, they don't need to. No updates to install, no servers to maintain, nothing. It just runs.
 - Fast Loading Times: Nobody likes waiting for a slow website to load. With AWS CloudFront, the site loads quickly whether customers are at home or commuting. Happy customers, more orders.
 - Room to Grow: Down the line, if the restaurant wants to add features—maybe email confirmations, loyalty programs, or a mobile app—AWS makes it straightforward to expand without starting from scratch.
+
+# What Changed
+A few weeks after launch, we stopped by to check in with the owner. The difference was honestly amazing. They greeted us with a huge smile—completely different from the stressed-out person we'd first met. The double bookings were gone, orders were coming through clearly, and the owner wasn't glued to their phone anymore. They actually had time to walk around the dining room, chat with customers, and focus on what they love—the food and the experience. Even the staff seemed relieved. When orders are clear and bookings are organized, everyone's job gets easier.
+
+ #  Working as a Team
+Honestly, five people working on one project could've been messy, but we made it work. We split up the tasks based on what everyone was good at—some of us handled the design and coding, others tackled the AWS setup, and a few focused on creating the content and preparing our presentation. We had our moments of disagreement (especially about color schemes!), but overall, we're pretty proud of what we pulled together.
