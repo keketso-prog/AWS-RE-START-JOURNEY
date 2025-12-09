@@ -3,6 +3,10 @@
 I worked through an introductory lab with Python programming using AWS Cloud9, learning how to set up my development environment and write my first Python program. Here's what I did.
 - Starting the Lab Environment
 I clicked "Start Lab" at the top of the instructions and waited for the "Lab status: ready" message before closing the panel. Then I accessed the AWS Management Console, selected Services > Cloud9, found the reStart-python-cloud9 environment, and clicked "Open IDE."
+
+<img width="1584" height="865" alt="Screenshot (1714)" src="https://github.com/user-attachments/assets/f6535b15-253e-4a59-911b-77b2f92bf886" />
+<img width="1588" height="734" alt="Screenshot (1707)" src="https://github.com/user-attachments/assets/cac88401-d7e4-4e8d-acfc-c40a6c4e052e" />
+
 - Exercise 1: Creating a Python Exercise File
 In the AWS Cloud9 IDE, I created a new Python file by choosing File > New From Template > Python File. I deleted the sample code from the template and saved the file using File > Save As.
 - Accessing the Terminal Session
@@ -10,8 +14,6 @@ I opened a terminal by clicking the + icon and selecting "New Terminal." I used 
 - Exercise 2: Writing My First Python Program
 I entered Python code into my file and ran it to see the results, successfully executing my first Python program in the Cloud9 environment.
   
-<img width="1584" height="865" alt="Screenshot (1714)" src="https://github.com/user-attachments/assets/f6535b15-253e-4a59-911b-77b2f92bf886" />
-<img width="1588" height="734" alt="Screenshot (1707)" src="https://github.com/user-attachments/assets/cac88401-d7e4-4e8d-acfc-c40a6c4e052e" />
 <img width="1594" height="829" alt="Screenshot (1708)" src="https://github.com/user-attachments/assets/200f3782-ddc3-441f-9019-6d37d4115066" />
 <img width="1590" height="852" alt="Screenshot (1709)" src="https://github.com/user-attachments/assets/7488ca8d-62b3-4c74-bdd2-f349163859f5" />
 <img width="1587" height="861" alt="Screenshot (1710)" src="https://github.com/user-attachments/assets/1db730ed-7cef-4bb5-89d1-b5f83f8bd5b3" />
