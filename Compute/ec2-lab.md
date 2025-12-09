@@ -81,7 +81,23 @@ The termination failed because termination protection was enabled
 <img width="1600" height="900" alt="Screenshot (1295)" src="https://github.com/user-attachments/assets/7c524d9c-3e11-4367-b1a0-5da26498799b" />
 
 
+# CHALLENGES
+I initially struggled with understanding why my web server wasn't accessible in the browser even though the instance was running. After troubleshooting, I realized the security group didn't have an inbound rule allowing HTTP traffic on port 80. Once I added the HTTP rule with source set to Anywhere-IPv4, the web server became accessible immediately. This taught me the importance of properly configuring security groups for different types of applications.
 
+  ## WHAT I LEARNED
+  Here's what I learned from this lab:
+  - I set up a web server using AWS by launching an EC2 instance and enabling termination protection to prevent accidental deletion
+  -  I monitored the performance of my server to ensure everything was functioning properly
+  - I adjusted the security settings to allow web access so visitors could access my website via HTTP.
+  - I learned how to scale my server, adjusting its power as needed based on my requirements.
+  -  I tested the termination protection by attempting to delete the server to confirm the safety feature worked as intended
+  -   Finally, I correctly shut down and removed the instance once I was done.
+    # Overall :
+
+  I gained practical experience with the key aspects of managing and operating a cloud server.
+
+
+##  Lab Complete 🎓
   
 
   
