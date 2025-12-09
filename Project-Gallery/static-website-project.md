@@ -14,6 +14,9 @@ Walking into Marble Bistro for the first time, we immediately saw the chaos.
 - The thought of expanding or handling more customers? Forget it. They'd need to hire more people just to manage the phones and paperwork
 - The owner was frustrated and exhausted. They needed help, and honestly, we were excited to provide it.
 
+ # What We Built
+We created a clean, straightforward website where customers can actually book tables and place orders without picking up the phone. Nothing fancy or overcomplicated—just a solid solution that works.
+
 # How We Built It
 We built Marble Bistro's website using a combination of AWS services that work together to create a reliable, secure, and efficient platform. Here's a breakdown of our technical approach
 
