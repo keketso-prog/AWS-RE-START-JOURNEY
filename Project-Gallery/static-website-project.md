@@ -1,6 +1,19 @@
 # About This Project
 Our team of five took on the challenge of helping Marble Bistro, a busy local restaurant that was drowning in paperwork and missed reservations. What started as a straightforward web development assignment turned into a real eye-opener about how small businesses struggle without the right digital tools.
 
+# The Problem We Found
+Walking into Marble Bistro for the first time, we immediately saw the chaos.
+
+- The owner was juggling phone calls, scribbling bookings on a worn-out notepad, and trying to keep track of takeout orders on scattered sticky notes.
+- It was honestly stressful just watching
+- The issues were piling up:
+- Orders were getting mixed up almost daily—imagine ordering pasta and getting someone else's burger
+- Double bookings happened so often that the owner had started turning away customers just to be safe
+- Customers would call to confirm their reservations and wait hours for a callback because the owner was too swamped
+- There was no way to remember regular customers or their preferences, which meant missing out on that personal touch that makes small restaurants special
+- The thought of expanding or handling more customers? Forget it. They'd need to hire more people just to manage the phones and paperwork
+- The owner was frustrated and exhausted. They needed help, and honestly, we were excited to provide it.
+
 # How We Built It
 We built Marble Bistro's website using a combination of AWS services that work together to create a reliable, secure, and efficient platform. Here's a breakdown of our technical approach
 
