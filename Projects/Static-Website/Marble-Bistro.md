@@ -83,16 +83,19 @@
 
 - Handles behind-the-scenes work static websites can't do alone
 - Runs code without managing servers—only executes when triggered (e.g., customer submits booking)
-- Lambda functions created to:
-
-# Validate form data
+  
+#  Lambda functions created to:
+-  Validate form data
 - Check DynamoDB for available time slots
 - Save confirmed bookings to database
 - Fire off SNS and SES notifications
 
-
 # Benefits: 
 - Only pay for split seconds when code actually runs, automatically handles whether one person or hundred people book simultaneously
+
+<img width="1902" height="856" alt="Lambda" src="https://github.com/user-attachments/assets/1cba5ab0-04d4-4e66-a3a0-9219321d9803" />
+
+<img width="1899" height="856" alt="IAM-Configuration" src="https://github.com/user-attachments/assets/b77ac084-f904-4c4c-82ce-89926a43b3bc" />
 
 # Amazon API Gateway:
 
