@@ -19,7 +19,7 @@ Throughout this program, I developed proficiency in:
 ## 📂 What's in This Repository
 
 ### 1. 🗺️ [Learning Roadmap](./Learning-RoadMap.md)
-**What's inside:** A timeline of my progress, milestones, and certification goals.  
+**What's inside:** A timeline of my progress, milestones.  
 **Why read:** To see the path I took and where I'm heading next.
 
 ### 2. 📜 [Weekly Notes](./Weekly-Notes.md)
@@ -27,7 +27,7 @@ Throughout this program, I developed proficiency in:
 **Why read:** For a detailed breakdown of the topics covered (Linux, AWS, Networking, Python, Security, etc.).
 
 ### 3. 🚀 [Projects](./Projects.md)
-**What's inside:** Technical details, code, tech stacks, problem-solving approaches, screenshots, and architecture diagrams.  
+**What's inside:** Technical details, problem-solving approaches, screenshots, and architecture diagrams.  
 **Why read:** To see practical applications of the concepts I learned.
 
 ### 4. 🎮 [Cloud Quest](./Cloud-Quest-Game.md)
