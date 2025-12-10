@@ -1,4 +1,4 @@
-# Business Problem & Context:
+# Business Problem :
 # The Situation We Found:
 - Walking into Marble Bistro revealed complete operational chaos:
 
@@ -17,6 +17,8 @@
 
 # What We Built:
 - A clean, straightforward website where customers can book tables and place orders without picking up the phone. Nothing fancy or overcomplicated—just a solid solution that works.
+
+<img width="1600" height="900" alt="Screenshot (1622)" src="https://github.com/user-attachments/assets/7d56e334-724b-4278-a595-33f27bce1708" />
 
 # Technical Implementation:
 # Amazon S3 - Static Website Hosting:
