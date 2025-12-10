@@ -41,6 +41,8 @@
 - Set appropriate public access permissions
 - Benefits: Reliable hosting at fraction of traditional server costs
 
+<img width="1917" height="854" alt="Objects-hosted-on-S3" src="https://github.com/user-attachments/assets/6a2f498d-7b36-45c0-aadc-2aba15644ddc" />
+
 # Amazon CloudFront - Content Delivery Network:
 
 - Integrated to ensure fast loading times for all users globally
