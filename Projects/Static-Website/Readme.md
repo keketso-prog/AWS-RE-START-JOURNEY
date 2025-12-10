@@ -24,7 +24,7 @@
 
 # System Architecture Flow:
 
-- Customer访问 → Custom Domain → Route 53 → CloudFront → S3 (website delivery)
+- Customer → Custom Domain → Route 53 → CloudFront → S3 (website delivery)
 - Form Submission → API Gateway → Lambda Function → DynamoDB (data processing)
 -  Trigger → SNS (owner SMS notification) + SES (customer email confirmation)
 
