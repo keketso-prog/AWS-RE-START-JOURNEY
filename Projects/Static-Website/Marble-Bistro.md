@@ -77,6 +77,8 @@
 - Serves as trigger for notification system
 - When new bookings saved to database: automatically sends SMS alerts to owner via SNS and confirmation emails to customers via SES
 
+<img width="1906" height="859" alt="DynamoDB-Tables" src="https://github.com/user-attachments/assets/fa3e21aa-8a44-49f1-bb75-6a277906d76f" />
+
 # AWS Lambda - Serverless Computing:
 
 - Handles behind-the-scenes work static websites can't do alone
