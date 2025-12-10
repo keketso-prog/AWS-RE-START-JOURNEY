@@ -21,6 +21,18 @@
 <img width="1600" height="900" alt="Screenshot (1622)" src="https://github.com/user-attachments/assets/7d56e334-724b-4278-a595-33f27bce1708" />
 
 # Technical Implementation:
+
+
+<img width="1600" height="855" alt="Screenshot (1821)" src="https://github.com/user-attachments/assets/750feab8-b3a7-4441-91ea-ad14bebc4fc6" />
+
+<img width="1600" height="868" alt="Screenshot (1822)" src="https://github.com/user-attachments/assets/4545609a-76ab-4d33-87d1-1253a2e26a4d" />
+
+<img width="1600" height="861" alt="Screenshot (1823)" src="https://github.com/user-attachments/assets/192a4a58-3e45-4781-8194-a1709cf1f0c6" />
+
+<img width="1600" height="861" alt="Screenshot (1824)" src="https://github.com/user-attachments/assets/ce62f5f0-0180-4352-b524-998d943e3f76" />
+
+<img width="1590" height="858" alt="Screenshot (1825)" src="https://github.com/user-attachments/assets/6eb2c4bb-ea4d-40d2-a201-6129629dc09d" /
+
 # Amazon S3 - Static Website Hosting:
 
 - Chose S3 for simple yet powerful content storage and serving
