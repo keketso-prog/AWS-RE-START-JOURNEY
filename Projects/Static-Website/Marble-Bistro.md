@@ -104,6 +104,8 @@
 - Built-in security features: rate limiting to prevent spam, validates incoming data before passing along
 - Acts as secure bridge between customer-facing website and background processing
 
+<img width="1897" height="856" alt="API-Gateway" src="https://github.com/user-attachments/assets/c9536b52-4c89-40c1-ba77-87e0e86b9a91" />
+
 # Amazon SNS - Instant SMS Notifications:
 
 - Real-time notifications for restaurant staff - most valuable feature implemented
