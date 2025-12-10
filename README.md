@@ -1,145 +1,131 @@
-# 👋 Hello! I'm Keketso
+# AWS re/Start Journey ☁️
 
-A dedicated learner with a growing passion for cloud computing and a clear vision of building a career as a Cloud Solutions Architect. My journey into tech is fueled by curiosity about how cloud technologies can revolutionize the way we build, scale, and deliver digital solutions.
+Welcome! This repository documents my 12-week journey through the **AWS re/Start program**, an intensive technical training curriculum designed to prepare participants for entry-level cloud computing careers.
 
-I am deeply passionate about cloud computing because I see it as the foundation of modern innovation. The ability to architect scalable, secure, and cost-effective solutions that can transform businesses fascinates me. My goal is to master the technical depths of cloud infrastructure while developing the strategic thinking required to design solutions that truly solve real-world problems. This passion drives my commitment to continuous learning and my determination to contribute meaningfully to the cloud ecosystem.
+I'm **Keketso Bakaqane**, an aspiring cloud professional passionate about building secure, scalable, and cost-effective solutions in the cloud. This space serves as a comprehensive record of my technical progression, hands-on labs, projects, and practical application of cloud computing concepts.
 
-# 🚀 About Me
 
-# My background
+## 🎓 Program Overview
 
-My professional background is in administrative work, where I developed strong organizational skills, attention to detail, and the ability to work efficiently under pressure. While my experience was non-technical, I've always been curious about technology and how things work behind the scenes. This curiosity led me to take the leap into cloud computing!
+Throughout this program, I developed proficiency in:
 
-I'm naturally hardworking, honest, and kind. I believe in giving my best to everything I do, and I'm committed to continuous learning and growth. My journey into cloud computing represents a deliberate career pivot toward technology. What sets me apart is my approach to learning—I don't just aim to understand how services work, but why certain architectural decisions matter. I'm building my expertise with a user-centric mindset, always considering how technical solutions translate into business value and improved user experiences.
+**Amazon Web Services (AWS)** – Cloud infrastructure and core services  
+**Linux Administration** – System operations and command-line proficiency  
+**Networking Fundamentals** – TCP/IP, routing, and network architecture  
+**Security Best Practices** – Cloud security principles and implementation  
+**Python Programming** – Automation and scripting for cloud environments
 
-# AWS re/Start Journey
-I recently completed the AWS re/Start program, an intensive training experience that equipped me with foundational cloud computing skills. I joined the AWS re/Start program to gain hands-on cloud computing skills and launch a career in the rapidly growing tech industry
 
-Through this program i gained:
+## 📂 What's in This Repository
 
-- Practical knowledge of core AWS services and their real-world applications
-- Understanding of cloud security, cost management, and operational best practices
-- Hands-on experience with cloud problem-solving and architecture design
-- Professional development in technical communication, teamwork, and presenting solutions
-- This comprehensive training provided me with both the technical skills and practical mindset needed to work effectively in cloud environments.
-- I'm now seeking an entry-level cloud role where I can apply what I've learned, contribute to meaningful projects, and develop the expertise required to advance toward a Cloud Solutions Architect position.
+### 1. 🗺️ [Learning Roadmap](./Learning-RoadMap.md)
+**What's inside:** A timeline of my progress, milestones, and certification goals.  
+**Why read:** To see the path I took and where I'm heading next.
 
-# 🎯 Career Goals
-Short-term: I'm seeking opportunities as a Cloud Support Specialist or Junior Cloud Engineer where I can apply my AWS knowledge and continue learning.
+### 2. 📜 [Weekly Notes](./Weekly-Notes.md)
+**What's inside:** Key learnings, insights, and reflections organized by week.  
+**Why read:** For a detailed breakdown of the topics covered (Linux, AWS, Networking, Python, Security, etc.).
 
-Long-term: My aspiration is to become an AWS Solutions Architect, helping organizations solve real-world problems through cloud technology.
+### 3. 🚀 [Projects](./Projects.md)
+**What's inside:** Technical details, code, tech stacks, problem-solving approaches, screenshots, and architecture diagrams.  
+**Why read:** To see practical applications of the concepts I learned.
 
-# What excites me:
+### 4. 🎮 [Cloud Quest](./Cloud-Quest-Game.md)
+**What's inside:** My progress in the interactive AWS Cloud Quest role-playing game.  
+**Why read:** To see how I applied skills in real-world simulations and gamified learning scenarios.
 
-- Cloud infrastructure and architecture
-- Security and best practices
-- Automation and efficiency
-- Helping businesses migrate to the cloud
-- Continuous learning and growth
+### 5. 🧪 [Lab Assessments](./Lab-Assessments.md)
+**What's inside:** Results from practical lab exercises, troubleshooting logs, and hands-on configurations.  
+**Why read:** To verify my hands-on technical capabilities and problem-solving approach.
 
-# 🏆 AWS Badges
+### 6. 📜 [Certificates](./AWS-Certificates.md)
+**What's inside:** AWS certifications and badges I've accumulated throughout the program.  
+**Why read:** To see validated proof of my cloud computing knowledge and skills.
 
-<img width="601" height="601" alt="aws-cloud-quest-cloud-practitioner-training-badge" src="https://github.com/user-attachments/assets/99498097-643b-4627-ba00-8f5f56a139cb" />
 
-# 🛠️ Skills & Technologies
-# Cloud Computing (AWS)
-- Amazon EC2 (Virtual Servers)
-- Amazon S3 (Storage Solutions)
-- Amazon RDS & DynamoDB
-- VPC & Networking
-- IAM (Identity and Access Management)
-- Auto Scaling & Load Balancing
-- CloudFront (Content Delivery)
-- Route 53 (DNS Management)
-- Certificate Manager
-- Cloud Economics & Cost Optimization
-# Linux & Networking
-- Command line basics
-- File management and permissions
-- Bash scripting essentials
-- IP addressing and subnets
-- VPC configuration
-- Security groups and firewalls
-- Network troubleshooting
-# Professional Skills
-- Problem-Solving
-- Attention to Detail
-- Quick Learner
-- Self-Motivated
-- Adaptability
-- Effective Communication
-- Collaboration
-# 🎓 Education & Training
-AWS re/Start Program - 12-Week Intensive Cloud Computing Training
 
-- Completed hands-on labs and assessments
-- AWS Cloud Quest: 12 quests completed
-- AWS Cloud Practitioner certification preparation
-- Diploma in Information Technology
+## 🛠️ AWS Core Services I've Mastered
 
-Foundational IT principles and concepts
-# 📂 Featured Project
-Project 1. Static Website Hosting on AWS
-This project demonstrates the migration of a static website to AWS cloud infrastructure, showcasing how modern web content can be delivered globally with high performance, security, and cost-efficiency. The objective was to architect a complete hosting solution using AWS managed services, implementing industry best practices for static content delivery.
+### Compute
+Processing power for applications that determines performance and scalability.  
+**Services:** EC2 (virtual servers), Lambda (serverless functions)
 
-# What we Built:
+### Networking
+Connects AWS resources securely and controls traffic flow.  
+**Services:** VPC, Route 53, Security Groups
 
-A fully functional static website hosted entirely on AWS, featuring:
+### Storage
+Durable, scalable storage for data, files, and backups.  
+**Services:** S3, EBS
 
-- Secure HTTPS delivery with SSL/TLS encryption
-- Global content distribution for optimal load times
-- Custom domain configuration with professional DNS management
-- Cost-optimized architecture using AWS Free Tier services
-# Some of the AWS Services Utilized:**
-- Amazon S3 – Object storage configured for static website hosting with properly secured bucket policies
-- Amazon CloudFront – Content Delivery Network (CDN) for caching and accelerated global content delivery
-- AWS Route 53 – DNS service for custom domain routing and traffic management
-- AWS Certificate Manager – Free SSL/TLS certificates for secure HTTPS connections
+### Databases
+Structured data storage ensuring fast, reliable access for applications.  
+**Services:** RDS, DynamoDB
 
-# Technical Implementation:
+### Security
+Access control and resource protection.  
+**Tools:** IAM (roles, policies, MFA), encryption, security best practices
 
-This project required me to understand how multiple AWS services integrate to create a cohesive solution. We configured an S3 bucket with static website hosting enabled, ensuring proper public access permissions while maintaining security best practices. We then created a CloudFront distribution to serve content from multiple edge locations worldwide, significantly reducing latency for global users.
 
-The integration of Route 53 allowed me to configure a custom domain with proper DNS records, while Certificate Manager provided SSL/TLS certificates to enable HTTPS—a critical requirement for modern web security. We configured origin access identity to ensure CloudFront could access S3 content while keeping the bucket itself private, demonstrating the security principle of least privilege.
 
-https://github.com/keketso-prog/AWS-RE-START-JOURNEY/blob/main/Projects/static-website-project.md
+## 💼 Skills & Technologies
 
-# Project 2. Design a 3D E-Commerce Platform Architecture on AWS
-The cloud architecture for the 3D e-commerce platform is designed using AWS managed services to ensure high availability, scalability, performance, security, and cost efficiency. The system uses a globally distributed content delivery layer, scalable compute resources, secure data stores, and automated monitoring tool
+**AWS Services:** EC2, S3, RDS, Lambda, VPC, IAM, Route 53, DynamoDB  
+**Operating Systems:** Linux (system administration, command-line operations)  
+**Programming:** Python (automation, scripting)  
+**Networking:** TCP/IP, routing, DNS, network architecture  
+**Security:** IAM policies, MFA, encryption, cloud security principles  
+**Documentation:** Technical writing, architecture diagrams, lab reports
 
-# What we did
-This project was a group effort completed alongside my fellow team members. We worked together to plan the architecture, choose the AWS services, and create all diagrams and documentation.
 
-# Some of the AWS Services Utilized:**
-- Amazon S3 for 3D asset storage
-- CloudFront for content delivery
-- EC2 / AWS Lambda for backend compute
-- RDS / DynamoDB for product and customer data
-- Elastic Load Balancer (ELB) for traffic distribution
-- Route 53 for domain management
-- CloudWatch & Trusted Advisor for monitoring and optimization
-# Technical Implementation
-For this project, our team integrated several AWS services to build a scalable and efficient 3D e-commerce architecture. We used Amazon S3 to store 3D assets securely, paired with CloudFront to deliver content globally with low latency. Route 53 was configured for domain management, while Certificate Manager handled SSL/TLS certificates to ensure secure HTTPS access.
 
-We implemented EC2 with Auto Scaling (or Lambda for lighter workloads) behind an Elastic Load Balancer to support backend processing and handle traffic spikes. RDS or DynamoDB provided reliable, multi-AZ database storage. CloudWatch and Trusted Advisor were used to monitor performance, optimize cost, and reinforce best security practices across the environment.
+## 🎯 Featured Projects
 
-https://github.com/keketso-prog/AWS-RE-START-JOURNEY/blob/main/Projects/3D-architecture-project.md
+### Static Website Hosting
 
-# 💪 What I Bring
-- Dedication: I don't give up when things get tough
-- Reliability: You can count on me to deliver
-- Growth Mindset: Always eager to learn and improve
-- Attention to Detail: Developed through my administrative background
-# 📈 My Journey
-My journey into cloud computing is a continuous path of learning and growth. This profile represents the foundation I'm building—a testament to my dedication and the practical skills I'm developing through the AWS re/Start program. I am excited to apply this knowledge in a professional environment, collaborate with experienced cloud professionals, and contribute to building innovative solutions on the AWS platform.
+**What I did:** Deployed a static website using AWS S3 with CloudFront distribution  
+**Documentation:** Screenshots and detailed step-by-step explanations
 
-As I continue this journey, I'm committed to expanding my technical expertise, taking on more complex architectural challenges, and ultimately becoming the kind of Cloud Solutions Architect who can bridge the gap between business needs and technical excellence.
+### 3D Cloud Architecture Design  
+**What I did:** Designed a multi-tier application architecture using AWS services  
+**Documentation:** Architecture diagrams, service explanations, and implementation screenshots
 
-# 🤝 Let's Connect!
-I'm always eager to connect with fellow cloud enthusiasts, mentors, and professionals in the tech industry. Whether you'd like to discuss cloud technologies, share learning resources, or explore collaboration opportunities, feel free to reach out.
+### AWS Lex Chatbot
+ 
+**What I'm building:** An intelligent conversational bot using AWS Lex  
+**Documentation:** Intents, bot logic, integration steps, and usage screenshots
 
-📧 Email: keketsomakhoali93@gmail.com
 
-💼 LinkedIn: Keketso Bakaqane
+## 🧪 Hands-On Labs Completed
 
-📍 Location: Johannesburg, South Africa
+I completed a minimum of **two labs per section** covering:
+- Compute (EC2, Lambda)
+- Storage (S3, EBS)
+- Networking (VPC, VPC server)
+- Databases (RDS, DynamoDB)
+
+Each lab includes clear explanations, screenshots, and detailed reasoning for every configuration step.
+
+
+## 🎯 Purpose of This Portfolio
+
+This repository demonstrates:
+
+**Technical Proficiency** – Hands-on experience with cloud infrastructure and services  
+**Documentation Standards** – Clear, organized technical communication  
+**Continuous Learning** – Structured approach to skill development  
+**Problem-Solving Capability** – Real-world application of theoretical knowledge  
+**Professional Development** – Commitment to industry-recognized certifications
+
+
+
+## 📬 Contact Information
+
+**Email:** keketsomakhoali93@gmail.com  
+**Phone:** 078 470 6327  
+**LinkedIn:** 
+**GitHub:** You're already here!
+
+
+
+*Thank you for taking the time to review my AWS re/Start journey. I'm excited about opportunities to apply these skills in real-world cloud computing roles.*
