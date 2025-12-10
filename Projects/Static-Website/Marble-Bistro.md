@@ -223,7 +223,7 @@ No updates to install, no servers to maintain, nothing
 # Team Collaboration Experience:
 - Working as Team of Five:
 
--Five people working on one project could've been messy, but we made it work
+- Five people working on one project could've been messy, but we made it work
 - Split up tasks based on individual strengths:
 
 - Some handled design and coding
