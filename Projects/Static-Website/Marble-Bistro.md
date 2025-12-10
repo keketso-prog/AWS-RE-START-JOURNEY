@@ -31,7 +31,7 @@
 
 <img width="1600" height="861" alt="Screenshot (1824)" src="https://github.com/user-attachments/assets/ce62f5f0-0180-4352-b524-998d943e3f76" />
 
-<img width="1590" height="858" alt="Screenshot (1825)" src="https://github.com/user-attachments/assets/6eb2c4bb-ea4d-40d2-a201-6129629dc09d" /
+<img width="1590" height="858" alt="Screenshot (1825)" src="https://github.com/user-attachments/assets/6eb2c4bb-ea4d-40d2-a201-6129629dc09d" />
 
 # Amazon S3 - Static Website Hosting:
 
@@ -145,7 +145,7 @@
 - SNS immediately sends SMS alert to restaurant owner with details
 - SES simultaneously sends confirmation email to customer
 
-
+<img width="1287" height="600" alt="Screenshot (1635)" src="https://github.com/user-attachments/assets/d9c0d5e7-f0a4-4ab3-8a07-319d5f4390b1" />
 
 # Execution Speed: 
 - Entire sequence executes in matter of seconds, providing both parties instant confirmation.
