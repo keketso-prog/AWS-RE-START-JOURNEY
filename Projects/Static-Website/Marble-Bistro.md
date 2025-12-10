@@ -51,6 +51,8 @@
 - Configured CloudFront distribution with S3 bucket as origin source
 - Result: Dramatically reduced page load times, improved browsing experience especially during peak traffic hours
 
+<img width="1907" height="835" alt="Cloudfront" src="https://github.com/user-attachments/assets/41c662eb-7b77-482f-9a02-72297e95750c" />
+
 # Route 53 - DNS Management:
 
 - Registered custom domain name for professional presentation
