@@ -123,6 +123,7 @@
 - Provides customers immediate peace of mind and reference record
 - Reduces confirmation calls to restaurant
 
+<img width="1267" height="543" alt="Screenshot (1634)" src="https://github.com/user-attachments/assets/f7e18b79-d905-42f9-95ba-5f7508066cf2" />
 
 # Complete System Workflow:
 # Customer Access Flow:
