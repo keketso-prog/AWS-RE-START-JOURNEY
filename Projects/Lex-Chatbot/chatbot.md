@@ -2,43 +2,9 @@
 
 Built an interactive quiz chatbot using AWS Lambda and Amazon Lex that tests users' knowledge of Amazon S3. The bot guides users through a 10-question quiz with personalized feedback and scoring.
 
-# Features
 
-# User Experience
-- Personalized greeting with name collection
-- Confirmation prompt before starting the quiz
-- 10 multiple-choice and true/false questions about S3
-- Progress check-ins after every 3 questions
-- Option to exit early and see partial results
-- Detailed score breakdown with performance rating
 
-# Quiz Content
-- S3 fundamentals and terminology
-- Storage classes and features
-- Bucket configuration and limits
-- Object management concepts
-- Durability and availability topics
 
-# Scoring System
-- Real-time answer validation
-- Automatic score calculation
-- Performance ratings based on percentage
-- Shows correct answers for missed questions
-- Supports both full completion and early exit
-
-# Technical Implementation
-
-# AWS Services Used
-- AWS Lambda for backend logic
-- Amazon Lex for conversational interface
-- Session management for tracking progress
-
-# Key Functionality
-- Answer normalization for flexible input handling
-- Slot-based conversation flow
-- Session attributes for state management
-- Dynamic question progression
-- Conditional prompts based on progress
 
 # Quiz Structure
 
@@ -86,3 +52,58 @@ The bot asks 10 questions covering S3 topics with automatic grading and feedback
 - Created bot alias for deployment
 - Published the bot version
 - Made the bot available for testing
+
+  # Features
+
+# User Experience
+- Personalized greeting with name collection
+- Confirmation prompt before starting the quiz
+- 10 multiple-choice and true/false questions about S3
+- Progress check-ins after every 3 questions
+- Option to exit early and see partial results
+- Detailed score breakdown with performance rating
+
+# Quiz Content
+- S3 fundamentals and terminology
+- Storage classes and features
+- Bucket configuration and limits
+- Object management concepts
+- Durability and availability topics
+
+# Scoring System
+- Real-time answer validation
+- Automatic score calculation
+- Performance ratings based on percentage
+- Shows correct answers for missed questions
+- Supports both full completion and early exit
+
+  # Technical Implementation
+
+# AWS Services Used
+- AWS Lambda for backend logic
+- Amazon Lex for conversational interface
+- Session management for tracking progress
+
+# Key Functionality
+- Answer normalization for flexible input handling
+- Slot-based conversation flow
+- Session attributes for state management
+- Dynamic question progression
+- Conditional prompts based on progress
+
+  # Challenges
+ -  Connecting Lambda to Lex
+Getting Lambda and Lex to work together was harder than expected. At first, they wouldn't connect properly. I had to make sure Lex had the right permissions to call my Lambda function. There were integration errors that I had to fix one by one. After several tries and adjustments, I finally got them connected and communicating correctly.
+- Arranging the Slots
+Setting up the slots in the right order was tricky. I needed to plan out exactly when each question should appear and how the conversation should flow. The bot needed to ask for the user's name first, then confirm they were ready, then go through all 10 questions in order, and also check if they wanted to continue after questions 3, 6, and 9.
+Getting the slot priority right took time. I had to make sure each slot was elicited at the correct moment and that the bot didn't skip questions or ask them out of order. It took several attempts and testing sessions to get everything working smoothly. Each time I tested, I found something that needed adjusting until the flow felt natural
+
+
+# What i learned
+This project showed me that building AI-powered applications involves more than just code—it requires careful planning, understanding how services interact, and lots of testing to create a smooth user experience
+
+# Working as a team
+
+This was a team project where everyone had different roles. I took the initiative to build the bot and handle the Lambda intent because I wanted to learn more about how conversational AI works on AWS. I was curious about the backend logic and how to make a chatbot actually function.
+Other team members focused on creating the presentation and explaining our work. While they prepared slides and practiced the demo, I dove deep into the technical implementation. This division of work allowed each person to contribute their strengths to the project.
+Taking on the bot development pushed me out of my comfort zone and forced me to learn new skills. It was challenging, but the hands-on experience was exactly what I needed to understand how these AWS services really work together.
