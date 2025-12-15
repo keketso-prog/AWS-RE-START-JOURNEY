@@ -45,8 +45,10 @@ I experimented with Boolean values (True and False), running code to understand 
 
 <img width="1600" height="861" alt="Screenshot (1725)" src="https://github.com/user-attachments/assets/00f8da6a-085e-4a75-ad62-30cda282addd" />
 <img width="1587" height="871" alt="Screenshot (1726)" src="https://github.com/user-attachments/assets/cb4cec6d-8a09-43f6-b59b-b3d8f043a1e5" />
+
 # CHALLENGES
 I initially got confused when division operations returned different data types—specifically when 4/2 returned 2.0 (a float) instead of 2 (an int). It took me a moment to understand that Python's division operator always returns a float, even when dividing evenly.
+
 # WHAT I LEARNED
 Here's what I learned from this:
 
