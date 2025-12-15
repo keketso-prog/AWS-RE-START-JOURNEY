@@ -17,6 +17,7 @@ The bot asks 10 questions covering S3 topics with automatic grading and feedback
 - Copied the quiz handler code into the function
 - Configured basic execution role with necessary permissions
 
+
 # Step 2: Create Lex Bot
 - Opened Amazon Lex console
 - Created new bot with voice and text capabilities
