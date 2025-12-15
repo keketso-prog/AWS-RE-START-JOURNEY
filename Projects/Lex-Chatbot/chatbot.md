@@ -42,7 +42,8 @@ Built an interactive quiz chatbot using AWS Lambda and Amazon Lex that tests use
 
 # Quiz Structure
 
-The bot asks 10 questions covering S3 topics with automatic grading and feedback. Users can complete the full quiz or exit after questions 3, 6, or 9 to receive a partial score.# Step-by-Step Implementation
+The bot asks 10 questions covering S3 topics with automatic grading and feedback. Users can complete the full quiz or exit after questions 3, 6, or 9 to receive a partial score.
+# Step-by-Step Implementation
 
 # Step 1: Create Lambda Function
 - Navigated to AWS Lambda in the console
