@@ -1,1 +1,279 @@
+import json
 
+def lambda_handler(event, context):
+    # Extract sessionId from event
+    session_id = event['sessionId']
+    intent_name = event['sessionState']['intent']['name']
+    slots = event['sessionState']['intent']['slots']
+    
+    # Get session attributes (for tracking state across invocations)
+    session_attributes = event['sessionState'].get('sessionAttributes', {})
+    
+    # Track if we just handled a continue prompt
+    just_continued = session_attributes.get('just_continued', 'false') == 'true'
+    if just_continued:
+        session_attributes['just_continued'] = 'false'
+    
+    # Question texts
+    questions_text = {
+        'Question1': "Question 1 of 10: What does S3 stand for? A) Simple Storage Service B) Secure Server Storage C) Smart Storage System. Please answer A, B, or C.",
+        'Question2': "Question 2 of 10: Which is a type of cloud storage? A) Cloud storage B) Local storage C) Network storage. Please answer A, B, or C.",
+        'Question3': "Question 3 of 10: What is a bucket in S3? A) Folder B) Storage container C) File. Please answer A, B, or C.",
+        'Question4': "Question 4 of 10: Maximum object size allowed in S3? A) 5 TB B) 1 TB C) 10 TB. Please answer A, B, or C.",
+        'Question5': "Question 5 of 10: Are S3 buckets global or regional? A) Regional B) Global C) Local. Please answer A, B, or C.",
+        'Question6': "Question 6 of 10: Which storage class is for archival? A) Standard B) S3 Glacier C) Intelligent-Tiering. Please answer A, B, or C.",
+        'Question7': "Question 7 of 10: True or False: S3 can host static websites. Please answer True or False.",
+        'Question8': "Question 8 of 10: What is an object key in S3? A) Unique identifier B) Encryption key C) Access key. Please answer A, B, or C.",
+        'Question9': "Question 9 of 10: True or False: S3 supports versioning. Please answer True or False.",
+        'Question10': "Question 10 of 10: How many nines of durability does S3 promise? A) 9 nines B) 11 nines C) 7 nines. Please answer A, B, or C."
+    }
+
+    # --- Step 1: Handle UserName slot ---
+    user_name_slot = slots.get('UserName', {})
+    
+    # Try to get the name from interpretedValue or originalValue
+    user_name = None
+    if user_name_slot and user_name_slot.get('value'):
+        # Try interpretedValue first
+        user_name = user_name_slot.get('value', {}).get('interpretedValue', '').strip()
+        # If empty, try originalValue (the raw input)
+        if not user_name:
+            user_name = user_name_slot.get('value', {}).get('originalValue', '').strip()
+    
+    # If we still don't have a name, prompt for it
+    if not user_name or len(user_name) < 1:
+        return {
+            'sessionId': session_id,
+            'sessionState': {
+                'dialogAction': {
+                    'type': 'ElicitSlot',
+                    'slotToElicit': 'UserName'
+                },
+                'intent': {
+                    'name': intent_name,
+                    'slots': slots,
+                    'state': 'InProgress'
+                }
+            },
+            'messages': [{'contentType': 'PlainText', 'content': "Hello! Welcome to the AWS S3 Knowledge Quiz. What's your name?"}]
+        }
+
+    # --- Step 2: Handle ReadyToStart slot ---
+    ready_slot = slots.get('ReadyToStart', {})
+    
+    if ready_slot and ready_slot.get('value'):
+        ready_value = ready_slot.get('value', {}).get('interpretedValue', '').lower().strip()
+        
+        if ready_value in ['no', 'false', 'nope', 'not ready', 'n', 'nah', 'stop']:
+            return {
+                'sessionId': session_id,
+                'sessionState': {
+                    'dialogAction': {'type': 'Close'},
+                    'intent': {
+                        'name': intent_name,
+                        'state': 'Fulfilled',
+                        'slots': slots
+                    }
+                },
+                'messages': [{'contentType': 'PlainText', 'content': f"No problem, {user_name}! Come back when you're ready to take the quiz. Good luck with your studies!"}]
+            }
+    else:
+        return {
+            'sessionId': session_id,
+            'sessionState': {
+                'dialogAction': {
+                    'type': 'ElicitSlot',
+                    'slotToElicit': 'ReadyToStart'
+                },
+                'intent': {
+                    'name': intent_name,
+                    'slots': slots,
+                    'state': 'InProgress'
+                }
+            },
+            'messages': [{'contentType': 'PlainText', 'content': f"Welcome, {user_name}! Are you ready to start the S3 quiz? This will take approximately 5-7 minutes and contains 10 questions. Say yes when you're ready, or say no to exit."}]
+        }
+
+    # --- Step 3: Count answered questions ---
+    answered_count = 0
+    for i in range(1, 11):
+        q = f'Question{i}'
+        if slots.get(q) and slots[q].get('value'):
+            answered_count += 1
+
+    # --- Step 4: Check ContinueQuiz slot (asked every 3 questions) ---
+    # After questions 3, 6, and 9, ask if user wants to continue
+    continue_slot = slots.get('ContinueQuiz', {})
+    
+    # Only check continue if we haven't just processed it
+    should_prompt_continue = answered_count in [3, 6, 9] and answered_count < 10 and not just_continued
+    
+    if should_prompt_continue:
+        if continue_slot and continue_slot.get('value'):
+            continue_value = continue_slot.get('value', {}).get('interpretedValue', '').lower().strip()
+            
+            if continue_value in ['no', 'false', 'nope', 'stop', 'quit', 'exit', 'n', 'nah']:
+                # User wants to stop - calculate partial score (FIXED: changed partial=False to partial=True)
+                return calculate_score(session_id, intent_name, slots, user_name, answered_count, partial=True, session_attributes=session_attributes)
+            else:
+                # User wants to continue - clear the slot and mark as handled
+                slots['ContinueQuiz'] = None
+                session_attributes['just_continued'] = 'true'
+                # Continue to next question - fall through to Step 5
+        else:
+            # Need to ask if they want to continue
+            return {
+                'sessionId': session_id,
+                'sessionState': {
+                    'dialogAction': {
+                        'type': 'ElicitSlot',
+                        'slotToElicit': 'ContinueQuiz'
+                    },
+                    'intent': {
+                        'name': intent_name,
+                        'slots': slots,
+                        'state': 'InProgress'
+                    },
+                    'sessionAttributes': session_attributes
+                },
+                'messages': [{'contentType': 'PlainText', 'content': f"You've completed {answered_count} questions so far! Would you like to continue with the remaining questions? Say yes to continue or no to see your score now."}]
+            }
+
+    # --- Step 5: If not all questions answered, ask next question ---
+    if answered_count < 10:
+        next_question_slot = None
+        for i in range(1, 11):
+            q = f'Question{i}'
+            if not slots.get(q) or not slots[q].get('value'):
+                next_question_slot = q
+                break
+
+        if next_question_slot:
+            if answered_count == 0:
+                message = f"Great! Let's begin.\n\n{questions_text[next_question_slot]}"
+            else:
+                message = questions_text[next_question_slot]
+            
+            return {
+                'sessionId': session_id,
+                'sessionState': {
+                    'dialogAction': {
+                        'type': 'ElicitSlot',
+                        'slotToElicit': next_question_slot
+                    },
+                    'intent': {
+                        'name': intent_name,
+                        'slots': slots,
+                        'state': 'InProgress'
+                    },
+                    'sessionAttributes': session_attributes
+                },
+                'messages': [{'contentType': 'PlainText', 'content': message}]
+            }
+
+    # --- Step 6: All questions answered - Calculate full score ---
+    return calculate_score(session_id, intent_name, slots, user_name, 10, partial=False, session_attributes=session_attributes)
+
+
+def normalize_answer(answer):
+    """Normalize answer to handle variations in True/False and A/B/C"""
+    if not answer:
+        return "No answer"
+    
+    answer = str(answer).strip().lower()
+    
+    # Handle True/False variations
+    if answer in ['true', 't', 'yes', 'y']:
+        return 'True'
+    elif answer in ['false', 'f', 'no', 'n']:
+        return 'False'
+    # Handle A/B/C answers
+    elif answer in ['a', 'b', 'c']:
+        return answer.upper()
+    else:
+        return answer.upper() if len(answer) == 1 else answer
+
+
+def calculate_score(session_id, intent_name, slots, user_name, questions_answered, partial=False, session_attributes=None):
+    """Calculate and return the quiz score"""
+    
+    if session_attributes is None:
+        session_attributes = {}
+    
+    correct_answers = {
+        'Question1': 'A', 'Question2': 'A', 'Question3': 'B', 'Question4': 'A',
+        'Question5': 'A', 'Question6': 'B', 'Question7': 'True', 'Question8': 'A',
+        'Question9': 'True', 'Question10': 'B'
+    }
+    
+    answers = {}
+    for i in range(1, questions_answered + 1):
+        q = f'Question{i}'
+        raw_ans = slots.get(q, {}).get('value', {}).get('interpretedValue', '')
+        answers[q] = normalize_answer(raw_ans)
+
+    score = 0
+    results = []
+
+    for i in range(1, questions_answered + 1):
+        q = f'Question{i}'
+        user_ans = answers.get(q, "No answer")
+        correct_ans = correct_answers[q]
+        if user_ans == correct_ans:
+            score += 1
+            results.append(f"{i}. {user_ans} ✓ Correct")
+        else:
+            results.append(f"{i}. {user_ans} ✗ (Correct answer: {correct_ans})")
+
+    percentage = (score / questions_answered) * 100 if questions_answered > 0 else 0
+    results_text = "\n".join(results)
+
+    if partial:
+        final_message = f"""Quiz Ended Early, {user_name}!
+
+You answered {questions_answered} out of 10 questions.
+
+📊 YOUR SCORE: {score}/{questions_answered} ({percentage:.0f}%)
+
+Your Answers:
+{results_text}
+
+Performance Rating:
+"""
+    else:
+        final_message = f"""Quiz Complete, {user_name}!
+
+📊 YOUR SCORE: {score}/{questions_answered} ({percentage:.0f}%)
+
+Your Answers:
+{results_text}
+
+Performance Rating:
+"""
+    
+    if percentage >= 90:
+        final_message += "🌟 Outstanding! You're an S3 expert!"
+    elif percentage >= 80:
+        final_message += "🎯 Excellent! You have strong S3 knowledge!"
+    elif percentage >= 70:
+        final_message += "👍 Good job! You have solid understanding of S3!"
+    elif percentage >= 60:
+        final_message += "✓ Passing! Review the topics you missed for improvement."
+    else:
+        final_message += "📚 Keep learning! Review AWS S3 documentation to strengthen your knowledge."
+
+    final_message += f"\n\nThank you for taking the quiz, {user_name}!"
+
+    return {
+        'sessionId': session_id,
+        'sessionState': {
+            'dialogAction': {'type': 'Close'},
+            'intent': {
+                'name': intent_name,
+                'state': 'Fulfilled',
+                'slots': slots
+            },
+            'sessionAttributes': session_attributes
+        },
+        'messages': [{'contentType': 'PlainText', 'content': final_message}]
+    }
