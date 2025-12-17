@@ -46,8 +46,6 @@ The bot asks 10 questions covering S3 topics with automatic grading and feedback
 
 <img width="1590" height="865" alt="Screenshot (1938)" src="https://github.com/user-attachments/assets/abace96b-a577-4fe3-9fd3-f00f7ded3e30" />
 
-<img width="1600" height="819" alt="Screenshot (1948)" src="https://github.com/user-attachments/assets/b7efa15e-24b4-4eed-96f7-03648b846e3d" />
-
 
 # Step 4: Configure Slots
 - Created UserName slot for collecting user's name
