@@ -2,10 +2,6 @@
 
 Built an interactive quiz chatbot using AWS Lambda and Amazon Lex that tests users' knowledge of Amazon S3. The bot guides users through a 10-question quiz with personalized feedback and scoring.
 
-
-
-
-
 # Quiz Structure
 
 The bot asks 10 questions covering S3 topics with automatic grading and feedback. Users can complete the full quiz or exit after questions 3, 6, or 9 to receive a partial score.
@@ -17,15 +13,39 @@ The bot asks 10 questions covering S3 topics with automatic grading and feedback
 - Copied the quiz handler code into the function
 - Configured basic execution role with necessary permissions
 
+<img width="1587" height="861" alt="Screenshot (1945)" src="https://github.com/user-attachments/assets/1930e8af-987f-4948-96d7-81322a52ad80" />
+
+<img width="1590" height="829" alt="Screenshot (1946)" src="https://github.com/user-attachments/assets/ea783f3c-2f85-43fb-a5de-816558060221" />
+
+<img width="1584" height="819" alt="Screenshot (1947)" src="https://github.com/user-attachments/assets/654d93c2-cbdb-4715-b833-928670510f78" />
+
+<img width="1600" height="819" alt="Screenshot (1948)" src="https://github.com/user-attachments/assets/319a32e7-180d-4d80-b60e-238de3ad1aa5" />
+
+<img width="1590" height="819" alt="Screenshot (1951)" src="https://github.com/user-attachments/assets/0aa8e55b-b36d-4b26-8827-7521deb700bc" />
+
 
 # Step 2: Create Lex Bot
 - Opened Amazon Lex console
 - Created new bot with voice and text capabilities
 - Configured bot settings and language (English)
 
+<img width="1600" height="810" alt="Screenshot (1926)" src="https://github.com/user-attachments/assets/e2020f3d-a4cd-4be8-a852-1e21e5d33be9" />
+
+<img width="1590" height="819" alt="Screenshot (1927)" src="https://github.com/user-attachments/assets/c801723c-5804-43a9-b2dc-1c8585ea1689" />
+
+<img width="1590" height="819" alt="Screenshot (1928)" src="https://github.com/user-attachments/assets/5609df1f-e4fc-41ea-976f-f8cfeaf0987b" />
+
+
 # Step 3: Create Intent
 - Added new intent for the quiz flow
 - Named intent appropriately 
+
+<img width="1594" height="816" alt="Screenshot (1929)" src="https://github.com/user-attachments/assets/1d783b4a-d9e7-474e-a0ff-e905d26eb95f" />
+
+<img width="1590" height="865" alt="Screenshot (1938)" src="https://github.com/user-attachments/assets/abace96b-a577-4fe3-9fd3-f00f7ded3e30" />
+
+<img width="1600" height="819" alt="Screenshot (1948)" src="https://github.com/user-attachments/assets/b7efa15e-24b4-4eed-96f7-03648b846e3d" />
+
 
 # Step 4: Configure Slots
 - Created UserName slot for collecting user's name
@@ -34,14 +54,28 @@ The bot asks 10 questions covering S3 topics with automatic grading and feedback
 - Created ContinueQuiz slot for progress check-ins
 - Set slot types (AMAZON.Confirmation, Username, etc)
 
+<img width="1594" height="823" alt="Screenshot (1956)" src="https://github.com/user-attachments/assets/a9c56fb1-7d79-4de1-b712-fc5b941933ba" />
+
+<img width="1590" height="819" alt="Screenshot (1957)" src="https://github.com/user-attachments/assets/e55a4a24-2ee1-4ab5-b8cf-43d7890930f3" />
+
+<img width="1600" height="819" alt="Screenshot (1958)" src="https://github.com/user-attachments/assets/a2d82833-711e-4a38-bc61-0a71a449de06" />
+
+
 # Step 5: Add Sample Utterances
 - Added phrases users might say to start the quiz
 - Examples: "quiz, start quiz, hello, hi"
+
+<img width="1584" height="813" alt="Screenshot (1955)" src="https://github.com/user-attachments/assets/db96af08-cb0c-43b2-98be-de8a5a938602" />
 
 # Step 6: Connect Lambda to Lex
 - In Lex intent settings, enabled Lambda fulfillment
 - Selected the Lambda function created in Step 1
 - Granted Lex permission to invoke the Lambda function
+
+<img width="1594" height="819" alt="Screenshot (1949)" src="https://github.com/user-attachments/assets/55181892-bb81-4b20-8605-b39cd0077694" />
+
+<img width="1594" height="823" alt="Screenshot (1950)" src="https://github.com/user-attachments/assets/89be6662-49dd-466a-a0d5-72f73fd9b3d7" />
+
 
 # Step 7: Build and Test
 - Built the Lex bot to compile all configurations
@@ -49,10 +83,36 @@ The bot asks 10 questions covering S3 topics with automatic grading and feedback
 - Verified question flow and scoring logic
 - Fixed any issues with slot elicitation or responses
 
+<img width="547" height="816" alt="Screenshot (1959)1" src="https://github.com/user-attachments/assets/8ad44b2c-685b-4485-b606-b711774eee9b" />
+
+<img width="553" height="787" alt="Screenshot (1960)2" src="https://github.com/user-attachments/assets/af2518a1-9124-41b4-8044-552bbb2e0e09" />
+
+<img width="497" height="816" alt="Screenshot (1961)3" src="https://github.com/user-attachments/assets/8c3639d5-7b8a-4ba4-abbd-6c3c7a553666" />
+
+<img width="489" height="816" alt="Screenshot (1962)4" src="https://github.com/user-attachments/assets/2ada5a41-0870-4999-b60a-d279c42bd4e5" />
+
+<img width="443" height="813" alt="Screenshot (1963)5" src="https://github.com/user-attachments/assets/c7639477-a744-40f6-bb1b-312dda34ed99" />
+
+<img width="474" height="813" alt="Screenshot (1964)6" src="https://github.com/user-attachments/assets/165c66e2-e06b-41ac-86f7-28ea0d2b66af" />
+
+<img width="467" height="823" alt="Screenshot (1965)7" src="https://github.com/user-attachments/assets/554612df-eef6-45fa-b5f3-d0699668c5da" />
+
+<img width="449" height="819" alt="Screenshot (1966)8" src="https://github.com/user-attachments/assets/5996f1b7-0dd3-4f61-8831-2b26c2773b93" />
+
+<img width="478" height="816" alt="Screenshot (1967)9" src="https://github.com/user-attachments/assets/72aa4e20-90fa-4eb5-8f8c-62d736ebc91f" />
+
+<img width="473" height="823" alt="Screenshot (1968)10" src="https://github.com/user-attachments/assets/1abcc50b-4309-4e4d-9597-63625aaf1f0c" />
+
+<img width="462" height="816" alt="Screenshot (1971)11" src="https://github.com/user-attachments/assets/4e6ffdc2-e8b8-4caf-9417-292c0d03737a" />
+
+
 # Step 8: Deploy
 - Created bot alias for deployment
 - Published the bot version
 - Made the bot available for testing
+
+<img width="1596" height="737" alt="Screenshot (1972)" src="https://github.com/user-attachments/assets/b282e9a0-f114-4a09-a18c-18004a882778" />
+
 
   # Features
 
