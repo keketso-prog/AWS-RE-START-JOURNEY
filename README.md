@@ -18,30 +18,29 @@ Throughout this program, I developed proficiency in:
 
 ## 📂 What's in This Repository
 
-### 1. 🗺️ Learning RoadMap
+### 1.  Learning RoadMap
 **What's inside:** A timeline of my progress, milestones.  
 **Why read:** To see the path I took and where I'm heading next.
 
-### 2. 📜 Weekly Notes
+### 2. 📜Weekly Notes
 **What's inside:** Key learnings, insights, and reflections organized by week.  
 **Why read:** For a detailed breakdown of the topics covered (Linux, AWS, Networking, Python, Security, etc.).
 
-### 3. 🚀 Projects
+### 3.  Projects
 **What's inside:** Technical details, problem-solving approaches, screenshots, and architecture diagrams.  
 **Why read:** To see practical applications of the concepts I learned.
 
-### 4. 🎮 Cloud Quest
-**What's inside:** My progress in the interactive AWS Cloud Quest role-playing game.  
-**Why read:** To see how I applied skills in real-world simulations and gamified learning scenarios.
-
-### 5. 🧪 Lab Assessments
+### 4.  Lab Assessments
 **What's inside:** Results from practical lab exercises, troubleshooting logs, and hands-on configurations.  
 **Why read:** To verify my hands-on technical capabilities and problem-solving approach.
 
-### 6. 📜 Certificates
+### 5.  Certificates
 **What's inside:** AWS certifications and badges I've accumulated throughout the program.  
 **Why read:** To see validated proof of my cloud computing knowledge and skills.
 
+### 6. Sevices
+**Whats's inside:** Brief explanation of AWS core services.
+**Why read:** to see hoe i understand the services in simple terms.
 
 
 ## 🛠️ AWS Core Services I've Mastered
