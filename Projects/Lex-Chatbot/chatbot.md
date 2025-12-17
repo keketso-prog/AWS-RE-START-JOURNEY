@@ -29,6 +29,8 @@ The bot asks 10 questions covering S3 topics with automatic grading and feedback
 - Created new bot with voice and text capabilities
 - Configured bot settings and language (English)
 
+<img width="1581" height="752" alt="Screenshot (1973)" src="https://github.com/user-attachments/assets/58eaf4b2-990a-4f83-9bfa-dd0fbeb6206d" />
+
 <img width="1600" height="810" alt="Screenshot (1926)" src="https://github.com/user-attachments/assets/e2020f3d-a4cd-4be8-a852-1e21e5d33be9" />
 
 <img width="1590" height="819" alt="Screenshot (1927)" src="https://github.com/user-attachments/assets/c801723c-5804-43a9-b2dc-1c8585ea1689" />
