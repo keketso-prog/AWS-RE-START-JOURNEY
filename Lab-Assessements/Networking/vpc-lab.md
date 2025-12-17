@@ -41,84 +41,95 @@ I then clicked "Create VPC" to build the network infrastructure.
 
 # Task 3: Send the response to the customer
 
-- Person 1: Cloud Support Engineer
-- Person 2: Jess (Customer)
+Hello Jess,
 
-# Conversation
-Engineer: "Hi Jess, I looked into your questions. Let me explain what I found."
-# Part 1: Why SSH Didn't Work on Instance A
-Engineer: "You couldn't connect to Instance A because it only has a private IP address. Private IPs only work inside your VPC - they can't be reached from the internet.
-Instance B worked because it has a public IP address, which allows connections from outside the VPC."
+Thank you for reaching out to AWS Cloud Support. I reviewed your architecture and the details you provided, and I’m happy to share what we found along with guidance on your CIDR question.
 
-# Part 2: Should You Use Public CIDR for Your VPC?
-Engineer: "You asked about using public IP addresses for your new VPC. I don't recommend it. Here's why:
-The Problem:
+Findings: Why Instance A Cannot Reach the Internet
 
-If you use public IPs like 8.8.0.0/16 for your VPC, your instances won't be able to reach the real internet addresses
-Example: You couldn't reach Google DNS at 8.8.8.8 because AWS would look for it inside your VPC instead
-This breaks everything - DNS, updates, API calls
+Although instance A and instance B are in the same VPC and subnet, there is one key difference at the EC2 instance level:
 
-# The Solution:
-Use private IP ranges instead:
+Instance B has a public IPv4 address
+
+Instance A has only a private IPv4 address
+
+Even with a correctly configured VPC, subnet, route table, and Internet Gateway, an EC2 instance must have a public IPv4 address (or an Elastic IP) to directly access the internet.
+
+What this means:
+
+Instance B can reach the internet because it has:
+
+A private IP (for internal VPC communication)
+
+A public IP (for external internet access)
+
+Instance A cannot reach the internet because:
+
+It only has a private IP, which is not routable outside the VPC
+
+This also explains why SSH access works for instance B from outside the VPC but not for instance A.
+
+How to resolve this:
+
+You have two common options:
+
+Assign a public IPv4 address or Elastic IP to instance A, or
+
+Place instance A in a private subnet and route outbound traffic through a NAT Gateway if you want outbound-only internet access without exposing the instance publicly.
+
+Guidance on Using a Public CIDR Range (e.g., 12.0.0.0/16) for a VPC
+
+I strongly do not recommend using a public IP address range (such as 12.0.0.0/16) when creating a VPC.
+
+Reasons:
+
+Public IP ranges are owned and routable on the internet
+
+Using them privately can cause routing conflicts with real internet destinations.
+
+Hybrid connectivity issues
+
+If you ever connect your VPC to on-premises networks or other VPCs (VPN, Direct Connect, peering), overlapping with public ranges can break routing.
+
+AWS best practice
+
+AWS VPCs are designed to use RFC 1918 private address ranges, such as:
 
 10.0.0.0/8
+
 172.16.0.0/12
+
 192.168.0.0/16
 
-# How it should work:
-Your VPC: 10.0.0.0/16
+Using private CIDRs ensures predictable routing, scalability, and compatibility with future networking designs.
 
-Public Subnet (10.0.1.0/24)
-- Has Internet Gateway
-- Resources can get public IPs
-- Example: Bastion host
+Summary
 
-Private Subnet (10.0.2.0/24)  
-- Uses NAT Gateway for internet
-- More secure
-- Example: Your app servers
-# Benefits:
+The internet connectivity issue is due to instance A lacking a public IP, not a VPC or subnet misconfiguration.
 
-- No routing problems
-- Can reach any internet service
-- More secure
-- AWS best practice"
+Assigning a public IP or using a NAT-based design will resolve the issue.
 
+For new VPCs, always use private RFC 1918 CIDR ranges to avoid routing conflicts and future limitations.
 
-# Part 3: Wrap Up
-Engineer: "So my recommendation is: use a private CIDR block like 10.0.0.0/16 for your VPC. Put only necessary resources in public subnets with public IPs. Keep everything else in private subnets.
-Any questions?"
+Please let me know if you’d like assistance assigning a public IP, setting up a NAT Gateway, or designing a secure subnet strategy. Happy to help!
 
-Quick Answers to Common Questions
-- "Don't I need public IPs for everything?"
-
-No, only for resources that need internet connections coming IN. Most resources only need to go OUT to the internet, which NAT Gateway handles.
-
-- "How do I manage private instances?"
-
-Use a bastion host (jump server) in the public subnet to connect to private instances.
-
-- "What if I already used public CIDR?"
-
-You'd need to create a new VPC with private CIDR and move your resources.
-
-
-# Key Point
-Use private IP ranges (10.0.0.0/8, 172.16.0.0/12, or 192.168.0.0/16) for your VPC. Only give public IPs to resources that really need them.
-
-
-
+Best regards,
+Keketso
+Cloud Support Engineer
+Amazon Web Services (AWS)
 
 
 
 # CHALLENGES
 I initially struggled with understanding CIDR block notation and calculating the correct subnet size. I had to figure out how to ensure my public subnet CIDR was smaller than the VPC CIDR while still providing enough IP addresses (at least 50
+
 # WHAT I LEARNED
 Here’s what I learned from this lab:
 - I reviewed the customer’s problem to understand their networking needs and what kind of cloud environment they required
 - I built an Amazon VPC and learned how to set up subnets and assign IP addresses, which is like designing separate network sections for different resources.
 - I became familiar with navigating the AWS Console to manage networking, resources, and configurations more efficiently
 - Using what I learned, I created a practical solution that addressed the customer’s requirements within the VPC
+  
 # OVERALL
 I learned how to analyze a customer scenario, design a VPC, configure its network components, and present a clear solution — core skills for cloud architecture and troubleshooting in AWS.
  # Lab complete 🎓
