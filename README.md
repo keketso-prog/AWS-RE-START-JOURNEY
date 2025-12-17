@@ -18,7 +18,7 @@ Throughout this program, I developed proficiency in:
 
 ## 📂 What's in This Repository
 
-### 1. 🗺️ [Learning Roadmap](./Learning-RoadMap.md)
+### 1. 🗺️ [https://github.com/keketso-prog/AWS-RE-START-JOURNEY/tree/main/Learning-Roadmap]
 **What's inside:** A timeline of my progress, milestones.  
 **Why read:** To see the path I took and where I'm heading next.
 
