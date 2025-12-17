@@ -3,7 +3,6 @@ Basically, I finished several courses covering different aspects of AI and machi
 
 
 
-
 <img width="1054" height="743" alt="Screenshot (1880)" src="https://github.com/user-attachments/assets/63457275-5e7a-47fc-85e4-bb9c70df6445" />
 
 <img width="1039" height="722" alt="Screenshot (1881)" src="https://github.com/user-attachments/assets/a74fe602-62c1-4ed3-af0e-31e3e9a8dd4b" />
