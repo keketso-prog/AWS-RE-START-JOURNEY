@@ -85,27 +85,7 @@ The bot asks 10 questions covering S3 topics with automatic grading and feedback
 - Verified question flow and scoring logic
 - Fixed any issues with slot elicitation or responses
 
-<img width="547" height="816" alt="Screenshot (1959)1" src="https://github.com/user-attachments/assets/8ad44b2c-685b-4485-b606-b711774eee9b" />
 
-<img width="553" height="787" alt="Screenshot (1960)2" src="https://github.com/user-attachments/assets/af2518a1-9124-41b4-8044-552bbb2e0e09" />
-
-<img width="497" height="816" alt="Screenshot (1961)3" src="https://github.com/user-attachments/assets/8c3639d5-7b8a-4ba4-abbd-6c3c7a553666" />
-
-<img width="489" height="816" alt="Screenshot (1962)4" src="https://github.com/user-attachments/assets/2ada5a41-0870-4999-b60a-d279c42bd4e5" />
-
-<img width="443" height="813" alt="Screenshot (1963)5" src="https://github.com/user-attachments/assets/c7639477-a744-40f6-bb1b-312dda34ed99" />
-
-<img width="474" height="813" alt="Screenshot (1964)6" src="https://github.com/user-attachments/assets/165c66e2-e06b-41ac-86f7-28ea0d2b66af" />
-
-<img width="467" height="823" alt="Screenshot (1965)7" src="https://github.com/user-attachments/assets/554612df-eef6-45fa-b5f3-d0699668c5da" />
-
-<img width="449" height="819" alt="Screenshot (1966)8" src="https://github.com/user-attachments/assets/5996f1b7-0dd3-4f61-8831-2b26c2773b93" />
-
-<img width="478" height="816" alt="Screenshot (1967)9" src="https://github.com/user-attachments/assets/72aa4e20-90fa-4eb5-8f8c-62d736ebc91f" />
-
-<img width="473" height="823" alt="Screenshot (1968)10" src="https://github.com/user-attachments/assets/1abcc50b-4309-4e4d-9597-63625aaf1f0c" />
-
-<img width="462" height="816" alt="Screenshot (1971)11" src="https://github.com/user-attachments/assets/4e6ffdc2-e8b8-4caf-9417-292c0d03737a" />
 
 
 # Step 8: Deploy
