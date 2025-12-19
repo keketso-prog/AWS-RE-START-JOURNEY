@@ -101,24 +101,29 @@ The bot asks 10 questions covering S3 topics with automatic grading and feedback
 
 # 3
 - as you continue the questions are interactive
+  
 <img width="465" height="900" alt="Screenshot (1986)1" src="https://github.com/user-attachments/assets/383d9ead-bede-4e52-82e8-2b403e99239c" />
 <img width="465" height="900" alt="Screenshot (1987)1" src="https://github.com/user-attachments/assets/7dd56765-4a0e-4145-a92f-ad5cd96d5de3" />
 <img width="458" height="900" alt="Screenshot (1988)1" src="https://github.com/user-attachments/assets/3356ffd9-2197-4fe4-822f-72bffcb250a1" />
 <img width="455" height="900" alt="Screenshot (1989)1" src="https://github.com/user-attachments/assets/832ac75d-86e0-42b4-a8b8-ad95373c89d1" />
 <img width="474" height="900" alt="Screenshot (1990)1" src="https://github.com/user-attachments/assets/16bb30e8-77de-4281-ae0f-9de9e6523a06" />
 <img width="465" height="900" alt="Screenshot (1991)1" src="https://github.com/user-attachments/assets/1020116b-46ac-4655-a155-d65534f121e3" />
+
 # 4
 - continuating on you can still seethat the chat bot is interactive and asks if you want to continue at question 3,6,9
+  
 <img width="477" height="900" alt="Screenshot (1992)1" src="https://github.com/user-attachments/assets/69516060-0570-4cf6-b528-f7f907052e13" />
 <img width="455" height="900" alt="Screenshot (1993)1" src="https://github.com/user-attachments/assets/bd9aa46e-5ed2-49bf-9049-96dee5e8145b" />
 <img width="471" height="900" alt="Screenshot (1994)1" src="https://github.com/user-attachments/assets/fc3212f1-3bb2-4eb8-b23e-ce3c1de3a096" />
 
 # 5
 - tells you that quiz is complete and asks if you want your final score
+  
 <img width="465" height="900" alt="Screenshot (1995)1" src="https://github.com/user-attachments/assets/dab00f95-6ef6-4dc7-b089-bdc500fa3c80" />
 
 # 6
 - when you complete the quiz
+  
 <img width="452" height="900" alt="Screenshot (1996)1" src="https://github.com/user-attachments/assets/c6df2a37-ed9c-4456-af95-451198cd97cb" />
 
 # Step 8: Deploy
