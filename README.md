@@ -80,18 +80,18 @@ Access control and resource protection.
 
 ## 🎯 Featured Projects
 
-### Static Website Hosting
+# 1. Static Website Hosting
 
 **What I did:** Deployed a static website using AWS S3 with CloudFront distribution  
 **Documentation:** Screenshots and detailed step-by-step explanations
 
-### 3D Cloud Architecture Design  
+# 2. 3D Cloud Architecture Design  
 **What I did:** Designed a multi-tier application architecture using AWS services  
 **Documentation:** Architecture diagrams, service explanations, and implementation screenshots
 
-### AWS Lex Chatbot
+# 3. AWS Lex Chatbot
  
-**What I'm building:** An intelligent conversational bot using AWS Lex  
+**What I did:** An intelligent conversational bot using AWS Lex  
 **Documentation:** Intents, bot logic, integration steps, and usage screenshots
 
 
