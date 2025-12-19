@@ -105,9 +105,9 @@ I completed a minimum of **two labs per section** covering:
 - Storage (S3, EBS)
 - Networking (VPC, VPC server)
 - Databases (RDS, DynamoDB)
-- Security ()
-- Python ()
-- Linux ()
+- Security (IAM, security hardening)
+- Python (hello world, data types)
+- Linux (bash shell, bash shell scripting)
 
 Each lab includes clear explanations, screenshots, and detailed reasoning for every configuration step.
 
