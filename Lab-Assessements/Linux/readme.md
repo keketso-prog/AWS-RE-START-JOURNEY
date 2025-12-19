@@ -1,4 +1,4 @@
-# Bash Scripting Hands-On Labs
+# Linux Bash Scripting Hands-On Labs
 
 Completed practical labs focused on shell scripting and Linux automation. These labs provided experience writing Bash scripts to automate common system administration tasks.
 
