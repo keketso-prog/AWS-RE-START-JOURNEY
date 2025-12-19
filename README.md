@@ -22,7 +22,7 @@ Throughout this program, I developed proficiency in:
 **What's inside:** A timeline of my progress, milestones.  
 **Why read:** To see the path I took and where I'm heading next.
 
-### 2. 📜Weekly Notes
+### 2. Weekly Notes
 **What's inside:** Key learnings, insights, and reflections organized by week.  
 **Why read:** For a detailed breakdown of the topics covered (Linux, AWS, Networking, Python, Security, etc.).
 
