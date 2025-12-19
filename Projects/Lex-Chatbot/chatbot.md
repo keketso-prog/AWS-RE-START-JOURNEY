@@ -76,6 +76,8 @@ The bot asks 10 questions covering S3 topics with automatic grading and feedback
 
 <img width="1594" height="823" alt="Screenshot (1950)" src="https://github.com/user-attachments/assets/89be6662-49dd-466a-a0d5-72f73fd9b3d7" />
 
+<img width="1600" height="816" alt="Screenshot (1997)" src="https://github.com/user-attachments/assets/37f47d14-a6ee-4a87-b1a2-cba9bc8c4c57" />
+
 
 # Step 7: Build and Test
 - Built the Lex bot to compile all configurations
