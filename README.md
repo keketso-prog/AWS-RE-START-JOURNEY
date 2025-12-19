@@ -105,6 +105,9 @@ I completed a minimum of **two labs per section** covering:
 - Storage (S3, EBS)
 - Networking (VPC, VPC server)
 - Databases (RDS, DynamoDB)
+- Security ()
+- Python ()
+- Linux ()
 
 Each lab includes clear explanations, screenshots, and detailed reasoning for every configuration step.
 
