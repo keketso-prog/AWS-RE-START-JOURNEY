@@ -38,9 +38,12 @@ Throughout this program, I developed proficiency in:
 **What's inside:** AWS certifications and badges I've accumulated throughout the program.  
 **Why read:** To see validated proof of my cloud computing knowledge and skills.
 
-### 6. Sevices
-**Whats's inside:** Brief explanation of AWS core services.
-**Why read:** to see hoe i understand the services in simple terms.
+
+### 6. Services
+**What's inside:** Brief explanation of AWS core services.
+
+**Why read:** To see how i understand the services in simple terms.
+
 
 
 ## 🛠️ AWS Core Services I've Mastered
