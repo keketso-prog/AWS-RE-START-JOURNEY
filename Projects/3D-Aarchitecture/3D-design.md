@@ -4,7 +4,8 @@ Our startup team was tasked with launching a global 3D e-commerce platform. User
 # Design Principles:
 We followed the AWS Well-Architected Framework, focusing on eliminating single points of failure through multi-region deployments, automatic scaling for global traffic spikes, and minimal latency for large 3D asset delivery worldwide.
 
-<img width="953" height="1095" alt="image" src="https://github.com/user-attachments/assets/f56e628f-f1d7-4147-852e-b852f74ada2d" />
+![523685297-40c152e6-e866-4ae9-a18c-f242878a9b21](https://github.com/user-attachments/assets/d17681ae-c544-4834-8913-2f409d936978)
+
 
 # Why We Chose Each AWS Service
 - Route 53 - Global DNS
