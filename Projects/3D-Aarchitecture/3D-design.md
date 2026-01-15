@@ -4,7 +4,8 @@ Our startup team was tasked with launching a global 3D e-commerce platform. User
 # Design Principles:
 We followed the AWS Well-Architected Framework, focusing on eliminating single points of failure through multi-region deployments, automatic scaling for global traffic spikes, and minimal latency for large 3D asset delivery worldwide.
 
-![523685297-40c152e6-e866-4ae9-a18c-f242878a9b21](https://github.com/user-attachments/assets/d17681ae-c544-4834-8913-2f409d936978)
+<img width="1009" height="787" alt="Screenshot (2002)" src="https://github.com/user-attachments/assets/b651b135-0b99-4157-a0ee-9d69a5c68a46" />
+
 
 
 # Why We Chose Each AWS Service
