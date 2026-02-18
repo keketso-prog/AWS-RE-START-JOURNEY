@@ -1,1 +1,31 @@
+import boto3
+import json
 
+def lambda_handler(event, context):
+    # Get bucket name and image key from the S3 event
+    bucket = event['Records'][0]['s3']['bucket']['name']
+    key = event['Records'][0]['s3']['object']['key']
+
+    print(f'Processing image: s3://{bucket}/{key}')
+
+    # Call Amazon Rekognition to detect labels
+    rekognition = boto3.client('rekognition')
+    response = rekognition.detect_labels(
+        Image={
+            'S3Object': {
+                'Bucket': bucket,
+                'Name': key
+            }
+        },
+        MaxLabels=10,        # Return up to 10 labels
+        MinConfidence=75     # Only labels with 75%+ confidence
+    )
+
+    # Extract and print label names
+    labels = [label['Name'] for label in response['Labels']]
+    print(f'Detected labels: {labels}')
+
+    return {
+        'statusCode': 200,
+        'body': json.dumps({'labels': labels})
+    }
