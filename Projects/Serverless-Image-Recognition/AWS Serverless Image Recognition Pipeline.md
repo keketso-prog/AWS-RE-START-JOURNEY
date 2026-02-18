@@ -5,18 +5,18 @@ This project automatically detect objects, animals, scenes, and more in any imag
 
 # Step 1 — Create an S3 Bucket
 
-Go to S3 in the AWS Console
-Click Create bucket
-Give it a unique name (e.g., my-rekognition-images-yourname)
-Choose your region (e.g., us-east-1)
-Leave all other settings as default and click Create bucket
+- i went to S3 in the AWS Console
+- Clicked on Create bucket
+-  Gave it a unique name ( my-rekognition-images-2024)
+- Choose MY region (e.g., us-east-1)
+- Left all other settings as default and clicked Create bucket
 
 
 # Step 2 — Create an IAM Role
 
-Go to IAM → Roles → Create role
-Select AWS service → Use case: Lambda
-Attach these policies:
+- Went to IAM → Roles → Create role
+- Selected AWS service → Use case: Lambda
+- Attach these policies:
 
 AmazonS3ReadOnlyAccess
 AmazonRekognitionFullAccess
@@ -28,32 +28,32 @@ Name the role LambdaRekognitionRole and click Create role
 
 # Step 3 — Create the Lambda Function
 
-Go to Lambda → Functions → Create function
-Select Author from scratch
-Function name: detect-image-labels
-Runtime: Python 3.12
-Execution role: Use an existing role → select LambdaRekognitionRole
-Click Create function
+- Went to Lambda → Functions → Create function
+- Selected Author from scratch
+- Function name: detect-image-labels
+- Runtime: Python 3.12
+- Execution role: Use an existing role → select LambdaRekognitionRole
+- Clicked Create function
 
 
 # Step 4 — Add the S3 Trigger
 
-In your Lambda function, click + Add trigger
-Select S3
-Choose your bucket
-Event type: All object create events
-Acknowledge the warning and click Add
+- In my Lambda function, clicked + Add trigger
+ -Selected S3
+- Choose my bucket
+- Event type: All object create events
+- Acknowledged the warning and click Add
 
 
 # Step 5 — Deploy the Code
-Replace the default Lambda code with the following and click Deploy:
+- Replaced the default Lambda code with the following and click Deploy:
 
 
 # Real Test (Upload an Image)
 
-Go to your S3 bucket
-Click Upload → select any .jpg or .png
-Click Upload
-Wait 15–30 seconds
-Go to Lambda → Monitor → View CloudWatch logs
-Open the latest log stream and look for:
+- Went to my S3 bucket
+- Clicked Upload → select any .jpg or .png
+- Clicked Upload
+- Wait 15–30 seconds
+- Went to Lambda → Monitor → View CloudWatch logs
+- Open the latest log stream and look for:
